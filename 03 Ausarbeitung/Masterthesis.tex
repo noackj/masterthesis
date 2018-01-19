@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc} % Kodierung
+\usepackage[ngerman]{babel} % Sprache
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[bottom,hang]{footmisc}
+\usepackage{tabularx}
+
+\setlength{\textwidth}{16cm}
+%\setlength{\textheight}{25.5cm}
+%\setlength{\topmargin}{-2.0cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+
+
+\fancypagestyle{plain}{
+\fancyhead{}
+\renewcommand{\headrulewidth}{0.0pt}}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhf{}
+\fancyhead[R]{}
+\fancyhead[L]{\textbf{\nouppercase\leftmark}}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\vfill
+{\bfseries\Huge Masterarbeit}\\[2cm]
+{\bfseries\Large Modellierung der Qualitätsmanagementprozesse}\\[0.2cm]
+{\bfseries\Large für die Marktüberwachung und Vigilanz in der}\\[0.2cm]
+{\bfseries\Large Entwicklung von Medizinprodukten unter}\\[0.2cm]
+{\bfseries\Large Berücksichtigung der MDR EU 2017/745}\\
+\vfill
+vorgelegt von
+\vfill
+{\large Jens Noack}\\
+\vfill
+in Kooperation mit der\\[0.5cm]
+{\large W.O.M. WORLD OF MEDICINE GmbH}\\[1cm]
+\begin{center}
+\includegraphics[scale  = 0.5]{Images/wom_logo}
+\end{center}
+\vfill
+\begin{center}\parbox{0cm}{\begin{tabbing}
+xxxxxxxxxx \= xxxxxxxx \kill
+Hochschule:\quad\quad\quad\quad\quad\quad\quad\quad\quad \= AKAD Bildungsgesellschaft \\
+Studiengang: \> Wirtschaftsingenieurwesen \\
+\> Master of Engineering \\
+Matrikelnummer: \> 2929271 \\
+Erstgutachter: \> Dr. Andrea Herrmann\\
+Betreuer Firma: \> Dr. Jan Bischof
+\end{tabbing}}
+\end{center}
+\end{titlepage}
+
+\addcontentsline{toc}{chapter}{Kurzfassung} %sorgt für eintrag ins inhaltsverzeichnis
+\chapter*{Kurzfassung} %  *-> erstellt unnummeriertes chapter
+
+Kurzfassung Inhalt
+
+\tableofcontents
+\newpage
+\chapter{Einleitung}\label{chap:Einleitung}
+
+\begin{thebibliography}{99}
+
+\end{thebibliography}
+\appendix
+\chapter[Anhang]{}
+\newpage
+\section{Anhang 1}
+
+\addcontentsline{toc}{chapter}{Eidesstattliche Versicherung} %sorgt für eintrag ins inhaltsverzeichnis
+\chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
+Hiermit versichere ich, Jens Noack, an Eides statt, dass diese Abschlussarbeit von mir selbständig verfasst wurde. Es wurden nur die angegebenen Quellen und Hilfsmittel verwendet. Alle wörtlichen und sinngemäßen Zitate sind in dieser Arbeit als solche kenntlich gemacht.
+\\[2cm]
+\noindent\rule{0.35\textwidth}{0.3pt}\rule{0.2\textwidth}{0pt}\rule{0.45\textwidth}{0.3pt}
+\\Ort, Datum\rule{0.418\textwidth}{0pt}Unterschrift
+\end{document}

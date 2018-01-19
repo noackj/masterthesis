@@ -1,1 +1,5 @@
 /02 Literaturrecherche/*
+*.log
+*.toc
+*.aux
+*.synctex*
