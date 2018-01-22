@@ -72,7 +72,7 @@ Betreuer Firma: \> Dr. Jan Bischof
 \addcontentsline{toc}{chapter}{Kurzfassung} %sorgt für eintrag ins inhaltsverzeichnis
 \chapter*{Kurzfassung} %  *-> erstellt unnummeriertes chapter
 
-Kurzfassung Inhalt äöü ÄÖÜ \cite{Freund2014}
+Kurzfassung Inhalt äöü ÄÖÜ \cite[S. 15]{Freund2014}
 
 \tableofcontents
 \newpage
@@ -106,9 +106,12 @@ Kurzfassung Inhalt äöü ÄÖÜ \cite{Freund2014}
 %\section{}\label{sec:}
 %\subsection{}\label{subsec:}
 %\subsubsection{Requirements Engineering}  -- besitzt keine Nummerierung und taucht nicht im toc auf
+%\cite[S. X]{<reference>}
 
 \bibliography{literatur}
-\bibliographystyle{alpha}
+\bibliographystyle{alphadin}
+%\bibliographystyle{abbrv}
+% Übersicht unter: https://de.wikibooks.org/wiki/LaTeX-W%C3%B6rterbuch:_bibliographystyle
 
 \appendix
 \chapter[Anhang]{}
