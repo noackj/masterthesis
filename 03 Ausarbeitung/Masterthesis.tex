@@ -39,6 +39,8 @@
 \sloppy
 
 \begin{document}
+
+%===================================================================== Titlepage
 \begin{titlepage}
 \centering
 \vfill
@@ -75,16 +77,20 @@ Betreuer Firma: \> Dr. Jan Bischof
 \end{center}
 \end{titlepage}
 
+%===================================================================== Kurzfassung
 \addcontentsline{toc}{chapter}{Kurzfassung} %sorgt für eintrag ins inhaltsverzeichnis
 \chapter*{Kurzfassung} %  *-> erstellt unnummeriertes chapter
 
 Kurzfassung Inhalt äöü ÄÖÜ \cite[S. 15]{Freund2014}
 
+%===================================================================== Inhaltsverzeichnis
 \tableofcontents
 \newpage
+
+%===================================================================== Einleitung
 \chapter{Einleitung}\label{chap:Einleitung}
 
-
+%===================================================================== Cahpter 2
 \chapter{Grundlagen}\label{chap:Grundlagen}
 
 \section{Analyse, Visualisierung und Modellierung von Geschäftsprozessen}\label{sec:BPM}
@@ -110,32 +116,41 @@ Unternehmen müssen sich in Zeiten von Globalisierung auf ihre Kernkompetenzen k
 \subsection{Post Market Clinical Follow-Ups}\label{subsec:PMCF}
 \subsection{Integration in die Entwicklungsprozesse}\label{subsec:IntegrationInDevProzesse}
 
+%===================================================================== Chapter 3
 \chapter{Aufnahme des Status Quo}\label{chap:AufnahmeStatusQuo}
 
+%===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung (MDR) EU 2017/745}\label{chap:AnpassungAnMDR}
 
+%===================================================================== Chapter 5
 \chapter{Integration und Umsetzung des neu modellierten Prozesses}\label{chap:Integration}
 
+%===================================================================== Zusammenfassung
 \chapter{Zusammenfassung}\label{chap:Zusammenfassung}
 
+%===================================================================== Diskussion
 \chapter{Diskussion}\label{chap:Diskussion}
 
+%===================================================================== Vorlagen
 %\chapter{}\label{chap:}
 %\section{}\label{sec:}
 %\subsection{}\label{subsec:}
 %\subsubsection{Requirements Engineering}  -- besitzt keine Nummerierung und taucht nicht im toc auf
 %\cite[S. X]{<reference>}
 
+%===================================================================== Literaturverz.
 \bibliography{literatur}
 \bibliographystyle{alphadin}
 %\bibliographystyle{abbrv}
 % Übersicht unter: https://de.wikibooks.org/wiki/LaTeX-W%C3%B6rterbuch:_bibliographystyle
 
+%===================================================================== Anhang
 \appendix
 \chapter[Anhang]{}
 \newpage
 \section{Anhang 1}
 
+%===================================================================== Eidessattl. Vers.
 \chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
 Ich versichere, dass ich vorliegende Arbeit selbstständig verfasst, keine anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie alle wörtlich oder sinngemäß übernommenen Stellen in der Arbeit gekennzeichnet habe.
 \\[2cm]
