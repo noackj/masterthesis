@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 8)]><!-->
+<html lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>BibLaTeX kurz im Überblick | Anjas Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://anjalorenz.wordpress.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/sundance/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="dns-prefetch" href="https://s2.wp.com/">
+<link rel="dns-prefetch" href="https://s1.wp.com/">
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.pubmine.com/">
+<link rel="dns-prefetch" href="https://x.bidswitch.net/">
+<link rel="dns-prefetch" href="https://static.criteo.net/">
+<link rel="dns-prefetch" href="https://ib.adnxs.com/">
+<link rel="dns-prefetch" href="https://aax.amazon-adsystem.com/">
+<link rel="dns-prefetch" href="https://bidder.criteo.com/">
+<link rel="dns-prefetch" href="https://cas.criteo.com/">
+<link rel="dns-prefetch" href="https://gum.criteo.com/">
+<link rel="dns-prefetch" href="https://ads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://gads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://tpc.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://ad.doubleclick.net/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://www.googletagservices.com/">
+<link rel="dns-prefetch" href="https://cdn.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.g.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.swid.switchadhub.com/">
+<link rel="alternate" type="application/rss+xml" title="Anjas Blog » Feed" href="https://anjalorenz.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Anjas Blog » Comments Feed" href="https://anjalorenz.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Anjas Blog » BibLaTeX kurz im&nbsp;Überblick Comments Feed" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/feed/">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1505864856h&ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="sundance-droid-serif-css" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a.css" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-3-1" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/global-print.css" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4-1" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a_003.css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a_003.js"></script>
+<link rel="stylesheet" id="all-css-0-2" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/style.css" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://anjalorenz.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Warum hier gerade nix&nbsp;passiert…" href="https://anjalorenz.wordpress.com/2011/11/13/warum-hier-gerade-nix-passiert/">
+<link rel="next" title="Open heißt nicht kostenlos!? Überlegungen nach dem&nbsp;#ecco12" href="https://anjalorenz.wordpress.com/2012/03/20/open-heist-nicht-kostenlos-uberlegungen-nach-dem-ecco12/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/">
+<link rel="shortlink" href="https://wp.me/p14spe-54">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="BibLaTeX kurz im Überblick">
+<meta property="og:url" content="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/">
+<meta property="og:description" content="Ich nutze schon seit meiner Diplomarbeit BibTeX zur automatischen Verwaltung meiner Referenzen. Mit CiteULike, Mendeley und JabRef habe ich weitere Tools gefunden, die meine “BibTeX-Infrastru…">
+<meta property="article:published_time" content="2012-02-14T21:10:49+00:00">
+<meta property="article:modified_time" content="2012-10-23T22:26:18+00:00">
+<meta property="og:site_name" content="Anjas Blog">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:text:title" content="BibLaTeX kurz im&nbsp;Überblick">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://anjalorenz.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://anjalorenz.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://anjalorenz.wordpress.com/osd.xml" title="Anjas Blog">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+<meta name="application-name" content="Anjas Blog"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="May be me, maybe more."><meta name="msapplication-task" content="name=Subscribe;action-uri=https://anjalorenz.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="BibLaTeX kurz im&nbsp;Überblick | Anjas Blog on WordPress.com">
+<meta name="description" content="Ich nutze schon seit meiner Diplomarbeit BibTeX zur automatischen Verwaltung meiner Referenzen. Mit CiteULike, Mendeley und JabRef habe ich weitere Tools gefunden, die meine &quot;BibTeX-Infrastruktur&quot; erweitern. Heute habe ich BibLaTeX für mich entdeckt – dagegen ist BibTeX superanstrengend und umständlich. Eigentlich ist es eine (enorme) Erweiterung zu BibTeX, indem sich scheinbar jemand richtig Gedanken dazu…">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://s0.wp.com/wp-content/themes/pub/sundance/images/bg.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+		<script type="text/javascript">
+		var __ATA_PP = { pt: 1, ht: 0, tn: 'sundance', amp: false };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		__ATA.criteo = __ATA.criteo || {};
+		__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script>
+		<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/publishertag.js"></script>
+		<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/head.js" async=""></script><link rel="amphtml" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ga.js"></script>
+<script src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/publishertag.js"></script><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/services.css"></head>
+
+<body class="post-template-default single single-post postid-314 single-format-standard custom-background mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<div class="masthead-inner clear-fix">
+			<hgroup>
+				<h1 class="site-title"><a href="https://anjalorenz.wordpress.com/" title="Anjas Blog" rel="home">Anjas Blog</a></h1>
+				<h2 class="site-description">May be me, maybe more.</h2>
+			</hgroup>
+
+			
+			<nav role="navigation" class="site-navigation main-navigation">
+				<h1 class="assistive-text">Menu</h1>
+				<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+				<div class="menu"><ul>
+<li><a href="https://anjalorenz.wordpress.com/">Home</a></li><li class="page_item page-item-49 page_item_has_children"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/">Wissenschaftliches Arbeiten</a>
+<ul class="children">
+	<li class="page_item page-item-136"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/ganz-dunnes-eis-wikipedia-zitieren/">Richtig zitieren</a></li>
+	<li class="page_item page-item-291"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/latex-%e2%80%93-packages/">LaTeX – Packages</a></li>
+	<li class="page_item page-item-278"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/latex-%e2%80%93-tipps-tricks/">LaTeX – Tipps &amp;&nbsp;Tricks</a></li>
+	<li class="page_item page-item-261"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/bibtex-tipps-und-tricks/">BibTex – Tipps &amp;&nbsp;Tricks</a></li>
+	<li class="page_item page-item-106"><a href="https://anjalorenz.wordpress.com/wissenschaftliches-arbeiten/tipps-und-tricks-in-word/">Word – Tipps &amp;&nbsp;Tricks</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2 page_item_has_children"><a href="https://anjalorenz.wordpress.com/about/">Über mich</a>
+<ul class="children">
+	<li class="page_item page-item-1215"><a href="https://anjalorenz.wordpress.com/about/publikationen/">Publikationen</a></li>
+	<li class="page_item page-item-1312"><a href="https://anjalorenz.wordpress.com/about/wissenschaftliche-dienstleistungen/">Wissenschaftliche Dienstleistungen</a></li>
+</ul>
+</li>
+</ul></div>
+			</nav>
+		</div>
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="clear-fix">
+		
+		<div id="primary" class="site-content">
+			<div id="content" role="main">
+
+			
+				
+<article id="post-314" class="post-314 post type-post status-publish format-standard hentry category-latex tag-biblatex tag-citing-2 tag-latex">
+
+	<header class="entry-header">
+		<a href="https://anjalorenz.wordpress.com/author/anjalorenz/">
+			<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/2d709f52599dae3854bcc55f3c9b41dc.jpg" class="avatar avatar-45 grav-hashed" id="grav-2d709f52599dae3854bcc55f3c9b41dc-0" width="45" height="45">		</a>
+
+		<h1 class="entry-title">BibLaTeX kurz im&nbsp;Überblick</h1>
+
+		<div class="entry-meta">
+			<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/" title="22:10" rel="bookmark"><time class="entry-date" datetime="2012-02-14T22:10:49+00:00" pubdate="">14. February 2012</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://anjalorenz.wordpress.com/author/anjalorenz/" title="View all posts by Anja Lorenz" rel="author">Anja Lorenz</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Ich nutze schon seit meiner Diplomarbeit <a title="zur Wikipediaseite" href="http://de.wikipedia.org/wiki/BibTeX">BibTeX</a> zur automatischen Verwaltung meiner Referenzen. Mit <a title="zur Webseite" href="http://www.citeulike.org/">CiteULike</a>, <a title="zur Webseite" href="http://www.mendeley.com/">Mendeley</a> und <a title="zur Webseite" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/">JabRef</a> habe ich weitere Tools gefunden, die meine “BibTeX-Infrastruktur” erweitern. Heute habe ich <a title="zur Webseite" href="http://ctan.org/pkg/biblatex">BibLaTeX</a>
+ für mich entdeckt – dagegen ist BibTeX superanstrengend und 
+umständlich. Eigentlich ist es eine (enorme) Erweiterung zu BibTeX, 
+indem sich scheinbar jemand richtig Gedanken dazu gemacht hat, was alles
+ gehen sollte und wo es konfiguriert werden sollte. Dazu ist es wirklich
+ gut dokumentiert (<a title="zum PDF" href="ftp://ctan.tug.org/tex-archive/macros/latex/exptl/biblatex/doc/biblatex.pdf">PDF</a>),
+ allerdings ist das Handbuch auch sehr umfangreich, daher ein kleiner 
+Crashkurs (als Notiz an mich und jeden, den es interessiert):</p>
+<p>In der Preambel wird das Paket (am bequemsten über den Package Manager downloaden) eingebunden und konfiguriert:</p>
+<pre>% &nbsp; &nbsp; Preambel
+\usepackage[
+style=authoryear-icomp,&nbsp;&nbsp;&nbsp; % Zitierstil
+isbn=false, &nbsp; &nbsp; &nbsp; &nbsp;       &nbsp;% ISBN nicht anzeigen, gleiches geht mit nahezu allen anderen Feldern
+pagetracker=true,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
+maxbibnames=50, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;% maximale Namen, die im Literaturverzeichnis angezeigt werden (ich wollte alle)
+maxcitenames=3, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;% maximale Namen, die im Text angezeigt werden, ab 4 wird u.a. nach den ersten Autor angezeigt
+autocite=inline, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; % regelt Aussehen für \autocite (inline=\parancite)
+block=space, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; % kleiner horizontaler Platz zwischen den Feldern
+backref=true, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;% Seiten anzeigen, auf denen die Referenz vorkommt
+backrefstyle=three+, &nbsp; &nbsp; &nbsp; % fasst Seiten zusammen, z.B. S. 2f, 6ff, 7-10
+date=short, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;% Datumsformat
+]{biblatex}
+\setlength{\bibitemsep}{1em} &nbsp; &nbsp; % Abstand zwischen den Literaturangaben
+\setlength{\bibhang}{2em} &nbsp; &nbsp; &nbsp; &nbsp;% Einzug nach jeweils erster Zeile
+
+\bibliography{literature}  % Bibtex-Datei wird schon in der Preambel eingebunden</pre>
+<p>Alle Konfigurationen passieren also hier und nirgends anders. 
+Sauber.Es gibt eine ganze Reihe an Zitierstilen, die tw. noch in anderen
+ Paketen nachgeladen werden (bspw. biblatex-apa). Die wichtigsten 
+Zitierstile sind</p>
+<ul>
+<li><code>numeric</code>, z. B. [1, 4, 3, 5]</li>
+<li><code>alphabetic</code>, z. B. [Ang02; Spr50; GMS94; VLUR93]</li>
+<li><code>authoryear</code>, z. B. Angenendt 2002</li>
+<li><code>authortitle</code>, z. B. Angenendt, „In Honore Salvatoris“</li>
+</ul>
+<p>Dabei lassen sich Feinheiten gut nachjustieren (wie oben die Abstände
+ in der Literaturliste). Zur Referenzierung im Text stehen folgende 
+Optionen zur Verfügung (die Ausgabe der Literaturinformationen wird 
+durch den Zitierstil bestimmt):</p>
+<ul>
+<li><code>\cite[prefix][suffix]{ref}</code>:&nbsp; Als Prefix können 
+Hinweise wie vgl. oder siehe eingefügt werden, im Suffix können bspw. 
+Seitenangaben hinterlegt werden. Dabei werden Zahlen als Suffix 
+automatisch mit “S.” (bzw. dem sprachlichen Äquivalent) ergänzt. f. oder
+ ff. erreicht man durch <code>\psq</code> bzw. <code>\psqq</code></li>
+<li><code>\parencite[prefix][suffix]{ref}</code>: setzt die Referenz je nach Zitierstil in runde oder eckige Klammern.</li>
+<li><code>\footcite[prefix][suffix]{ref}</code>: setzt die Referenz als Fußnote</li>
+<li><code>\textcite[prefix][suffix]{ref}</code>: bettet das Zitat in den Text ein, bspw. lässt sich damit folgendes erstellen “Angenendt (2002, S. 8f) meint, dass…”</li>
+<li><code>\autocite[prefix][suffix]{ref}</code>: ist quasi die Standardvariante, die in der Preambel konfiguriert wird.</li>
+</ul>
+<p>Die Ausgabe der Literaturliste wird dann nur noch mit einem Befehl eingefügt:</p>
+<pre>% &nbsp; &nbsp; Ausgabe
+\printbibliography</pre>
+<p>Damit ist das Paket sicher noch nicht ausgereizt, aber ein Anfang ist gemacht.</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-right:5px;margin-top:0px">
+		<div id="atatags-26942">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-26942',  {
+					collapseEmpty: 'before',
+					sectionId: '26942',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div>		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-top:0px">
+		<div id="atatags-114160">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-114160',  {
+					collapseEmpty: 'before',
+					sectionId: '114160',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div></div>
+						<div id="crt-528920136" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-528920136");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-528920136",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>		<div id="crt-1912522936" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-1912522936");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:837497,containerid:"crt-1912522936",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-314" class="share-twitter sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-314" class="share-facebook sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-314" class="share-google-plus-1 sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=email&amp;nb=1" target="_blank" title="Click to email"><span>Email</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#print" target="_blank" title="Click to print"><span>Print</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-314" class="share-pinterest sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=pinterest&amp;nb=1" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-tumblr"><a rel="nofollow" data-shared="" class="share-tumblr sd-button share-icon" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?share=tumblr&amp;nb=1" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-15838844-314-5a674c9f746a5" data-src="//widgets.wp.com/likes/#blog_id=15838844&amp;post_id=314&amp;origin=anjalorenz.wordpress.com&amp;obj_id=15838844-314-5a674c9f746a5" data-name="like-post-frame-15838844-314-5a674c9f746a5"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; display: none;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-15838844-314-5a674c9f746a5" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a.htm" width="100%" height="55px" frameborder="0"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="142" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://anjalorenz.wordpress.com/2011/04/27/ganz-dunnes-eis-wikipedia-zitieren/" title="Ganz dünnes Eis: Wikipedia zitieren
+
+Eine kleine Notiz zum Sonderfall: Zitieren aus der Wikipedia." rel="nofollow" data-origin="314" data-position="0">Ganz dünnes Eis: Wikipedia zitieren</a></span><span class="jp-relatedposts-post-context">In "Teaching"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="38" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://anjalorenz.wordpress.com/2010/10/13/notes-package-todonotes-via-latex-for-humans/" title="Notes Package: todonotes (via LaTeX for Humans)
+
+Lightened up my day: while I've used a self-defined command for ToDos until now, there is a very useful package for making notes for ongoing tasks. Thanks to @chbeer, who calss my attention to the Latex for Humans blog! This is a package I recently stumbled upon. It allows you…" rel="nofollow" data-origin="314" data-position="1">Notes Package: todonotes (via LaTeX for Humans)</a></span><span class="jp-relatedposts-post-context">In "LaTeX"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="835" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://anjalorenz.wordpress.com/2013/06/15/mein-letztes-wort-zu-tools/" title="Mein letztes Wort zu Tools...
+
+Ich komme mir ja immer recht clever vor, wenn ich die Blogposts vordatiere um tatsächlich das letzte Wort zu haben. Ist es nicht, aber bitte lasst mich bei dem Glauben ;). In diesem Themenblock ist es passiert: Das RL hat gegen meine SOOC13-Gastgeberrolle gearbeitet. Mit der eScience Netzwerkkonferenz hatte ich…" rel="nofollow" data-origin="314" data-position="2">Mein letztes Wort zu Tools...</a></span><span class="jp-relatedposts-post-context">In "Online Courses"</span></p></div></div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://anjalorenz.wordpress.com/tag/latex/" rel="category tag">LaTeX</a> and tagged <a href="https://anjalorenz.wordpress.com/tag/biblatex/" rel="tag">biblatex</a>, <a href="https://anjalorenz.wordpress.com/tag/citing-2/" rel="tag">citing</a>, <a href="https://anjalorenz.wordpress.com/tag/latex/" rel="tag">LaTeX</a>. Bookmark the <a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/" title="Permalink to BibLaTeX kurz im&nbsp;Überblick" rel="bookmark">permalink</a>.
+			</footer><!-- .entry-meta -->
+</article><!-- #post-314 -->
+					<nav role="navigation" id="nav-below" class="site-navigation post-navigation">
+		<h1 class="assistive-text">Post navigation</h1>
+
+	
+		<div class="nav-previous"><a href="https://anjalorenz.wordpress.com/2011/11/13/warum-hier-gerade-nix-passiert/" rel="prev"><span class="meta-nav">←</span> Warum hier gerade nix&nbsp;passiert…</a></div>		<div class="nav-next"><a href="https://anjalorenz.wordpress.com/2012/03/20/open-heist-nicht-kostenlos-uberlegungen-nach-dem-ecco12/" rel="next">Open heißt nicht kostenlos!? Überlegungen nach dem&nbsp;#ecco12 <span class="meta-nav">→</span></a></div>
+	
+	</nav><!-- #nav-below -->
+	
+					<div id="comments" class="comments-area">
+	
+	
+			<h2 class="comments-title">
+			17 thoughts on “<span>BibLaTeX kurz im&nbsp;Überblick</span>”		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-116">
+		<article id="comment-116" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/4a1303058a9b5a93cdc82e5e343cc951.jpg" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-4a1303058a9b5a93cdc82e5e343cc951-0" width="45" height="45">					<a href="http://www.espressodoppio-blog.de/" rel="external nofollow" class="url">Christian Beermann</a> <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-116"><time pubdate="" datetime="2012-02-16T08:45:00+00:00">
+					16. February 2012 at 08:45					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Wo Du schon am Umstellen bist, sehr erleichternd fand ich zudem Biber (<a href="http://biblatex-biber.sourceforge.net/" rel="nofollow">http://biblatex-biber.sourceforge.net/</a>), weil ich Probleme mit Umlauten hatte. Im Überblick auch: <a href="http://schlosser.info/5-gruende-von-bibtex-auf-biber-umzusteigen/" rel="nofollow">http://schlosser.info/5-gruende-von-bibtex-auf-biber-umzusteigen/</a>
+  Ich bin auch sehr zufrieden mit der Kombination mit BibLaTeX. Ein 
+kleines Problem hab ich noch nicht gelöst, wenn ich mit \parencite in 
+einer Fussnote zitiere steht der Verweis in eckigen Klammern. Aber die 
+Schraube finde ich hoffentlich auch noch…</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=116#respond" onclick='return addComment.moveForm( "comment-116", "116", "respond", "314" )' aria-label="Reply to Christian Beermann">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-anjalorenz bypostauthor odd alt depth-2 highlander-comment" id="li-comment-117">
+		<article id="comment-117" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/2d709f52599dae3854bcc55f3c9b41dc.jpg" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-2d709f52599dae3854bcc55f3c9b41dc-1" width="45" height="45">					<a href="https://anjalorenz.wordpress.com/" rel="external nofollow" class="url">Anja Lorenz</a> <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-117"><time pubdate="" datetime="2012-02-16T09:18:16+00:00">
+					16. February 2012 at 09:18					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Danke für den Hinweis, ich schau mir 
+das am Wochenende mal an, klingt ja doch etwas umfangreicher, wenn ich 
+die komplette Literatur ggf. umstellen muss. Aber beim Drüberscrollen 
+muss ich eventuell garnicht soviel machen, mal schauen. Du hörst über 
+Freude und/oder Frust. Ganz bestimmt <img draggable="false" class="emoji" alt="😉" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/1f609.svg"></p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=117#respond" onclick='return addComment.moveForm( "comment-117", "117", "respond", "314" )' aria-label="Reply to Anja Lorenz">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-2 highlander-comment" id="li-comment-431">
+		<article id="comment-431" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/6aea20ec8d728b77e99d691db7ad9afe.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-6aea20ec8d728b77e99d691db7ad9afe-0" width="45" height="45">					Roman <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-431"><time pubdate="" datetime="2013-09-21T15:09:36+00:00">
+					21. September 2013 at 15:09					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Vielen Dank Anja für diesen Beitrag, 
+genau das, wonach ich seit gestern suche. natbib mit alphadin ist für 
+deutsche Benutzer eine Katastrophe … </p>
+<p>DANKE! <img draggable="false" class="emoji" alt="🙂" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/1f642.svg"></p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=431#respond" onclick='return addComment.moveForm( "comment-431", "431", "respond", "314" )' aria-label="Reply to Roman">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-289">
+		<article id="comment-289" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/debc54b7768932e0dcc0dc81d2291ff2.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-debc54b7768932e0dcc0dc81d2291ff2-0" width="45" height="45">					Mme. Frou Frou <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-289"><time pubdate="" datetime="2013-02-07T16:45:25+00:00">
+					7. February 2013 at 16:45					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Hallo Anja,<br>
+auf der Suche nach Hilfe (zur Selbsthilfe) bin ich auf diesen deinen 
+Blog gestoßen – und weil hier ganz unkompliziert (auch) für 
+Einsteigerinnen erklärt wird, traue ich mich jetzt einfach, und poste 
+hier meine Frage (auch wenn es hier seit nem Jahr schon still ist):<br>
+Ich nutze MikTex und die Bedienoberfläche TeXnicCenter, möchte jetzt 
+mithilfe von Biblatex eine Bibliographie anlegen bzw. im Text Referenzen
+ setzen, und kann dafür JabRef nutzen. Nun werden offenbar die tex-datei
+ und die bib-datei (via JabRef angelegt) nicht zusammengebracht, ich 
+bekomme stetig die Fehlermeldung, dass ich biber nochmal über die 
+.bib-Datei laufen lassen müsste (was ich nicht verstehe). Zudem: 
+“undefined references” und “I found no bibdata command”. Ich habe also 
+das Gefühl, die tex-Datei weiß nix von der zu ihr gehörigen bib-Datei. 
+Es gibt eine bbl-Datei und eine bbl.bak-Datei, die kann ich aber nicht 
+öffnen (außer via JabRef, was aber nichts hilft).<br>
+Kannst du vielleicht diagnostizieren, was ich falsch mache?</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=289#respond" onclick='return addComment.moveForm( "comment-289", "289", "respond", "314" )' aria-label="Reply to Mme. Frou Frou">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-anjalorenz bypostauthor even depth-2 highlander-comment" id="li-comment-290">
+		<article id="comment-290" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/2d709f52599dae3854bcc55f3c9b41dc.jpg" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-2d709f52599dae3854bcc55f3c9b41dc-2" width="45" height="45">					<a href="https://anjalorenz.wordpress.com/" rel="external nofollow" class="url">Anja Lorenz</a> <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-290"><time pubdate="" datetime="2013-02-07T16:53:35+00:00">
+					7. February 2013 at 16:53					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Hallo Frou Frou,</p>
+<p>ich kann leider nur Glaskugel kucken:<br>
+Du hast “\bibliography{literature}” angegeben? (wobei “literature” der 
+Name der bib-Datei ist. Ansonsten brauchst Du bei der Verwendung von 
+Biber die Option “backend=biber,” in der Biblatex-Einbindung. Als 
+BibTex-Controller in den Ausgabeprofilen habe ich zudem “…MiKTeX 
+2.9\miktex\bin\biber.exe” eingebunden.</p>
+<p>Das wären so die ersten Sachen, die Du prüfen könntest, sonst bräuchte ich sicher mal die Datei zum Anschauen.</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=290#respond" onclick='return addComment.moveForm( "comment-290", "290", "respond", "314" )' aria-label="Reply to Anja Lorenz">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-291">
+		<article id="comment-291" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/debc54b7768932e0dcc0dc81d2291ff2.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-debc54b7768932e0dcc0dc81d2291ff2-1" width="45" height="45">					Mme. Frou Frou <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-291"><time pubdate="" datetime="2013-02-07T16:57:49+00:00">
+					7. February 2013 at 16:57					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>…ich probiere das mit der Biber-Einbindung unter Ausgabeprofile jetzt mal. (Alles andere, auch backend=biber, hab ich schon).<br>
+Vielen lieben Dank für deine schnelle Antwort!</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=291#respond" onclick='return addComment.moveForm( "comment-291", "291", "respond", "314" )' aria-label="Reply to Mme. Frou Frou">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href="https://anjalorenz.wordpress.com/2013/06/15/mein-letztes-wort-zu-tools/" rel="external nofollow" class="url">Mein letztes Wort zu Tools… | Anjas Blog</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-525">
+		<article id="comment-525" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/caf0b0119f1d2eaaa5c4cfbd5083c5e7.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-caf0b0119f1d2eaaa5c4cfbd5083c5e7-0" width="45" height="45">					Jack <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-525"><time pubdate="" datetime="2014-05-13T12:40:30+00:00">
+					13. May 2014 at 12:40					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Hi Anja, kurze Frage: Du schreibst 
+oben, dass biblatex automatisch das “S.” bei der Seitenangabe ergänzt, 
+also aus \cite[10]{Mustermann12} bspw. (Mustermann 2012, S.10) macht. 
+Bei mir funktioniert das so nicht. Liegt das am Zitierstil (ich nutze 
+biblatex-chicago}<br>
+Danke viele Grüße</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=525#respond" onclick='return addComment.moveForm( "comment-525", "525", "respond", "314" )' aria-label="Reply to Jack">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-anjalorenz bypostauthor odd alt depth-2 highlander-comment" id="li-comment-529">
+		<article id="comment-529" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/2d709f52599dae3854bcc55f3c9b41dc.jpg" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-2d709f52599dae3854bcc55f3c9b41dc-3" width="45" height="45">					<a href="https://anjalorenz.wordpress.com/" rel="external nofollow" class="url">Anja Lorenz</a> <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-529"><time pubdate="" datetime="2014-05-14T16:59:35+00:00">
+					14. May 2014 at 16:59					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Hallo Jack, ich habe das ganze mal 
+durchprobiert, musste den Style mit \usepackage{biblatex-chicago} 
+einfügen statt oben im style-Attribut (da hatt er es nicht gefunden), 
+aber auch da werden Seitenzahlen generiert. Du könntest testweise mal 
+mit “style=authoryear-icomp,” arbeiten und schauen, ob dann das S. dazu 
+kommt. Aber das ist jetzt eher Glaskugelschauen.</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=529#respond" onclick='return addComment.moveForm( "comment-529", "529", "respond", "314" )' aria-label="Reply to Anja Lorenz">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-530">
+		<article id="comment-530" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/caf0b0119f1d2eaaa5c4cfbd5083c5e7.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-caf0b0119f1d2eaaa5c4cfbd5083c5e7-1" width="45" height="45">					Jack <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-530"><time pubdate="" datetime="2014-05-14T17:14:36+00:00">
+					14. May 2014 at 17:14					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Hi, ich hab jetzt einfach einen anderen style benutzt.<br>
+\usepackage[citestyle=authoryear]{biblatex}<br>
+Danke für die Hilfe!</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=530#respond" onclick='return addComment.moveForm( "comment-530", "530", "respond", "314" )' aria-label="Reply to Jack">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment odd alt depth-2 highlander-comment" id="li-comment-532">
+		<article id="comment-532" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/caf0b0119f1d2eaaa5c4cfbd5083c5e7.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-caf0b0119f1d2eaaa5c4cfbd5083c5e7-2" width="45" height="45">					Jack <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-532"><time pubdate="" datetime="2014-05-14T17:24:44+00:00">
+					14. May 2014 at 17:24					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Oh ich habe noch eine Frage. Ich habe
+ mittlerweile den Style (authoryear) so angepasst, dass er fast den 
+Vorgaben der Uni entspricht. Allerdings muss in das Literaturverzeichnis
+ vor jedem Eintrag die Kurzform erscheinen, wie sie auch im Text benutzt
+ wird. Beispiel:</p>
+<p>Text: Hier wird eine beliebige Stelle zitiert \autocite[10]{Mueller2012}.</p>
+<p>Im Literaturverzeichnis wird die Quelle dann in etwa so aufgelistet:<br>
+Mueller, A.; Neururer, P.: Fordernde Trainingseinheiten”, Gelsenkirchen 2009.</p>
+<p>Ich brauche es allerdings so:<br>
+(Mueller 2012): Mueller, A.; Neururer, P.: Fordernde Trainingseinheiten”, Gelsenkirchen 2009.</p>
+<p>Irgendwelche Ideen? Oder Styles, die das so umsetzen?</p>
+<p>Danke!</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=532#respond" onclick='return addComment.moveForm( "comment-532", "532", "respond", "314" )' aria-label="Reply to Jack">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-anjalorenz bypostauthor even depth-3 highlander-comment" id="li-comment-535">
+		<article id="comment-535" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/2d709f52599dae3854bcc55f3c9b41dc.jpg" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-2d709f52599dae3854bcc55f3c9b41dc-4" width="45" height="45">					<a href="https://anjalorenz.wordpress.com/" rel="external nofollow" class="url">Anja Lorenz</a> <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-535"><time pubdate="" datetime="2014-05-14T19:17:04+00:00">
+					14. May 2014 at 19:17					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Ich würde ja fragen, wer so einen 
+Style verbrochen hat, aber befürchte, dass ich die Antwort nicht hören 
+will (das 2012/2009er Dilemma ist sicher ein Schreibfehler). Ich würde 
+schätzen, dass Du da händisch ran musst, vielleicht hilft dann das hier<br>
+<a href="http://biblatex.dominik-wassenhoven.de/download/DTK-4_2008-biblatex-Teil2.pdf" rel="nofollow">http://biblatex.dominik-wassenhoven.de/download/DTK-4_2008-biblatex-Teil2.pdf</a></p>
+<p>Du könntest Dir auch den Spaß machen und bei der Uni anfragen, wie 
+der Zitierstil heißt, damit Du Dein Tool drauf abstimmen kannst. Ich 
+befürchte aber auch, dass Du hier vielleicht eine Antwort bekommst, die 
+Du nicht hören willst…</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-536">
+		<article id="comment-536" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/caf0b0119f1d2eaaa5c4cfbd5083c5e7.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-caf0b0119f1d2eaaa5c4cfbd5083c5e7-3" width="45" height="45">					Jack <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-536"><time pubdate="" datetime="2014-05-14T19:20:16+00:00">
+					14. May 2014 at 19:20					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Oh ja, den Fehler hab ich schon gemacht.. “Der Professor möchte das so.” – Juhu…<br>
+An der oben verlinkten Anleitung bin ich schon durch, aber ich muss wohl
+ noch etwas tiefer in das Thema einsteigen. Wenn ich es hinbekomme, 
+poste ich es hier</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-537">
+		<article id="comment-537" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/caf0b0119f1d2eaaa5c4cfbd5083c5e7.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-caf0b0119f1d2eaaa5c4cfbd5083c5e7-4" width="45" height="45">					Jack <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-537"><time pubdate="" datetime="2014-05-16T17:51:31+00:00">
+					16. May 2014 at 17:51					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Falls jemand ähnliches benötigt, schaut euch <a href="http://tex.stackexchange.com/questions/44801/bibliography-styles-like-authordate2-in-biblatex-or-natbib" rel="nofollow">http://tex.stackexchange.com/questions/44801/bibliography-styles-like-authordate2-in-biblatex-or-natbib</a> an. Erfordert immer noch einige Anpassungen, aber geht in die richtige Richtung.</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=537#respond" onclick='return addComment.moveForm( "comment-537", "537", "respond", "314" )' aria-label="Reply to Jack">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-605">
+		<article id="comment-605" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/dc1d2650eef6c82fb111c47168024932.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-dc1d2650eef6c82fb111c47168024932-0" width="45" height="45">					Pete <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-605"><time pubdate="" datetime="2014-09-11T23:25:33+00:00">
+					11. September 2014 at 23:25					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Meiner Meinung nach ist es absolut sinnfrei, bei Inline-Zitierung “ebenda” / ebd. zu verwenden.<br>
+* just sayin’ *</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=605#respond" onclick='return addComment.moveForm( "comment-605", "605", "respond", "314" )' aria-label="Reply to Pete">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-1579">
+		<article id="comment-1579" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/82606f9f839dfade1c06f9cb735f3601.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-82606f9f839dfade1c06f9cb735f3601-0" width="45" height="45">					iHap <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-1579"><time pubdate="" datetime="2017-08-01T18:16:44+00:00">
+					1. August 2017 at 18:16					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Ich lasse einfach mal ein 
+&gt;Danke!&lt; da, weil kurz, knapp, bündig und funktioniert, zumindest 
+für mich. Für Feinjustierung ist genug Platz. Fazit: schöne 
+Zusammenfassung! <img draggable="false" class="emoji" alt="🙂" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/1f642.svg"></p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=1579#respond" onclick='return addComment.moveForm( "comment-1579", "1579", "respond", "314" )' aria-label="Reply to iHap">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-1580">
+		<article id="comment-1580" class="comment">
+			<footer>
+				<div class="comment-author vcard">
+					<img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a6444c577612f7250187aa387e57d598.png" class="avatar avatar-45 grav-hashed grav-hijack" id="grav-a6444c577612f7250187aa387e57d598-0" width="45" height="45">					Robert <span class="says">says:</span>				</div><!-- .comment-author .vcard -->
+				
+				<div class="comment-meta commentmetadata">
+					<a href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#comment-1580"><time pubdate="" datetime="2017-08-03T09:06:01+00:00">
+					3. August 2017 at 09:06					</time></a>
+									</div><!-- .comment-meta .commentmetadata -->
+			</footer>
+
+			<div class="comment-content"><p>Liebste Anja,<br>
+tausend Dank! Das war wirklich ehr hilfreich! Wie vor mir schon gesagt 
+wurde: Kurz, knapp und bündig, aber super hilfreich gerade hinsichtlich 
+der genauen Einstellungen, wie meine Zitierungen aussehen sollen. Danke!
+ <img draggable="false" class="emoji" alt="🙂" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/1f642.svg"></p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/?replytocom=1580#respond" onclick='return addComment.moveForm( "comment-1580", "1580", "respond", "314" )' aria-label="Reply to Robert">Reply</a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+		</ol>
+
+		
+	
+	
+		<div id="respond" class="comment-respond js">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://anjalorenz.wordpress.com/2012/02/14/biblatex-kurz-im-ueberblick/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://anjalorenz.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<input id="highlander_comment_nonce" name="highlander_comment_nonce" value="c58016d1bd" type="hidden"><input name="_wp_http_referer" value="/2012/02/14/biblatex-kurz-im-ueberblick/" type="hidden">
+<input name="hc_post_as" id="hc_post_as" value="guest" type="hidden">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px none; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; height: 0px !important; min-height: 0px !important; overflow: hidden; transition: none 0s ease 0s ; font-family: Arial,Helvetica,Tahoma,Verdana,sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: 22px; width: 629.433px;" class="autosizejs ">Enter your comment here...</textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 42px; overflow: hidden; overflow-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a_002.htm" scrolling="no" allowtransparency="true" seamless="seamless" width="24" height="24" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ad516503a11cd5ca435acc9bb6523536.png" alt="Gravatar" class="no-grav" width="25">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email"></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text"></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url"></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ad516503a11cd5ca435acc9bb6523536.png" alt="WordPress.com Logo" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" type="hidden">
+				<input name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" type="hidden">
+				<input name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" type="hidden">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'wordpress'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ad516503a11cd5ca435acc9bb6523536.png" alt="Twitter picture" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" type="hidden">
+				<input name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" type="hidden">
+				<input name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" type="hidden">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'twitter'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ad516503a11cd5ca435acc9bb6523536.png" alt="Facebook photo" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" type="hidden">
+				<input name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" type="hidden">
+				<input name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" type="hidden">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'facebook'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/ad516503a11cd5ca435acc9bb6523536.png" alt="Google+ photo" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" type="hidden">
+				<input name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" type="hidden">
+				<input name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" type="hidden">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'googleplus'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input name="subscribe" id="subscribe" value="subscribe" style="width: auto;" type="checkbox"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p><p class="post-subscription-form"><input name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;" type="checkbox"> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog" style="display: inline;">Notify me of new posts via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" id="comment-submit" class="submit" value="Post Comment" type="submit"> <input name="comment_post_ID" value="314" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+</p><p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="91f692b66d" type="hidden"></p>
+<input name="genseq" value="1516719263" type="hidden">
+<p style="display: none;"></p>			<input id="ak_js" name="ak_js" value="1516719267707" type="hidden"></form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>
+</div><!-- #comments .comments-area -->
+			
+			</div><!-- #content -->
+		</div><!-- #primary .site-content -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			
+			
+			
+				<aside id="text-5" class="widget widget_text">			<div class="textwidget"><a href="http://l3t.eu/">
+<img class="alignnone" alt="I am L3T" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/4987603834_a43d86b86f.jpg" width="120" height="120">
+</a><br>
+<a href="http://iloveedu.de/">
+<img class="alignnone" alt="I Love Edu" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/iloveedu_b-150x55.jpg" width="120" height="44">
+</a>
+</div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0;" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/88x31.png"></a></div>
+		</aside><aside id="search-4" class="widget widget_search">	<form method="get" id="searchform" action="https://anjalorenz.wordpress.com/" role="search">
+		<label for="s" class="assistive-text">Search</label>
+		<input class="field" name="s" id="s" placeholder="Search …" type="text">
+		<input class="submit" name="submit" id="searchsubmit" value="Search" type="submit">
+	</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+											<li>
+					<a href="https://anjalorenz.wordpress.com/2015/03/29/hier-passiert-nichts-neues-dieses-blog-zieht-um/">Hier passiert nichts Neues, dieses Blog zieht&nbsp;um.</a>
+									</li>
+											<li>
+					<a href="https://anjalorenz.wordpress.com/2015/03/09/workshop-sexy-diy-badges-mehr-als-zertifikate-mootde15/">[Workshop] Sexy DIY-Badges: Mehr als Zertifikate!?&nbsp;#mootDE15</a>
+									</li>
+											<li>
+					<a href="https://anjalorenz.wordpress.com/2015/02/25/give-them-tools-their-mind-will-follow-oder-warum-ich-bei-oer-an-den-remix-glaube/">Give them tools, their mind will follow! oder Warum ich bei OER an den Remix&nbsp;glaube</a>
+									</li>
+											<li>
+					<a href="https://anjalorenz.wordpress.com/2015/02/17/horizon-report-2015-higher-education-edition/">Horizon Report 2015 Higher Education&nbsp;Edition</a>
+									</li>
+											<li>
+					<a href="https://anjalorenz.wordpress.com/2015/02/09/go-home-copyright-you-are-drunk/">Go home, Copyright, you are&nbsp;drunk!</a>
+									</li>
+					</ul>
+		</aside><aside id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud"><h1 class="widget-title">Tags</h1><div style="overflow:hidden"><a href="https://anjalorenz.wordpress.com/tag/badges/" class="tag-cloud-link tag-link-119950 tag-link-position-1" style="font-size: 11.962264150943pt;" aria-label="Badges (3 items)">Badges</a>
+<a href="https://anjalorenz.wordpress.com/tag/barcamp/" class="tag-cloud-link tag-link-4229 tag-link-position-2" style="font-size: 15.924528301887pt;" aria-label="barcamp (7 items)">barcamp</a>
+<a href="https://anjalorenz.wordpress.com/tag/blog-2/" class="tag-cloud-link tag-link-1273462 tag-link-position-3" style="font-size: 13.283018867925pt;" aria-label="blog (4 items)">blog</a>
+<a href="https://anjalorenz.wordpress.com/tag/celepro/" class="tag-cloud-link tag-link-85698141 tag-link-position-4" style="font-size: 15.924528301887pt;" aria-label="CELePro (7 items)">CELePro</a>
+<a href="https://anjalorenz.wordpress.com/tag/cfp/" class="tag-cloud-link tag-link-34879 tag-link-position-5" style="font-size: 14.339622641509pt;" aria-label="CfP (5 items)">CfP</a>
+<a href="https://anjalorenz.wordpress.com/tag/chemnitz/" class="tag-cloud-link tag-link-315194 tag-link-position-6" style="font-size: 17.245283018868pt;" aria-label="Chemnitz (9 items)">Chemnitz</a>
+<a href="https://anjalorenz.wordpress.com/tag/citing-2/" class="tag-cloud-link tag-link-55957327 tag-link-position-7" style="font-size: 10.377358490566pt;" aria-label="citing (2 items)">citing</a>
+<a href="https://anjalorenz.wordpress.com/tag/commentathon/" class="tag-cloud-link tag-link-80596820 tag-link-position-8" style="font-size: 10.377358490566pt;" aria-label="commentathon (2 items)">commentathon</a>
+<a href="https://anjalorenz.wordpress.com/tag/competence/" class="tag-cloud-link tag-link-169341 tag-link-position-9" style="font-size: 13.283018867925pt;" aria-label="competence (4 items)">competence</a>
+<a href="https://anjalorenz.wordpress.com/tag/connectivism/" class="tag-cloud-link tag-link-10267 tag-link-position-10" style="font-size: 11.962264150943pt;" aria-label="connectivism (3 items)">connectivism</a>
+<a href="https://anjalorenz.wordpress.com/tag/copyright/" class="tag-cloud-link tag-link-9386 tag-link-position-11" style="font-size: 13.283018867925pt;" aria-label="copyright (4 items)">copyright</a>
+<a href="https://anjalorenz.wordpress.com/tag/courses/" class="tag-cloud-link tag-link-23328 tag-link-position-12" style="font-size: 18.301886792453pt;" aria-label="courses (11 items)">courses</a>
+<a href="https://anjalorenz.wordpress.com/tag/creative-commons/" class="tag-cloud-link tag-link-6195 tag-link-position-13" style="font-size: 11.962264150943pt;" aria-label="creative commons (3 items)">creative commons</a>
+<a href="https://anjalorenz.wordpress.com/tag/creativity/" class="tag-cloud-link tag-link-789 tag-link-position-14" style="font-size: 10.377358490566pt;" aria-label="creativity (2 items)">creativity</a>
+<a href="https://anjalorenz.wordpress.com/tag/crowd-sourcing/" class="tag-cloud-link tag-link-474220 tag-link-position-15" style="font-size: 10.377358490566pt;" aria-label="crowd sourcing (2 items)">crowd sourcing</a>
+<a href="https://anjalorenz.wordpress.com/tag/delfi2014/" class="tag-cloud-link tag-link-233627710 tag-link-position-16" style="font-size: 11.962264150943pt;" aria-label="DeLFI2014 (3 items)">DeLFI2014</a>
+<a href="https://anjalorenz.wordpress.com/tag/delfigames/" class="tag-cloud-link tag-link-259795932 tag-link-position-17" style="font-size: 10.377358490566pt;" aria-label="DeLFIGames (2 items)">DeLFIGames</a>
+<a href="https://anjalorenz.wordpress.com/tag/digital-badges/" class="tag-cloud-link tag-link-28680761 tag-link-position-18" style="font-size: 11.962264150943pt;" aria-label="Digital Badges (3 items)">Digital Badges</a>
+<a href="https://anjalorenz.wordpress.com/tag/dresden/" class="tag-cloud-link tag-link-46949 tag-link-position-19" style="font-size: 17.245283018868pt;" aria-label="Dresden (9 items)">Dresden</a>
+<a href="https://anjalorenz.wordpress.com/tag/ecil12/" class="tag-cloud-link tag-link-111527007 tag-link-position-20" style="font-size: 13.283018867925pt;" aria-label="ecil12 (4 items)">ecil12</a>
+<a href="https://anjalorenz.wordpress.com/tag/educamp/" class="tag-cloud-link tag-link-870898 tag-link-position-21" style="font-size: 17.77358490566pt;" aria-label="educamp (10 items)">educamp</a>
+<a href="https://anjalorenz.wordpress.com/tag/education/" class="tag-cloud-link tag-link-1342 tag-link-position-22" style="font-size: 10.377358490566pt;" aria-label="education (2 items)">education</a>
+<a href="https://anjalorenz.wordpress.com/tag/elearning/" class="tag-cloud-link tag-link-3909 tag-link-position-23" style="font-size: 19.622641509434pt;" aria-label="elearning (14 items)">elearning</a>
+<a href="https://anjalorenz.wordpress.com/tag/escience/" class="tag-cloud-link tag-link-1784961 tag-link-position-24" style="font-size: 17.245283018868pt;" aria-label="eScience (9 items)">eScience</a>
+<a href="https://anjalorenz.wordpress.com/tag/fhl/" class="tag-cloud-link tag-link-2624845 tag-link-position-25" style="font-size: 10.377358490566pt;" aria-label="FHL (2 items)">FHL</a>
+<a href="https://anjalorenz.wordpress.com/tag/fiff/" class="tag-cloud-link tag-link-10273462 tag-link-position-26" style="font-size: 15.264150943396pt;" aria-label="FIfF (6 items)">FIfF</a>
+<a href="https://anjalorenz.wordpress.com/tag/fulda/" class="tag-cloud-link tag-link-666500 tag-link-position-27" style="font-size: 15.264150943396pt;" aria-label="Fulda (6 items)">Fulda</a>
+<a href="https://anjalorenz.wordpress.com/tag/google-scholar/" class="tag-cloud-link tag-link-39575 tag-link-position-28" style="font-size: 10.377358490566pt;" aria-label="Google Scholar (2 items)">Google Scholar</a>
+<a href="https://anjalorenz.wordpress.com/tag/h-index/" class="tag-cloud-link tag-link-1784139 tag-link-position-29" style="font-size: 10.377358490566pt;" aria-label="h-index (2 items)">h-index</a>
+<a href="https://anjalorenz.wordpress.com/tag/ilmenau/" class="tag-cloud-link tag-link-363495 tag-link-position-30" style="font-size: 11.962264150943pt;" aria-label="Ilmenau (3 items)">Ilmenau</a>
+<a href="https://anjalorenz.wordpress.com/tag/innoqual/" class="tag-cloud-link tag-link-150815297 tag-link-position-31" style="font-size: 10.377358490566pt;" aria-label="INNOQUAL (2 items)">INNOQUAL</a>
+<a href="https://anjalorenz.wordpress.com/tag/justthoughts/" class="tag-cloud-link tag-link-11881995 tag-link-position-32" style="font-size: 20.283018867925pt;" aria-label="justthoughts (16 items)">justthoughts</a>
+<a href="https://anjalorenz.wordpress.com/tag/l3t/" class="tag-cloud-link tag-link-34308975 tag-link-position-33" style="font-size: 20.283018867925pt;" aria-label="L3T (16 items)">L3T</a>
+<a href="https://anjalorenz.wordpress.com/tag/latex/" class="tag-cloud-link tag-link-8800 tag-link-position-34" style="font-size: 10.377358490566pt;" aria-label="LaTeX (2 items)">LaTeX</a>
+<a href="https://anjalorenz.wordpress.com/tag/learning/" class="tag-cloud-link tag-link-264 tag-link-position-35" style="font-size: 15.924528301887pt;" aria-label="learning (7 items)">learning</a>
+<a href="https://anjalorenz.wordpress.com/tag/learning-objective/" class="tag-cloud-link tag-link-1751455 tag-link-position-36" style="font-size: 10.377358490566pt;" aria-label="learning objective (2 items)">learning objective</a>
+<a href="https://anjalorenz.wordpress.com/tag/lubeck/" class="tag-cloud-link tag-link-438554 tag-link-position-37" style="font-size: 11.962264150943pt;" aria-label="Lübeck (3 items)">Lübeck</a>
+<a href="https://anjalorenz.wordpress.com/tag/macrolearning/" class="tag-cloud-link tag-link-42769978 tag-link-position-38" style="font-size: 8pt;" aria-label="macrolearning (1 item)">macrolearning</a>
+<a href="https://anjalorenz.wordpress.com/tag/microlearning-2/" class="tag-cloud-link tag-link-42769977 tag-link-position-39" style="font-size: 13.283018867925pt;" aria-label="microlearning (4 items)">microlearning</a>
+<a href="https://anjalorenz.wordpress.com/tag/mmc13/" class="tag-cloud-link tag-link-122427056 tag-link-position-40" style="font-size: 14.339622641509pt;" aria-label="MMC13 (5 items)">MMC13</a>
+<a href="https://anjalorenz.wordpress.com/tag/mobile-learning/" class="tag-cloud-link tag-link-110394 tag-link-position-41" style="font-size: 10.377358490566pt;" aria-label="mobile learning (2 items)">mobile learning</a>
+<a href="https://anjalorenz.wordpress.com/tag/mooc/" class="tag-cloud-link tag-link-9489678 tag-link-position-42" style="font-size: 22pt;" aria-label="MOOC (22 items)">MOOC</a>
+<a href="https://anjalorenz.wordpress.com/tag/notes/" class="tag-cloud-link tag-link-785 tag-link-position-43" style="font-size: 14.339622641509pt;" aria-label="notes (5 items)">notes</a>
+<a href="https://anjalorenz.wordpress.com/tag/oer/" class="tag-cloud-link tag-link-352252 tag-link-position-44" style="font-size: 20.679245283019pt;" aria-label="oer (17 items)">oer</a>
+<a href="https://anjalorenz.wordpress.com/tag/oncampus/" class="tag-cloud-link tag-link-2177893 tag-link-position-45" style="font-size: 10.377358490566pt;" aria-label="oncampus (2 items)">oncampus</a>
+<a href="https://anjalorenz.wordpress.com/tag/opal/" class="tag-cloud-link tag-link-17994 tag-link-position-46" style="font-size: 10.377358490566pt;" aria-label="OPAL (2 items)">OPAL</a>
+<a href="https://anjalorenz.wordpress.com/tag/opco11/" class="tag-cloud-link tag-link-56210989 tag-link-position-47" style="font-size: 15.924528301887pt;" aria-label="opco11 (7 items)">opco11</a>
+<a href="https://anjalorenz.wordpress.com/tag/open-access/" class="tag-cloud-link tag-link-24853 tag-link-position-48" style="font-size: 14.339622641509pt;" aria-label="open access (5 items)">open access</a>
+<a href="https://anjalorenz.wordpress.com/tag/open-science/" class="tag-cloud-link tag-link-144676 tag-link-position-49" style="font-size: 17.245283018868pt;" aria-label="open science (9 items)">open science</a>
+<a href="https://anjalorenz.wordpress.com/tag/ple-2/" class="tag-cloud-link tag-link-35096786 tag-link-position-50" style="font-size: 10.377358490566pt;" aria-label="ple (2 items)">ple</a>
+<a href="https://anjalorenz.wordpress.com/tag/poster/" class="tag-cloud-link tag-link-7195 tag-link-position-51" style="font-size: 10.377358490566pt;" aria-label="poster (2 items)">poster</a>
+<a href="https://anjalorenz.wordpress.com/tag/presentation/" class="tag-cloud-link tag-link-9402 tag-link-position-52" style="font-size: 18.301886792453pt;" aria-label="presentation (11 items)">presentation</a>
+<a href="https://anjalorenz.wordpress.com/tag/publications/" class="tag-cloud-link tag-link-6270 tag-link-position-53" style="font-size: 13.283018867925pt;" aria-label="publications (4 items)">publications</a>
+<a href="https://anjalorenz.wordpress.com/tag/publish-or-perish/" class="tag-cloud-link tag-link-62851 tag-link-position-54" style="font-size: 10.377358490566pt;" aria-label="Publish or Perish (2 items)">Publish or Perish</a>
+<a href="https://anjalorenz.wordpress.com/tag/research/" class="tag-cloud-link tag-link-668 tag-link-position-55" style="font-size: 15.924528301887pt;" aria-label="research (7 items)">research</a>
+<a href="https://anjalorenz.wordpress.com/tag/review/" class="tag-cloud-link tag-link-1745 tag-link-position-56" style="font-size: 15.264150943396pt;" aria-label="review (6 items)">review</a>
+<a href="https://anjalorenz.wordpress.com/tag/sociallearning/" class="tag-cloud-link tag-link-454194 tag-link-position-57" style="font-size: 14.339622641509pt;" aria-label="sociallearning (5 items)">sociallearning</a>
+<a href="https://anjalorenz.wordpress.com/tag/social-media/" class="tag-cloud-link tag-link-49818 tag-link-position-58" style="font-size: 11.962264150943pt;" aria-label="Social Media (3 items)">Social Media</a>
+<a href="https://anjalorenz.wordpress.com/tag/social-web-pathologies/" class="tag-cloud-link tag-link-120101083 tag-link-position-59" style="font-size: 15.924528301887pt;" aria-label="social web pathologies (7 items)">social web pathologies</a>
+<a href="https://anjalorenz.wordpress.com/tag/sooc/" class="tag-cloud-link tag-link-7763668 tag-link-position-60" style="font-size: 13.283018867925pt;" aria-label="SOOC (4 items)">SOOC</a>
+<a href="https://anjalorenz.wordpress.com/tag/sooc13/" class="tag-cloud-link tag-link-138088697 tag-link-position-61" style="font-size: 19.622641509434pt;" aria-label="SOOC13 (14 items)">SOOC13</a>
+<a href="https://anjalorenz.wordpress.com/tag/sooc1314/" class="tag-cloud-link tag-link-195394044 tag-link-position-62" style="font-size: 17.245283018868pt;" aria-label="sooc1314 (9 items)">sooc1314</a>
+<a href="https://anjalorenz.wordpress.com/tag/soopal/" class="tag-cloud-link tag-link-195796487 tag-link-position-63" style="font-size: 16.584905660377pt;" aria-label="SOOPAL (8 items)">SOOPAL</a>
+<a href="https://anjalorenz.wordpress.com/tag/teaching/" class="tag-cloud-link tag-link-1591 tag-link-position-64" style="font-size: 19.88679245283pt;" aria-label="teaching (15 items)">teaching</a>
+<a href="https://anjalorenz.wordpress.com/tag/tools-2/" class="tag-cloud-link tag-link-8113236 tag-link-position-65" style="font-size: 11.962264150943pt;" aria-label="tools (3 items)">tools</a>
+<a href="https://anjalorenz.wordpress.com/tag/tu-dresden/" class="tag-cloud-link tag-link-1932210 tag-link-position-66" style="font-size: 13.283018867925pt;" aria-label="TU Dresden (4 items)">TU Dresden</a>
+<a href="https://anjalorenz.wordpress.com/tag/twitter/" class="tag-cloud-link tag-link-599182 tag-link-position-67" style="font-size: 11.962264150943pt;" aria-label="twitter (3 items)">twitter</a>
+<a href="https://anjalorenz.wordpress.com/tag/video/" class="tag-cloud-link tag-link-412 tag-link-position-68" style="font-size: 13.283018867925pt;" aria-label="video (4 items)">video</a>
+<a href="https://anjalorenz.wordpress.com/tag/wel2010/" class="tag-cloud-link tag-link-42769979 tag-link-position-69" style="font-size: 8pt;" aria-label="WeL2010 (1 item)">WeL2010</a>
+<a href="https://anjalorenz.wordpress.com/tag/wikipedia/" class="tag-cloud-link tag-link-5547 tag-link-position-70" style="font-size: 13.283018867925pt;" aria-label="wikipedia (4 items)">wikipedia</a>
+<a href="https://anjalorenz.wordpress.com/tag/wordpress/" class="tag-cloud-link tag-link-33 tag-link-position-71" style="font-size: 8pt;" aria-label="wordpress (1 item)">wordpress</a>
+<a href="https://anjalorenz.wordpress.com/tag/workshop/" class="tag-cloud-link tag-link-19557 tag-link-position-72" style="font-size: 11.962264150943pt;" aria-label="workshop (3 items)">workshop</a>
+<a href="https://anjalorenz.wordpress.com/tag/writing/" class="tag-cloud-link tag-link-349 tag-link-position-73" style="font-size: 19.22641509434pt;" aria-label="writing (13 items)">writing</a>
+<a href="https://anjalorenz.wordpress.com/tag/xmooc/" class="tag-cloud-link tag-link-109391277 tag-link-position-74" style="font-size: 10.377358490566pt;" aria-label="xMOOC (2 items)">xMOOC</a>
+<a href="https://anjalorenz.wordpress.com/tag/zittau/" class="tag-cloud-link tag-link-666789 tag-link-position-75" style="font-size: 8pt;" aria-label="Zittau (1 item)">Zittau</a></div></aside><aside id="archives-4" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href="https://anjalorenz.wordpress.com/2015/03/">March 2015</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2015/02/">February 2015</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2015/01/">January 2015</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/10/">October 2014</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/09/">September 2014</a>&nbsp;(6)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/08/">August 2014</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/07/">July 2014</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/06/">June 2014</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/05/">May 2014</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/04/">April 2014</a>&nbsp;(4)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/03/">March 2014</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/02/">February 2014</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2014/01/">January 2014</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/12/">December 2013</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/11/">November 2013</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/10/">October 2013</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/09/">September 2013</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/08/">August 2013</a>&nbsp;(5)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/07/">July 2013</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/06/">June 2013</a>&nbsp;(5)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/05/">May 2013</a>&nbsp;(6)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/04/">April 2013</a>&nbsp;(4)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/03/">March 2013</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/02/">February 2013</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2013/01/">January 2013</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/12/">December 2012</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/11/">November 2012</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/10/">October 2012</a>&nbsp;(4)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/09/">September 2012</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/07/">July 2012</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/06/">June 2012</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/05/">May 2012</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/04/">April 2012</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/03/">March 2012</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2012/02/">February 2012</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/11/">November 2011</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/06/">June 2011</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/05/">May 2011</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/04/">April 2011</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/03/">March 2011</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/02/">February 2011</a>&nbsp;(1)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2011/01/">January 2011</a>&nbsp;(3)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2010/10/">October 2010</a>&nbsp;(2)</li>
+	<li><a href="https://anjalorenz.wordpress.com/2010/09/">September 2010</a>&nbsp;(2)</li>
+		</ul>
+		</aside><aside id="rss_links-4" class="widget widget_rss_links"><p class="size-small"><a class="feed-image-link" href="https://anjalorenz.wordpress.com/feed/" title="Subscribe to Posts"><img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/blue-small.png" alt="RSS Feed"></a>&nbsp;<a href="https://anjalorenz.wordpress.com/feed/" title="Subscribe to Posts">RSS - Posts</a></p><p class="size-small"><a class="feed-image-link" href="https://anjalorenz.wordpress.com/comments/feed/" title="Subscribe to Comments"><img src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/blue-small.png" alt="RSS Feed"></a>&nbsp;<a href="https://anjalorenz.wordpress.com/comments/feed/" title="Subscribe to Comments">RSS - Comments</a></p>
+</aside>
+					</div><!-- #secondary .widget-area -->
+	</div><!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- .site-footer .site-footer -->
+</div><!-- #page .hfeed .site -->
+
+<!--  -->
+<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/wpgroho.js"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-2d709f52599dae3854bcc55f3c9b41dc">
+	</div>
+	<div class="grofile-hash-map-4a1303058a9b5a93cdc82e5e343cc951">
+	</div>
+	<div class="grofile-hash-map-2d709f52599dae3854bcc55f3c9b41dc">
+	</div>
+	<div class="grofile-hash-map-6aea20ec8d728b77e99d691db7ad9afe">
+	</div>
+	<div class="grofile-hash-map-debc54b7768932e0dcc0dc81d2291ff2">
+	</div>
+	<div class="grofile-hash-map-caf0b0119f1d2eaaa5c4cfbd5083c5e7">
+	</div>
+	<div class="grofile-hash-map-dc1d2650eef6c82fb111c47168024932">
+	</div>
+	<div class="grofile-hash-map-82606f9f839dfade1c06f9cb735f3601">
+	</div>
+	<div class="grofile-hash-map-a6444c577612f7250187aa387e57d598">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging 
+In\u2026","submittingText":"Posting 
+Comment\u2026","postCommentText":"Post 
+Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s:
+ You are commenting using your %2$s account.","logoutText":"Log 
+Out","loginText":"Log 
+In","connectURL":"https:\/\/anjalorenz.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/anjalorenz.wordpress.com\/wp-login.php?action=logout&_wpnonce=1065baccb2","homeURL":"https:\/\/anjalorenz.wordpress.com\/","postID":"314","gravDefault":"mystery","enterACommentError":"Please
+ enter a comment","enterEmailError":"Please enter your email address 
+here","invalidEmailError":"Invalid email 
+address","enterAuthorError":"Please enter your name 
+here","gravatarFromEmail":"This picture will show whenever you leave a 
+comment. Click to customize it.","logInToExternalAccount":"Log in to use
+ details from one of these 
+accounts.","change":"Change","changeAccount":"Change 
+Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"","text_direction":"ltr"};
+/*
+ ]]> */
+</script>
+<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a.js"></script>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/anjalorenz.wordpress.com\/2012\/02\/14\/biblatex-kurz-im-ueberblick\/":314};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+			
+					<script type="text/javascript">
+				jQuery(document).on('ready', function(){
+					jQuery('body').on('click', 'a.share-pinterest', function(e){
+						e.preventDefault();
+						// Load Pinterest Bookmarklet code
+						var s = document.createElement("script");
+						s.type = "text/javascript";
+						s.src = window.location.protocol + "//assets.pinterest.com/js/pinmarklet.js?r=" + ( Math.random() * 99999999 );
+						var x = document.getElementsByTagName("script")[0];
+						x.parentNode.insertBefore(s, x);
+						// Trigger Stats
+						var s = document.createElement("script");
+						s.type = "text/javascript";
+						s.src = this + ( this.toString().indexOf( '?' ) ? '&' : '?' ) + 'js_only=1';
+						var x = document.getElementsByTagName("script")[0];
+						x.parentNode.insertBefore(s, x);
+					});
+				});
+			</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-tumblr' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+		<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"15838844","siteName":"Anjas 
+Blog","siteURL":"http:\/\/anjalorenz.wordpress.com","icon":"<img alt='' 
+src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar 
+avatar-50' height='50' width='50' 
+\/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/sundance","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/anjalorenz.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F","themeURL":"","xhrURL":"https:\/\/anjalorenz.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"850ecf371d","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input
+ type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"8553fb754c\" 
+\/>","referer":"https:\/\/anjalorenz.wordpress.com\/2012\/02\/14\/biblatex-kurz-im-ueberblick\/","canFollow":"1","feedID":"272336","statusMessage":"","customizeLink":"https:\/\/anjalorenz.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F","postID":"314","shortlink":"https:\/\/wp.me\/p14spe-54","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/anjalorenz.wordpress.com\/314","statsLink":"https:\/\/wordpress.com\/stats\/post\/314\/anjalorenz.wordpress.com","i18n":{"view":"View
+ 
+site","follow":"Follow","following":"Following","edit":"Edit","login":"Log
+ in","signup":"Sign up","customize":"Customize","report":"Report this 
+content","themeInfo":"Get theme: Sundance","shortlink":"Copy 
+shortlink","copied":"Copied","followedText":"New posts from this site 
+will now appear in your <a 
+href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this
+ bar","unfoldBar":"Expand this bar","editSubs":"Manage 
+subscriptions","viewReader":"View site in Reader","viewReadPost":"View 
+post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email 
+address","followers":"Join 1,256 other followers","alreadyUser":"Already
+ have a WordPress.com account? <a 
+href=\"https:\/\/anjalorenz.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F\">Log
+ in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/a_002.js"></script><div id="actionbar" class="actnbr-pub-sundance actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename actnbr-hidden"><a href="http://anjalorenz.wordpress.com/"><img alt="" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/wpcom-gray-white.png" class="avatar avatar-50" width="50" height="50"> Anjas Blog</a></li> 				   	<li class="actnbr-folded-customize actnbr-hidden"><a href="https://anjalorenz.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow actnbr-hidden"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 					<li class="actnbr-signup actnbr-hidden"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login actnbr-hidden"><a href="https://anjalorenz.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fanjalorenz.wordpress.com%2F2012%2F02%2F14%2Fbiblatex-kurz-im-ueberblick%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink actnbr-hidden"><a href="https://wp.me/p14spe-54">Copy shortlink</a></li> 				    <li class="flb-report actnbr-hidden"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs actnbr-hidden"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold actnbr-hidden"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "anjalorenz.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="defer" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/725X1342.js"></script>		<iframe src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/master.htm" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+<script src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/w.js" type="text/javascript" async="" defer="defer"></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', 
+{'blog_id':'15838844','blog_tz':'1','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view',
+ 
+{'blog':'15838844','v':'wpcom','tz':'1','user_id':'0','post':'314','subd':'anjalorenz'}]);
+_stq.push(['extra',
+ 
+{'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRUmpicH5qamxuMVpfXWd0NVZ0eGM2UlVnRCxpaj04dXhXJlhRXSsxcFlSNEJsVnd0cHFFcVVYbGw/VS9sK3MzLkpFbmpOY3REQ3FsK1dGNVJCcV8mLDNyR0V3R25vVWF4WXJLfnhIPzFSVVIrcV9rYkgsZVBXJVc3VXVdVSxpX2hnX2t2JmtWZWZUQUZYfE5LVmR8LUFZNm9vYVNYVG4xOUd2LXd0W3hNRzAvUDA9S1BkJU49SmxPczNQYmsufkg2WjFBLjF8Ymc0dy1xJSVxOE58Tl1yPURpVFgreG80V3hZdz81Yg=='}]);
+_stq.push([
+ 'clickTrackerInit', '15838844', '314' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + 
+wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + 
+wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + 
+'//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba='
+ + Math.random();
+	}
+	
+}
+</script>
+
+
+
+<div id="sharing_email" style="display: none;">
+		<form action="/2012/02/14/biblatex-kurz-im-ueberblick/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input name="target_email" id="target_email" type="email">
+
+			
+				<label for="source_name">Your Name</label>
+				<input name="source_name" id="source_name" type="text">
+
+				<label for="source_email">Your Email Address</label>
+				<input name="source_email" id="source_email" type="email">
+
+						<input id="jetpack-source_f_name" name="source_f_name" class="input" size="25" autocomplete="off" type="text">
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			<div class="recaptcha" id="sharing_recaptcha"></div><input name="recaptcha_public_key" id="recaptcha_public_key" value="6LcYW8MSAAAAADBAuEH9yaPcF7lWh11Iq62ZKtoo" type="hidden">
+			<img style="float: right; display: none" class="loading" src="BibLaTeX%20kurz%20im%20%C3%9Cberblick%20_%20Anjas%20Blog-Dateien/loading.gif" alt="loading" width="16" height="16">
+			<input value="Send Email" class="sharing_send" type="submit">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div></body></html>
+<!--
+	generated in 0.185 seconds
+	102376 bytes batcached for 300 seconds
+-->
