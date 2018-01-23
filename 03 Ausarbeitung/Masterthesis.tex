@@ -11,8 +11,8 @@
 \usepackage{fancyhdr}
 \usepackage[bottom,hang]{footmisc}
 \usepackage{tabularx}
-% Paket für Zeilenabstand
-\usepackage{setspace}
+\usepackage{setspace} % Paket für Zeilenabstand
+\usepackage{acronym} % Paket für Abkürzungsverzeichnis
 
 %\setlength{\textwidth}{14cm}
 %\setlength{\textheight}{25.5cm}
@@ -83,9 +83,16 @@ Betreuer Firma: \> Dr. Jan Bischof
 
 Kurzfassung Inhalt äöü ÄÖÜ \cite[S. 15]{Freund2014}
 
-%===================================================================== Inhaltsverzeichnis
-\tableofcontents
-\newpage
+%===================================================================== Verzeichnisse
+\tableofcontents %Inhaltsverzeichnis
+\listoffigures %Abbildungsverzeichnis
+\listoftables %Tabellenverzeichnis
+\chapter*{Abkürzungsverzeichnis} %  *-> erstellt unnummeriertes chapter
+\begin{acronym}[XXXXX] %Option in eckigen Klammern ist längste Abkürzung
+ \acro{BPM}{Business Process Management}
+ \acro{BPMN}{Business Process Model and Notation}
+ \acro{PMS}{Post Market Surveillance}
+\end{acronym}
 
 %===================================================================== Einleitung
 \chapter{Einleitung}\label{chap:Einleitung}
@@ -137,6 +144,7 @@ Unternehmen müssen sich in Zeiten von Globalisierung auf ihre Kernkompetenzen k
 %\subsection{}\label{subsec:}
 %\subsubsection{Requirements Engineering}  -- besitzt keine Nummerierung und taucht nicht im toc auf
 %\cite[S. X]{<reference>}
+%\ac{KDE} % K Desktop Environment (KDE)
 
 %===================================================================== Literaturverz.
 \bibliography{literatur}
