@@ -17,11 +17,40 @@
 }
 
 @Book{Becker2009,
-  title     = {Geschäftsprozessmanagement - Test},
+  title     = {Geschäftsprozessmanagement},
   publisher = {Springer-Verlag},
   year      = {2009},
   author    = {Becker, Jörg AND Mathas, Christoph AND Winkelmann, Axel},
   address   = {Berlin, Heidelberg, New York},
+}
+
+@Book{Jacka2009,
+  title     = {Business Process Mapping - Improving Customer Satisfaction},
+  publisher = {John Wiley \& Sons},
+  year      = {2009},
+  author    = {Jacka, J. Mike AND Keller, Paulette J.},
+  address   = {New York},
+}
+
+@Misc{Appian,
+  author       = {Appian},
+  title        = {Process Mapping Versus Process Modeling},
+  howpublished = {URL: \url{https://www.appian.com/bpm/process-mapping-versus-process-modeling/} (Abruf vom 26.01.2018)},
+  year         = {o.D.},
+}
+
+@Misc{Smartdraw,
+  author       = {Smartdraw},
+  title        = {Business Process Map},
+  howpublished = {URL: \url{https://www.smartdraw.com/business-process-mapping/} (Abruf vom 23.01.2018)},
+  year         = {o.D.},
+}
+
+@Book{Eabpm2009,
+  title     = {Business Process Management Common Body of Knowledge - BPM CBOK},
+  publisher = {Schmidt (Götz)},
+  year      = {2009},
+  author    = {{European Association of BPM}},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
