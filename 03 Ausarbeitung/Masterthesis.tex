@@ -127,7 +127,7 @@ Mit Hilfe von \ac{BPM} ist es Unternehmen möglich ihre Prozesse zu optimieren, 
 Eines der wichtigsten Grundprinzipien von \ac{BPM} ist die permanente Überwachung und Anpassung der Prozesse \citep[S. 11f.]{Brocke2014}. Wie in Abbildung \ref{process_management_cycle} ersichtlich ist, kann das Standardvorgehen bei \ac{BPM} durch einen geschlossenen Zyklus dargestellt werden, in dessen Verlauf ein Prozess ständig analysiert und auf Abweichungen von den Zielen überprüft wird, um entsprechende Änderungen einzuleiten.
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.8\textwidth]{Images/process_management_cycle}
+\includegraphics[width=0.8\textwidth]{Images/process_management_cycle.pdf}
 \caption[Essentieller Zyklus der Geschäftsprozessmodellierung]{Essentieller Zyklus der Geschäftsprozessmodellierung \citep[S. 5]{Brocke2014}}
 \label{process_management_cycle}
 \end{figure}
@@ -142,6 +142,34 @@ Prinzipiell besitzt auch Process Modeling ähnliche Vorteile, wie die bereits f�
 Wie in den vorigen Abschnitten erwähnt wurde, nimmt die Visualisierung von Geschäftsprozessen einen wichtigen Standpunkt ein. \ac{BPMN} wird neben anderen Modellierungssprachen wie YAWL, EPK, Petrinetze, UML speziell im Rahmen des Business Process Modeling verwendet \cite[vgl.][S. 9]{Kossak2014}. Mit der ersten veröffentlichen Version im Jahre 2004 durch die \ac{BPMI} gilt BPMN als einer der jüngeren Vertreter der Prozessmodellierungssprachen. 2005 wurde die \ac{BPMI} durch die \ac{OMG} übernommen, die sich in der IT-Welt bereits durch die Entwicklung und Wartung von UML einen Namen gemacht hat. In der Folge wurde der Standard weiterentwickelt, bis er 2011 in der aktuellsten Version 2.0 verabschiedet werden konnte \citep[vgl.][S. 8f.]{Freund2014}. Die Aufnahme in den ISO 19510:2013 Standard und nicht zuletzt die Pflege der Sprache durch die OMG haben den Stellenwert der BPMN in der Vergangenheit stärken können und ihren Einfluss vergrößert \cite[vgl.][S.10f.]{Kossak2014}. Zudem scheint speziell im Vergleich mit anderen Modellierungssprachen der Fokus und der Blickwinkel der Sprache bei der Modellierung industrieller Prozesse am besten den Forderungen der Unternehmen zu entsprechen \cite[vgl.][S.16]{Kossak2014}. Der Vorteil liegt hier darin, dass BPMN eine angenehme Lösung für den Zielkonflikt zwischen Verständlichkeit für alle Betrachter und notwendiger Komplexität zur Modellierung detaillierter Zusammenhänge darstellt \citep[vgl.][S. 11f.]{Freund2014}.
 
 Obwohl auch BPMN nicht fehlerfrei ist und der Standard teilweise Definitionslücken und Inkonsistenzen aufweist sowie fehlende Standardisierung bei den erstellten Modellen zu Inkompatibilitäten zwischen den verschiedenen Tools führt, erscheint es durchaus wahrscheinlich, dass sich diese Modellierungssprache in naher Zukunft als de facto Standard etablieren wird \cite[vgl.][S.161]{Kossak2014}.
+
+Zur Unterstützung beim Verständnis der folgenden Kapitel folgt ein kurzer Überblick zu den Modellierungselementen und Konzepten von \ac{BPMN} 2.0. Der Standard, der auch die Grundlage für die folgenden Ausführungen bildet, wird von der \ac{OMG} in \citep{OMG2011} definiert.
+
+\subsubsection{Elemente der Modellierung}\label{subsubsec:BPMNElemente}
+
+Mit dem Fokus auf Einfachheit und Nachvollziehbarkeit werden die Elemente in \ac{BPMN} in die folgenden fünf Gruppen unterteilt:
+\begin{enumerate}
+\item Flussobjekte
+\item Verbindende Objekte
+\item Artefakte
+\item Teilnehmer (Pools und Lanes)
+\item Daten
+\end{enumerate}
+Ihre grafische Darstellung ist in Abbildung \ref{bpmn_basic_elements} zu sehen. Über eine Art visueller Notation in Gruppen ist es möglich, die Klasse oder Funktionalität von Elementen aufgrund ihrer Form einzuschätzen. Beispielsweise werden Ereignisse immer in Form eines Kreises dargestellt, wobei auch die Größendimension der verschiedenen Objekte gleich ist.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Images/bpmn_basic_elements}
+\caption[Die Basiselemente der BPMN 2.0]{Die Basiselemente der BPMN 2.0 \citep[S. 23]{Freund2014}}
+\label{bpmn_basic_elements}
+\end{figure}
+
+Flussobjekte stellen die Kernelemente der Visualisierung dar und beschreiben das Verhalten des Geschäftsprozesses. Dazu unterteilen sich Flussobjekte in Aktivitäten, Ereignisse und Gateways \citep[vgl.][S. 29]{Laliwala2014}. Aktivitäten und Ereignisse erklären sich über ihren Namen sehr gut von allein und stehen somit stellvertretend für durchgeführte Aktionen (Aktivitäten) oder eintretende Ereignisse oder "`Dinge", 'die passieren können. Gateways wiederum stellen bedingte Verzweigungen dar und sind somit essentiell für komplexere Abläufe \citep[vgl.][S. 23]{Freund2014}.
+
+Über den Sequenzfluss wird festgelegt, welche Elemente miteinander verbunden werden und in welcher Reihenfolge (angezeigt durch die Pfeilrichtung) die Elemente abgearbeitet werden. Diese Form des Prozessflusses findet allerdings nur innerhalb eines Pools oder einer Lane statt, weswegen für poolübergreifende Interaktionen Nachrichtenflüsse notwendig sind. Generell werden mit Pools und Lanes verschiedene Rollen, Personen oder andere Entitäten unterschieden und einzelne Elemente durch ihre Position innerhalb einer Lane oder eines Pools den entsprechenden Entitäten zugewiesen. Artefakte sollen zusätzliche Hinweise zum Prozess geben, ohne seine konkrete Ausführung zu verändern. Zur Verbindung von Artefakten mit anderen Objekten werden Assoziationen verwendet. Datenobjekte lassen darauf schließen, welche Daten im Laufe eines Prozesses entstehen oder verwendet werden und lassen sich ebenfalls über Assoziation mit Aktivitäten verknüpfen \citep[vgl.][S. 23f.]{Freund2014}. 
+\subsubsection{Modellierungskonzept}\label{subsubsec:BPMNKonzept}
+Token, Korrelation
+\subsubsection{Beispiel}\label{subsubsec:BPMNBeispiel}
+
 \section{Regulatorische Anforderungen für Medizingeräte}\label{sec:RegRequ}
 
 \subsection{Gründe und Bedeutung der Regulierung für Medizinprodukte}\label{subsec:Gruende}
