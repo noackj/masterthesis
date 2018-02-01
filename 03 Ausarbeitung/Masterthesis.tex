@@ -95,6 +95,7 @@ Kurzfassung
  \acro{BPMI}{Business Process Management Initiative}
  \acro{BPMN}{Business Process Model and Notation}
  \acro{EPK}{Ereignisgesteuerte Prozesskette}
+ \acro{GHTF}{Global Harmonizatino Task Force}
  \acro{IT}{Informationstechnik}
  \acro{OMG}{Object Management Group}
  \acro{PMS}{Post Market Surveillance}
@@ -186,7 +187,26 @@ Das Startereignis liegt beim Konsumenten der Pizza, der Hunger auf eine Pizza ve
 Auf der Seite des Pizzaverkäufers signalisiert der Erhalt der Nachricht für die Bestellung den Start. An dieser Stelle wird folglich das Token generiert und läuft in das parallele Gateway. Im parallelen Gateway wird das Token vervielfältigt und es startet auf jeder aus dem Gateway laufenden Prozesslinie ein Token. Eines der Token ist für die Beantwortung der Nachfragen des Kunden zuständig und wartet auf die entsprechende Nachricht, um den Kunden anschließend zu beruhigen. Das zweite Token läuft zum Pizzachef, der die bestellt Pizza bäckt. Danach wird der Prozess beim Botenjungen fortgesetzt, der die Pizza ausliefert und die Bezahlung erhält. Am Ende des Prozesses des Pizzaverkäufers gibt es mit dem Terminierungsereignis noch eine Besonderheit. In diesem Fall reicht ein normales Abschlussereignis nicht aus, da der Prozess ansonsten nie enden würde. Der Grund liegt in dem Zweig, der sich um die Kundennachfragen kümmert. Das Token, das aus dem parallelen Gateway in diese Schleife gestartet ist, kann niemals konsumiert werden, da es selbst nach Auslieferung der Pizza noch auf Nachfragen des Kunden warten würde. Aus diesem Grund wird mit Hilfe des Terminierungsereignisses der gesamte Prozess beendet und alle noch aktiven Token sofort gelöscht.
 
 \section{Regulatorische Anforderungen für Medizingeräte}\label{sec:RegRequ}
+Der Markt für Medizinprodukte gehört zu den stark reglementierten Märkten, in dem Unternehmen speziellen Anforderungen unterliegen. Prinzipiell ist dieses Thema sehr vielschichtig, da die Normen ein recht komplexes Gebilde erstellen, weswegen an dieser Stelle nur eine kurze Zusammenfassung mit eher oberflächlichen Betrachtungen, die für das Verständnis der folgenden Kapitel aber essentielle sind, gegeben werden kann.
 
+Besonders wichtig und interessant ist hierbei die Frage wo die Grenzen dieses Marktes sind und welche Unternehmen und Produkte tatsächlich betroffen sind. Dazu finden sich in der Regel in den Normen und Standards entsprechende Definitionen, die eine Abgrenzung ermöglichen. Folgend ist ein Beispiel der \ac{GHTF} gegeben, welches den Begriff "`medizinisches Gerät (Medical Device)"' erläutert \citep[][S. 6]{GHTF2012}.
+\begin{quote}
+"`Medical device"' means any instrument, apparatus, implement, machine, appliance, implant, reagent for in vitro use, software, material or other similar or related article, intended by the manufacturer to be used, alone or in combination, for human beings, for one or more of the specific medical purpose(s) of:
+\begin{itemize}
+\item diagnosis, prevention, monitoring, treatment or alleviation of disease,
+\item diagnosis, monitoring, treatment, alleviation of or compensation for an injury,
+\item investigation, replacement, modification, or support of the anatomy or of a physiological process,
+\item supporting or sustaining life,
+\item control of conception,
+\item disinfection of medical devices,
+\item providing information by means of in vitro examination of specimens derived from the human body;
+\end{itemize}
+and does not achieve its primary intended action by pharmacological, immunological or metabolic means, in or on the human body, but which may be assisted in its intended function by such means.
+\end{quote}
+
+Aus dieser Definition leitet sich für medizinische Geräte eine besondere Verbindung zur Gesundheit des Patienten ab, was einen wesentlichen Unterschied zu anderen Märkten darstellt. Während beispielsweise auf dem Markt für Consumer Electronics die Funktionalität im Fokus des Anwenders und Kunden steht, ist es auf dem Markt für Medizintechnik die Sicherheit des Patienten, die genauso wichtig ist, wie der Kundennutzen beziehungsweise zusammen mit dem Risiko in einem angemessenen Verhältnis stehen muss. Oberstes Anliegen für eine Unternehmung ist jedoch bekanntermaßen in der Regel die Gewinnmaximierung, weswegen hier der Gesetzgeber eine wichtige Rolle übernimmt und die notwendige Sicherheit der Produkte einfordert. Das Ergebnis davon sind Standards und Normen, die vor der Markteinführung eines neuen Produktes erfüllt werden müssen \citep[vgl.][S. 3]{Higson2002}. Als Standard wird eine vereinbarte, wiederholbare Vorgehensweise bezeichnet, die durch ein Dokument festgelegt wird, das durch die Arbeit und Abstimmung eines verantwortlichen Ausschusses erarbeitet wird. Enthalten ist in der Regel eine technische Spezifikation oder andere präzise Kriterien, die als Regel, Richtlinie oder Definition fungieren.\citep[vgl.][S. 125-143]{Wong2013}.
+
+Der Einsatz von Normen und Standards in der Medizintechnik ist kein neues Vorgehen, sondern hat sich über die letzten Jahrzehnte etablieren können. Die erste Anforderung zum Einsatz eines Qualitätsmanagementsystems wurde bereits 1976 in den USA eingeführt \citep[vgl.][S. 5]{Higson2002}.
 \subsection{Gründe und Bedeutung der Regulierung für Medizinprodukte}\label{subsec:Gruende}
 \subsection{Überblick über die wichtigsten Normen}\label{subsec:UeberblickNormen}
 \subsection{Auswirkungen auf die Entwicklung und den Produktlebenszyklus}\label{subsec:AuswirkungenAufEntwicklung}
