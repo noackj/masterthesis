@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export regulativ_structure_eu.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.5183in" height="4.9435in"
+		viewBox="0 0 469.318 355.932" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1031" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-width:0.25}
+		.st2 {fill:#7f7f7f;font-family:Arial;font-size:1.5em}
+		.st3 {marker-end:url(#mrkr4-21);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st5 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st6 {fill:#000000;font-family:Arial;font-size:0.666664em}
+		.st7 {font-size:1em}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-21" class="st4" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Zeichenblatt-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Verbinder" v:index="0"/>
+		<g id="shape16-1" v:mID="16" v:groupContext="shape" transform="translate(110.91,-295.162)">
+			<title>Rechteck</title>
+			<desc>Europäische Kommission</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="134.646" cy="334.672" width="269.3" height="42.5197"/>
+			<rect x="0" y="313.412" width="269.291" height="42.5197" class="st1"/>
+			<text x="33.1" y="340.07" class="st2" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Europäische Kommission</text>		</g>
+		<g id="shape20-4" v:mID="20" v:groupContext="shape" transform="translate(139.257,-210.123)">
+			<title>Rechteck.20</title>
+			<desc>Staatliche Behörde(n)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="334.672" width="212.6" height="42.5197"/>
+			<rect x="0" y="313.412" width="212.598" height="42.5197" class="st1"/>
+			<text x="19.25" y="340.07" class="st2" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Staatliche Behörde(n)</text>		</g>
+		<g id="shape23-7" v:mID="23" v:groupContext="shape" transform="translate(139.257,-125.084)">
+			<title>Rechteck.23</title>
+			<desc>Benannte Stelle</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="334.672" width="212.6" height="42.5197"/>
+			<rect x="0" y="313.412" width="212.598" height="42.5197" class="st1"/>
+			<text x="42.75" y="340.07" class="st2" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Benannte Stelle</text>		</g>
+		<g id="shape24-10" v:mID="24" v:groupContext="shape" transform="translate(25.871,-40.0442)">
+			<title>Rechteck.24</title>
+			<desc>Produkt</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="334.672" width="212.6" height="42.5197"/>
+			<rect x="0" y="313.412" width="212.598" height="42.5197" class="st1"/>
+			<text x="75.28" y="340.07" class="st2" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Produkt</text>		</g>
+		<g id="shape25-13" v:mID="25" v:groupContext="shape" transform="translate(238.469,-40.0442)">
+			<title>Rechteck.25</title>
+			<desc>Hersteller</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.299" cy="334.672" width="212.6" height="42.5197"/>
+			<rect x="0" y="313.412" width="212.598" height="42.5197" class="st1"/>
+			<text x="67.79" y="340.07" class="st2" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Hersteller</text>		</g>
+		<g id="shape29-16" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(188.863,-252.643)">
+			<title>Dynamischer Verbinder</title>
+			<desc>informiert</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-14.1732" cy="334.672" width="43.57" height="17.6036"/>
+			<path d="M7.09 355.93 L7.09 320.45" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-30.8431" y="329.872" width="33.3397" height="9.59985" class="st5"/>
+			<text x="-30.84" y="337.07" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>informiert</text>		</g>
+		<g id="shape32-24" v:mID="32" v:groupContext="shape" v:layerMember="0" transform="translate(288.076,-295.162)">
+			<title>Dynamischer Verbinder.32</title>
+			<desc>macht Vorgaben für</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.7717" cy="377.192" width="80.49" height="17.6036"/>
+			<path d="M7.09 355.93 L7.09 391.41" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="11.6411" y="372.392" width="70.2611" height="9.59985" class="st5"/>
+			<text x="11.64" y="379.59" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>macht Vorgaben für</text>		</g>
+		<g id="shape33-31" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(238.469,-210.123)">
+			<title>Dynamischer Verbinder.33</title>
+			<desc>lässt zu und kontrolliert</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="377.192" width="92.05" height="17.6036"/>
+			<path d="M7.09 355.93 L7.09 391.41" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="15.7849" y="372.392" width="81.816" height="9.59985" class="st5"/>
+			<text x="15.78" y="379.59" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>lässt zu und kontrolliert</text>		</g>
+		<g id="shape34-38" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(280.989,-125.084)">
+			<title>Dynamischer Verbinder.34</title>
+			<desc>überwacht ggf.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-14.1732" cy="377.192" width="62.71" height="17.6036"/>
+			<path d="M0 355.93 L37.54 393.47" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-40.4114" y="372.392" width="52.4762" height="9.59985" class="st5"/>
+			<text x="-40.41" y="379.59" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>überwacht ggf.</text>		</g>
+		<g id="shape35-45" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(366.028,-82.5639)">
+			<title>Dynamischer Verbinder.35</title>
+			<desc>benötigt ggf.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="0" cy="323.617" width="54.27" height="17.6036"/>
+			<path d="M0 355.93 L-37.54 318.39" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-22.0172" y="318.817" width="44.0343" height="9.59985" class="st5"/>
+			<text x="-22.02" y="326.02" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>benötigt ggf.</text>		</g>
+		<g id="shape36-52" v:mID="36" v:groupContext="shape" v:layerMember="0" transform="translate(195.95,-125.084)">
+			<title>Dynamischer Verbinder.36</title>
+			<desc>prüft ggf.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-35.4331" cy="367.271" width="41.8" height="17.6036"/>
+			<path d="M0 355.93 L-37.54 393.47" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-51.2199" y="362.471" width="31.5736" height="9.59985" class="st5"/>
+			<text x="-51.22" y="369.67" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>prüft ggf.</text>		</g>
+		<g id="shape37-59" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(280.989,-54.2174)">
+			<title>Dynamischer Verbinder.37</title>
+			<desc>ist verant- wortlich für</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-49.6063" cy="334.672" width="48.91" height="27.2035"/>
+			<path d="M0 348.85 L-92.17 348.85" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-68.9442" y="325.072" width="38.6757" height="19.1997" class="st5"/>
+			<text x="-67.17" y="332.27" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>ist verant-<v:newlineChar/><tspan
+						x="-68.94" dy="1.2em" class="st7">wortlich für</tspan></text>		</g>
+		<g id="shape39-67" v:mID="39" v:groupContext="shape" v:layerMember="0" transform="translate(351.855,-231.383)">
+			<title>Dynamischer Verbinder.39</title>
+			<desc>hat Rechtskraft über</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="348.845" width="82.27" height="17.6036"/>
+			<path d="M0 355.93 L85.04 355.93 L85.04 526.01 L63.73 526.01" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="3.66757" y="344.046" width="72.0349" height="9.59985" class="st5"/>
+			<text x="3.67" y="351.25" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>hat Rechtskraft über</text>		</g>
+		<g id="shape40-74" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(89.6505,-61.304)">
+			<title>Dynamischer Verbinder.40</title>
+			<desc>wird gemeldet an</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-28.3465" cy="348.845" width="71.15" height="17.6036"/>
+			<path d="M0 355.93 L-63.78 355.93 L-63.78 185.85 L8.27 185.85 A2.3622 2.3622 0 0 1 12.99 185.85 L42.57 185.85"
+					class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-58.8072" y="344.046" width="60.9214" height="9.59985" class="st5"/>
+			<text x="-58.81" y="351.25" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>wird gemeldet an</text>		</g>
+		<g id="shape41-81" v:mID="41" v:groupContext="shape" v:layerMember="0" transform="translate(344.769,-40.0442)">
+			<title>Dynamischer Verbinder.41</title>
+			<desc>meldet seine Tätigkeit an</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-49.6063" cy="360.184" width="99.17" height="17.6036"/>
+			<path d="M0 355.93 L0 370.11 L-318.9 370.11 L-318.9 164.59 L-246.85 164.59 A2.3622 2.3622 0 1 1 -242.13 164.59 L-212.55
+						 164.59" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-94.0746" y="355.384" width="88.9365" height="9.59985" class="st5"/>
+			<text x="-94.07" y="362.58" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>meldet seine Tätigkeit an</text>		</g>
+		<g id="shape42-88" v:mID="42" v:groupContext="shape" v:layerMember="0" transform="translate(125.084,-316.422)">
+			<title>Dynamischer Verbinder.42</title>
+			<desc>vergibt Kenn- nummer an veröffentlicht Liste mit</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="501.916" width="57.81" height="46.4035"/>
+			<path d="M0 355.93 L-24.8 355.93 L-24.8 526.01 L28.39 526.01" class="st3"/>
+			<rect v:rectContext="textBkgnd" x="-16.7043" y="482.717" width="47.5818" height="38.3997" class="st5"/>
+			<text x="-16.7" y="489.92" class="st6" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>vergibt Kenn-<v:newlineChar/><tspan
+						x="-13.14" dy="1.2em" class="st7">nummer an<v:newlineChar/></tspan><tspan x="-15.59" dy="1.2em" class="st7">veröffentlicht<v:newlineChar/></tspan><tspan
+						x="-7.81" dy="1.2em" class="st7">Liste mit</tspan></text>		</g>
+	</g>
+</svg>
