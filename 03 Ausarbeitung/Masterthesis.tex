@@ -95,6 +95,7 @@ Kurzfassung
  \acro{BPMI}{Business Process Management Initiative}
  \acro{BPMN}{Business Process Model and Notation}
  \acro{EPK}{Ereignisgesteuerte Prozesskette}
+ \acro{FSCA}{Field Safety Corrective Action}
  \acro{GHTF}{Global Harmonizatino Task Force}
  \acro{IMDRF}{International Medical Device Regulators Forum}
  \acro{ISO}{International Organization for Standardization}
@@ -111,7 +112,7 @@ Kurzfassung
 \chapter{Einleitung}\label{chap:Einleitung}
 Rückwirkung auf die Entwicklung der Geräte (Produktion bleibt außen vor) schwerpunktmäßig betrachten 
 
-%===================================================================== Cahpter 2
+%===================================================================== Chapter 2
 \chapter{Grundlagen}\label{chap:Grundlagen}
 In diesem Kapitel werden wichtige Grundlagen für das Verständnis der Zusammenhänge und die Einordnung der Bedeutung der folgenden Kapitel vermittelt. Dazu wird zunächst das Themenfeld der Geschäftsprozessmodellierung grob beleuchtet, wobei mit BPMN 2.0 eine Modellierungssprache vorgestellt wird, die für die Visualisierung und Modellierung von Geschäftsprozessen im Rahmen dieser Arbeit verwendet wird. Anschließend wird der regulatorische Rahmen auf dem Medizinproduktemarkt sowie die dort vorherrschenden Anforderungen an die Qualitätsprozesse nach der Markteinführung vorgestellt.
 
@@ -329,9 +330,86 @@ Das \ac{PLM} stellt den Geschäftsprozess dar, der die Produkte eines Hersteller
 
 In Bezug auf Datenmanagement besitzen Informationsflüsse einen speziellen Stellenwert. Häufig sind Informationsflüsse im Anschluss an die Produktauslieferung zum Hersteller nahezu abgeschnitten, wodurch wichtige Informationen aus dem Service und der Wartung verloren gehen und nicht in die Entwicklung und Produktion eingepflegt werden \citep[vgl.][S. 16f.]{Jun2012}. Dieses Vorgehen ist in der Medizintechnik jedoch nicht akzeptabel, da durch die regulativen Anforderungen speziell dieser Informationsfluss in Verbindung mit dem Änderungswesen einen sehr hohen Stellenwert besitzt.
 \section{Qualitätsprozesse nach Markteinführung medizinischer Geräte}\label{sec:PMProzesse}
-\subsection{Vigilance System}\label{subsec:Vigilance}
+- QMS soll generell Qualität sicherstellen; QMS beeinflusst alle Phasen die den Lebenszyklus eines Produktes betreffen --> dazu gehören auch Aktivitäten nach Markteinführung\citep[vgl.][S. 13]{Cheng2003}
+- dabei prägen sich die Prozesse in korrigierende und präventive Maßnahmen aus \citep[vgl.][S. 338-350]{Abuhav2012}
+
+- Besonderheit bei Medizinprodukten ist die Sorgfaltspflicht der Hersteller, dass kein Patient zu Schaden kommen soll
+- Deswegen ist Entwicklung und auf den Markt bringen die eine Sache, aber danach gibt es für die Hersteller neben den üblichen Anforderungen an Support, die für Hersteller aller Branchen gelten kritische Pflichten, die die Sicherheit für die Patienten sicherstellen soll
+- Hauptvorteil dafür QMS zu bemühen liegt im präventiven Charakter, der wesentliche Effizienvorteile gegenüber reaktiven Ansätzen der Kontrollen am Ende der Fertigungslinie aufweist\citep[vgl.][S. 14]{Cheng2003}
+
+- ISO 13485:2016, ISO 14971:2012, von FDA gibt es separates Guidance Dokument, MDR stellt auch Forderungen \citep[vgl.][]{Johner2017}
+- vor allem in Europa war zuletzt die Gesetzeslage in diesem Kontext nicht zufriedenstellend vor der Verabschiedung der MDR, da fehlende Transparenz und uneindeutige Festlegungen zu viel Spielraum gelassen haben \citep[vgl.][S. 1]{Chowdhury2014}
+
+- Anforderungen bestehen dabei für allgemeines Vorgehen in festgehaltenen Plänen und genauen Vorgaben, wie mit Zwischenfällen umzugehen ist, da diese mitunter an zentralen Stellen angezeigt werden müssen
+
+- Gehören zu Aufgaben des QMS
+
+- Allgemeines Ziel ist es die Qualität der Produkte zu gewährleisten notwendige Daten zu sammeln, zu evaluieren und über folgende Aktionen zu unterscheiden --> dabei wird in der Regel zwischen korrigierenden und präventiven Aktionen unterschieden
 \subsection{Post Market Surveillance}\label{subsec:PMS}
+- Suche und Detektion von Problemen des medizinischen Gerätes, die nicht vor Markteinführung erkannt wurden \citep[vgl.][S. 213]{DeMarco2011}
+
+- Anders als in vorheriger Medical Devices Directive wird in MDR eine Definition für PMS gegeben \citep[vgl.][S. 1]{Pugh2017}
+\begin{quote}
+Deutsche Übersetzung aus MDR 
+Definition PMS:
+"`Überwachung nach dem Inverkehrbringen"' bezeichnet alle Tätigkeiten, die Hersteller in Zusammenarbeit mit anderen Wirtschaftsakteuren durchführen, um ein Verfahren zur proaktiven Erhebung und Überprüfung von Erfahrungen, die mit den von ihnen in Verkehr gebrachten, auf dem Markt bereitgestellten oder in Betrieb genommenen Produkten gewonnen werden, einzurichten und auf dem neuesten Stand zu halten, mit dem ein etwaiger Bedarf an unverzüglich zu ergreifenden Korrektur- oder Präventivmaßnahmen festgestellt werden kann. \citep[Kapitel 1 Artikel 2 60.]{MDR2017}
+\end{quote}
+
+Sehr guter Absatz, aber muss noch angepasst werden, um nicht alles direkt zu kopieren \citep[vgl.][]{Johner2017}
+Hersteller müssen die Risiken durch ihre Medizinprodukte minimieren und die Sicherheit der Patienten gewährleisten, bevor sie ihre Produkte in den Markt bringen. Behörden und benannte Stellen überprüfen dies im Rahmen der Zulassung bzw. Konformitätsbewertung.
+
+- Benutzer vor Risiken beschützen, aber auch Vorteile für Hersteller, da Leistung der Produkte überwacht wird und dadurch die Qualität verbessert werden kann und Kosten reduziert werden können \citep[vgl.][S. 2]{Pugh2017}
+
+Allerdings offenbaren sich einige Risiken erst später im Laufe der Zeit, wenn die Anwender die Produkte täglich einsetzen.
+
+Die Post-Market Surveillance hat zum Ziel,
+- diese Risiken beim praktischen Gebrauch des Produktes systematisch zu identifizieren,
+- die Leistungsfähigkeit der Produkte „im Feld“ zu überprüfen,
+- Produktfehler und unentdeckt gebliebene Sicherheitsprobleme zu finden,
+- die Nutzen-Risiko-Bewertung kontinuierlich zu aktualisieren und
+- notwendige Maßnahmen wie Rückrufe schnell einzuleiten.
+\citep[vgl.][]{Johner2017}
+
+Zu den Datenquellen gehören \citep[vgl.][S. 285-288]{Abuhav2012}
+ - Distributoren
+ - Kundenbefragungen
+ - Service Telefonate
+ - Produktbewertungen und Audits
+ - Veröffentlichungen in Journalen, Literatur und Fachartikel
+ - Forschung und klinische Bewertung
+ - Kundenbeschwerden
+ - Rückrufe medizinischer Geräte
+
 \subsection{Post Market Clinical Follow-Ups}\label{subsec:PMCF}
+Zitat aus MDR:
+\begin{quote}
+Die klinische Nachbeobachtung nach dem Inverkehrbringen ist als ein fortlaufender Prozess zur Aktualisierung der klinischen Bewertung gemäß Artikel 61 und Teil A dieses Anhangs zu verstehen und wird im Plan des Herstellers zur Überwachung nach dem Inverkehrbringen behandelt. Bei der klinischen Nachbeobachtung nach dem Inverkehrbringen sammelt und bewertet der Hersteller auf proaktive Weise klinische Daten, die aus der Verwendung eines die CE-Kennzeichnung tragenden, im Rahmen seiner Zweckbestimmung gemäß dem einschlägigen Konformitätsbewertungsverfahren in den Verkehr gebrachten oder in Betrieb genommenen Produkts im oder am menschlichen Körper hervorgehen, um die Sicherheit und die Leistung während der erwarteten Lebensdauer des Produkts zu bestätigen, die fortwährende Vertretbarkeit der ermittelten Risiken zu gewährleisten und auf der Grundlage sachdienlicher Belege neu entstehende Risiken zu erkennen.\citep[Anhang XIV Teil A 5.]{MDR2017}
+\end{quote}
+- demnach systematisches Sammeln von klinischen Daten, um offen gebliebene Fragen (bezogen auf Sicherheit oder Leistung des Produktes) zu klären
+- PMS sammelt alle Arten von bedeutsamen Informationen und stellt somit die Obermenge dar. Zudem hat PMS zum Ziel über notwendige Maßnahmen zu entscheiden und einzuleiten; Dabei werden Erkenntnisse aus der PMCF mit einbezogen.
+- MDR weist explizit daraufhin, dass PMCF als Teil von PMS zu sehen ist\citep[vgl.][]{Johner2017}
+- es wird die initiale klinische Bewertung aktualisiert\citep[vgl.][S. 286]{Abuhav2012}
+
+- weitere Gründe für PMCF \citep[vgl.][S. 287]{Abuhav2012}:
+  - Designänderung
+  - Behandlungsverfahren oder grundsätzliche Verwendung des Gerätes sind neu
+  - neue Ansprüche des Herstellers
+  - hohes Risiko bei Verwendung des Gerätes
+  - Auswertung der Lebenserwartung des Gerätes
+
+\subsection{Vigilance System}\label{subsec:Vigilance}
+- Ziel ist Gesundheit und Sicherheit von Personen zu schützen, Vorfälle zu bewerten, um Wiederholungen zu verhindern, die Wirksamkeit von Korrekturmaßnahmen und Präventivmaßnahmen zu bestimmen und Erfahrungen zu überwach und daraus zu lernen (--> Umformulieren) \citep[vgl.][S. 1]{Pugh2017}
+
+- Vigilanzsystem stellt Marktüberwachungs- und Meldesystem dar
+- es müssen Festlegungen getroffen werden, wie der Markt überwacht werden soll und wie Vorkommnisse an zuständige Behörden kommuniziert werden
+- dabei gibt MDR konkrete Forderungen an\citep[vgl.][]{Johner2017}
+
+- allgemein betrachtet stellt auch das Vigilance System eine Untermenge von PMS her, da hier ebenso post-market Daten ausgewertet werden
+- Fokus liegt dabei aber auf den reaktiven Tätigkeiten, die von regulativen Institutionen eingefordert werden --> Timeline genau festgelegt \citep[vgl.][S. 1]{Pugh2017}
+
+- Vorkommnisse verbunden mit medizinischen Geräten, die in der EU auftreten, müssen untersucht werden, um sicherzustellen, ob sie an Autoritäten berichtet werden müssen
+- wenn Produktrückruf notwendig ist spricht man von \ac{FSCA}
+- mit FSCA ist auch FSCA-Bericht verbunden, der an Autorität gesendet werden muss\citep[vgl.][S. 1f.]{Loh2017}
 \subsection{Integration in die Entwicklungsprozesse}\label{subsec:IntegrationInDevProzesse}
 über Änderungswesen
 
