@@ -405,16 +405,29 @@ Die vorgestellten Komponenten für die Sicherstellung der Produktqualität nach 
 
 %===================================================================== Chapter 3
 \chapter{Aufnahme des Status Quo bei WOM}\label{chap:AufnahmeStatusQuo}
-In diesem Kapitel wird die Modellierung des aktuellen Zustandes beschrieben. Dies stellt den ersten Schritt für eine erfolgreiche Optimierung und Analyse der Prozesse dar, denn erst, wenn alle betroffenen Prozesse erfasst wurden, kann über Veränderungen nachgedacht werden. Zudem erleichtert eine Visualisierung die Kommunikation und Abstimmung zu einem Prozess, da der Ablauf wesentlich leichter erfasst werden kann.
+In diesem Kapitel wird die Modellierung des aktuellen Zustandes beschrieben. Dies stellt den ersten Schritt für eine erfolgreiche Optimierung und Analyse der Prozesse dar, denn erst, wenn alle betroffenen Prozesse erfasst wurden, kann über Veränderungen nachgedacht werden. Zudem erleichtert eine Visualisierung die Diskussion über die einzelnen Elemente und Teilschritte eines Prozesses, da der Ablauf wesentlich leichter erfasst werden kann.
 \section{Planung}\label{sec:Planung}
-In der Planungsphase werden richtungsweisende Entscheidungen getroffen
+In der Planungsphase werden richtungsweisende Entscheidungen getroffen. Als erstes wird dazu die zu verwendende Modellierungssprache festgelegt. Zukunftsträchtigkeit und Langlebigkeit ist für Unternehmen in solchen Fragen besonders wichtig, da der Mehrwert gering ist, wenn Tools und Methoden verwendet werden, die sich in der Zukunft nicht behaupten können und am Ende schnell wieder substituiert werden. Für die Bearbeitung der gestellten Aufgabe wird deswegen die Notation nach BPMN 2.0 gewählt, da diese einige Vorteile verspricht. Eines der Argumente liegt in der Pflege und Verwaltung durch die \ac{OMG}, die sich auch um den UML-Standard kümmert. Zudem steht BPMN für ein sehr praktikables Verhältnis zwischen Modellierungskomplexität und Intuitivität (siehe \ref{subsec:BPMN}). Dass auch bei WOM erste Überlegungen zur Nutzung von BPMN bei leitenden Prozessverantwortlichen bestehen, sichert die Unterstützung und ermöglicht eventuell die Fortführung der Modelle, sofern die Entscheidung für den ganzheitlichen Einsatz von BPMN für das Unternehmen gefällt werden sollte.
+
+Nachdem die Modellierungssprache festgelegt ist, geht es darum ein passendes Programm auszuwählen, was für die rechnergestützte Modellierung der Prozesse verwendet werden soll. Auch hierfür gab es eine Reihe von Anforderungen, die im Folgenden aufgezählt werden:
 \begin{itemize}
-\item Planung Mapping
-\item --> wie wird vorgegangen, Planung Workshop, worauf achten
-\item Toolauswahl
-\item --> Gründe für BPMN 2.0
-\item --> Gründe für Toolauswahl (freeware, open source)
+\item Support von BPMN Version 2.0
+\item Windows 7 kompatibel
+\item Freeware, um freie Verwendung und vollen Funktionsumfang für die kommerzielle Nutzung sicherzustellen
+\item Standalone Version, die keine Serverinstallation benötigt
+\item Regelmäßige Updates und letztes Update innerhalb der letzten zwei Jahre, um sicherzustellen, dass die Software weitgehend fehlerfrei ist und der Standard gut eingehalten wird
+\item Exportfunktion für Bilder
+\item Unterstützung eines "`interchange formats"', um eventuell Daten später in andere Programme portieren zu können
 \end{itemize}
+Seitens des Unternehmens werden bis auf die Verwendung eines Freeware-Tools, was auch für die kommerzielle Nutzung komplett freigegeben ist, keine Anforderungen gestellt. Dadurch lässt sich zumindest für die ersten Versuche mit der grafischen Modellierung von Geschäftsprozessen die Anschaffung einer Software umgehen.
+
+Bei dem auszuwählenden Programm soll zudem darauf geachtet werden, dass der Fokus nicht auf der Interaktion mit einem Server liegt. Dies ist gerade bei BPMN sehr naheliegend, da die Automatisierung der Prozesse durch eine Process Engine sehr weit verbreitet ist und zumeist auch einen Kernbestandteil des Geschäftsmodells der Toolhersteller bildet. In diesem Zusammenhang ist oft eine separate Installation eines entsprechenden Dienstes in der Serverarchitektur des Unternehmens notwendig. Dies stellt ein Risiko für die Bearbeitungsfrist dar und sollte demzufolge vermieden werden.
+
+Um bei einer möglichen Fortführung der Arbeiten nicht von vorn beginnen zu müssen, sollte es möglich sein, die entstandenen Daten in ein allgemeingültiges Format zu überführen. Andernfalls müsste das ausgewählte Tool in Zukunft weiter genutzt werden, auch wenn sich die Anforderungen verändern sollten und dadurch ein anderes Programm attraktiver werden würde.
+
+Die Recherche in \citep[][]{Hesse} und in \citep[][]{Naef2012} liefert eine ausführliche Liste mit möglichen Programmen. Nach ausgiebiger Prüfung der einzelnen Vertreter fällt die Wahl auf den Bizagi BPM Modeler \citep[][]{Bizagi}, der alle Anforderungen erfüllt.
+
+
 
 %===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung}\label{chap:AnpassungAnMDR}
