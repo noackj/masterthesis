@@ -427,7 +427,45 @@ Um bei einer möglichen Fortführung der Arbeiten nicht von vorn beginnen zu mü
 
 Die Recherche in \citep[][]{Hesse} und in \citep[][]{Naef2012} liefert eine ausführliche Liste mit möglichen Programmen. Nach ausgiebiger Prüfung der einzelnen Vertreter fällt die Wahl auf den Bizagi BPM Modeler \citep[][]{Bizagi}, der alle Anforderungen erfüllt.
 
+\section{Durchführung}
+Nachdem in der Planungsphase grundlegende Festlegungen getroffen wurden, kann die Analyse der derzeitigen Prozesse begonnen werden. Als Hersteller in der Medizintechnik ist WOM verpflichtet nach einem Handbuch für das Qualitätsmanagement zu arbeiten (TODO: wo wird das gefordert?). In diesem Handbuch sind die Geschäftsprozesse verteilt über Richtlinien und Verfahrensanweisungen dokumentiert. Da die Auditierungen, die durch die benannte Stelle durchgeführt werden, auf dem QM-Handbuch erfolgen, wird dieses als vorrangige Quelle für die zu modellierenden Prozesse ausgewählt. Dies bedeutet auch, dass etwaige Abweichungen, die sich aus der Befragung der mit den Aufgaben betrauten Mitarbeiter ergeben, ignoriert werden. Ziel ist es die Qualitätsprozesse nach dem Inverkehrbringen der Produkte zu untersuchen, was nur einen Teil des QM-Handbuches darstellt. Um den Aufwand bei der Analyse einzugrenzen, wird zusammen mit dem Fachbereichsleiter des Qualitätsmanagements eine Vorauswahl der relevanten Unterlagen getroffen.
 
+Die Erfassung der Prozesse durch die Analyse des QM-Handbuches stellt sich in der Praxis als schwierig heraus. Dies liegt vor allem an der Struktur des Handbuches, das aus vielen getrennten Verfahrensanweisungen und Richtlinien besteht. Diese scheinen zumindest auf den ersten Blick einen prozessorientierten Grundgedanken zu verfolgen, was sich bei der Analyse allerdings nur teilweise bestätigt. Zwischen den einzelnen Dokumenten, die sich aus Prosatext, Stichpunktanhäufungen und Schaubildern zusammensetzen, bestehen komplexe Zusammenhänge, die sich in zahlreichen Verweisen äußern. Dadurch verteilen sich die einen einzelnen Prozess betreffenden Informationen auf mehrere Dokumente. Ein Überblick über die zu analysierenden Dokumente ist in Abbildung \ref{struktur_dokumente} zu finden, wobei in der Übersicht die Richtlinie 05 für die klinische Validierung nicht vorhanden ist, da diese keine Beziehung zu den restlichen zu betrachtenden Dokumenten aufweist und demzufolge getrennt zu betrachten ist. Die angesprochene Komplexität bei der Erfassung der Prozesse untermauert den wesentlichen Mehrwert dieser Arbeit für das Unternehmen, da die Unterschiede zwischen dem dokumentierten und gelebten Prozess im Nachgang durch die visuelle Darstellung der Prozesse am effektivsten aufgedeckt werden können.
+\begin{figure}[ht]
+\centering
+\includegraphics[height=0.9\textheight]{Images/DokumentenstrukturWOM}
+\caption[Struktur der Prozessdokumentation (Qualitätsmanagement Handbuch) bei WOM]{Struktur der Prozessdokumentation (Qualitätsmanagement Handbuch) bei WOM}
+\label{struktur_dokumente}
+\end{figure}
+Ein mögliches Vorgehen bei der Modellierung von Geschäftsprozessen wird in \citep[vgl.][S. 13-17]{Jacka2009} beschrieben und besteht aus den Schritten Prozessidentifizierung, Datenerfassung, Interview und Modellierung, Datenanalyse und Präsentation. Demzufolge ist die Prozessidentifizierung der Einstieg und besteht daraus, auf abstrakter Ebene die zu modellierenden Prozesse zu benennen. Da dies den Grundstein für die folgende Modellierung legt, ist hierbei besondere Sorgfalt angebracht. Methodisch hilf es hierbei zunächst die möglichen auslösenden Ereignisse (engl. "`Trigger Events"') zu ermitteln und aus diesen jeweils einen Prozess abzuleiten. Das Ergebnis der Überlegungen ist in Tabelle \ref{tab:trigger_events} abgebildet.
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|p{0.6\textwidth}|p{0.3\textwidth}|}
+\hline
+Trigger Event & Prozessname \\
+\hline\hline
+Kunde meldet Problem mit Produkt & Kundenrückmeldung \\
+\hline
+Normative Anforderung zum zyklischen Aktualisierung der klinischen Evaluation & Klinische Evaluation nach dem Inverkehrbringen \\
+\hline
+Normative Anforderung den Markt dauerhaft zu beobachten & Marktbeobachtung \\
+\hline
+Produkt muss zurückgerufen werden & Rückrufaktion, Korrekturmaßnahme im Feld\\
+\hline
+Fehler im Produkt aufgetreten, weswegen Meldepflicht besteht & Meldesystem\\
+\hline
+\end{tabular}
+\caption[Prozessidentifikation anhand der Trigger Events]{Prozessidentifikation anhand der Trigger Events}
+\label{tab:trigger_events}
+\end{center}
+\end{table}
+Demzufolge müssten im Zuge der Modellierung mindestens 5 einzelne Prozesse ermittelt werden können.
+
+Die nächsten beiden Schritte Datenerfassung und Interview beschäftigen sich mit der Problemstellung, die notwendigen Daten zur Prozessmodellierung zu sammeln. Wie bereits erwähnt wurde, kann hier auf die Unterlagen des QM-Handbuches zurückgegriffen werden und die Interviews eher als Abgleich und Sicherstellung des Verständnisses für die gewonnen Daten gesehen werden.
+
+- Beschreibung des Vorgehens, laut Anweisungen im Buch (--> OneNote Tabelle mit Identifikation der Prozessteile)
+- Beschreibung der Modellierungstiefe (die 
+- nach Abschluss der Modellierung nach den Unterlagen wird im Rahmen von Meetings die Konformität zwischen Prozessbeschreibungen und Modell sichergestellt (Treffen mit dem Fachbereichsleiter Qualitätsmanagement, der die Hauptverantwortung über die bestehenden Teile des Handbuchs besitzt, und Mitarbeitern aus Regulatory Affairs, die speziell bezogen auf die normativen Anforderungen und Meldepflichten die entscheidende Instanz bei WOM darstellen
 
 %===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung}\label{chap:AnpassungAnMDR}

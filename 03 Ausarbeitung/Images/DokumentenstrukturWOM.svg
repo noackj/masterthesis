@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export DokumentenstrukturWOM.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="16.0354in"
+		viewBox="0 0 841.89 1154.55" xml:space="preserve" color-interpolation-filters="sRGB" class="st17">
+	<v:documentProperties v:langID="1031" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#5b9bd5;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#ffffff}
+		.st3 {fill:#1e4a73;font-family:Calibri;font-size:0.833336em}
+		.st4 {font-size:1em}
+		.st5 {fill:#ed7d31;stroke:#c7c8c8;stroke-width:0.25}
+		.st6 {fill:#70ad47;stroke:#c7c8c8;stroke-width:0.25}
+		.st7 {marker-end:url(#mrkr4-57);stroke:#5b9bd5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#5b9bd5;fill-opacity:1;stroke:#5b9bd5;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {fill:#4f87bb;font-family:Calibri;font-size:0.666664em}
+		.st11 {marker-end:url(#mrkr4-117);stroke:#fec000;stroke-dasharray:3,3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#fec000;fill-opacity:1;stroke:#fec000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st13 {fill:#dfa800;font-family:Calibri;font-size:0.666664em}
+		.st14 {fill:none;stroke:#c7c8c8;stroke-width:0.25}
+		.st15 {fill:none;stroke:none;stroke-width:0.25}
+		.st16 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-57" class="st8" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr4-117" class="st12" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Zeichenblatt-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Flussdiagramm" v:index="0"/>
+		<v:layer v:name="Verbinder" v:index="1"/>
+		<g id="group5-1" transform="translate(425.197,-771.874)" v:mID="5" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument</title>
+			<desc>VA-08-02-01 Bearbeitung von Kundenrückmeldungen</desc>
+			<g id="shape6-2" v:mID="6" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.6</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape7-4" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.7</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape5-7" v:mID="5" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1177.23" width="127.56" height="44.0037"/>
+				<text x="-0.02" y="1168.23" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-01<v:newlineChar/><tspan
+							x="-8.03" dy="1.2em" class="st4">Bearbeitung von </tspan><tspan x="-21.82" dy="1.2em" class="st4">Kundenrückmeldungen</tspan></text>			</g>
+		</g>
+		<g id="group8-11" transform="translate(425.197,-1034.08)" v:mID="8" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.8</title>
+			<desc>Verfahrensanweisung</desc>
+			<g id="shape9-12" v:mID="9" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.9</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape10-14" v:mID="10" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.10</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape8-17" v:mID="8" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1164.55" width="98.72" height="20.0036"/>
+				<text x="-18.71" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Verfahrensanweisung</text>			</g>
+		</g>
+		<g id="group11-19" transform="translate(562.677,-1034.08)" v:mID="11" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.11</title>
+			<desc>Formular</desc>
+			<g id="shape12-20" v:mID="12" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.12</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape13-22" v:mID="13" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.13</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape11-25" v:mID="11" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1164.55" width="47.44" height="20.0036"/>
+				<text x="6.93" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Formular</text>			</g>
+		</g>
+		<g id="group14-27" transform="translate(700.157,-1034.08)" v:mID="14" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.14</title>
+			<desc>Richtlinie</desc>
+			<g id="shape15-28" v:mID="15" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.15</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st6"/>
+			</g>
+			<g id="shape16-30" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.16</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#70ad47)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape14-33" v:mID="14" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1164.55" width="47.94" height="20.0036"/>
+				<text x="6.68" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Richtlinie</text>			</g>
+		</g>
+		<g id="group17-35" transform="translate(425.197,-885.26)" v:mID="17" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.17</title>
+			<desc>Formblatt „Kundenrückmeldung“</desc>
+			<g id="shape18-36" v:mID="18" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.18</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape19-38" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.19</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape17-41" v:mID="17" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="103.07" height="32.0037"/>
+				<text x="5.32" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Formblatt<v:newlineChar/><tspan
+							x="-20.89" dy="1.2em" class="st4">„Kundenrückmeldung“</tspan></text>			</g>
+		</g>
+		<g id="group21-44" transform="translate(609.449,-771.874)" v:mID="21" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.21</title>
+			<desc>Richtlinie 04</desc>
+			<g id="shape22-45" v:mID="22" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.22</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st6"/>
+			</g>
+			<g id="shape23-47" v:mID="23" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.23</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#70ad47)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape21-50" v:mID="21" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1164.55" width="60.34" height="20.0036"/>
+				<text x="0.48" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Richtlinie 04</text>			</g>
+		</g>
+		<g id="shape24-52" v:mID="24" v:groupContext="shape" v:layerMember="1" transform="translate(476.23,-800.22)">
+			<title>Dynamischer Verbinder.24</title>
+			<desc>08-02-01-3-2 RA muss Richtlinie 04 ausführen bei Fehlerkatego...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.3529" cy="1140.38" width="115.91" height="36.8035"/>
+			<path d="M0 1147.46 L126.17 1147.46" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="10.2089" y="1125.98" width="104.288" height="28.7996" class="st9"/>
+			<text x="41.24" y="1133.18" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>08-02-01-3-2<v:newlineChar/><tspan
+						x="10.21" dy="1.2em" class="st4">RA muss Richtlinie </tspan>04 ausführen <v:newlineChar/><tspan x="15.95"
+						dy="1.2em" class="st4">bei Fehlerkategorie C oder D</tspan></text>		</g>
+		<g id="group25-62" transform="translate(609.449,-885.26)" v:mID="25" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.25</title>
+			<desc>F-08-01-02 Untersuchungsbericht</desc>
+			<g id="shape26-63" v:mID="26" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.26</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape27-65" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.27</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape25-68" v:mID="25" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="100.37" height="32.0037"/>
+				<text x="3.42" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-08-01-02<v:newlineChar/><tspan
+							x="-19.54" dy="1.2em" class="st4">Untersuchungsbericht</tspan></text>			</g>
+		</g>
+		<g id="shape28-71" v:mID="28" v:groupContext="shape" v:layerMember="1" transform="translate(653.39,-807.307)">
+			<title>Dynamischer Verbinder.28</title>
+			<desc>5. Dokumentation Beanstandungen sind durch RA und Complaint M...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="93.548" cy="1102.79" width="100.36" height="56.0034"/>
+			<path d="M7.08 1154.55 L41.1 1154.55 L41.1 1041.17 L14.13 1041.17" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="48.279" y="1078.79" width="90.5381" height="47.9995" class="st9"/>
+			<text x="64.1" y="1085.99" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>5. Dokumentation<v:newlineChar/><tspan
+						x="48.28" dy="1.2em" class="st4">Beanstandungen sind durch<v:newlineChar/></tspan><tspan x="48.69"
+						dy="1.2em" class="st4">RA und Complaint Manager<v:newlineChar/></tspan><tspan x="48.91" dy="1.2em"
+						class="st4">In Untersuchungsbericht zu<v:newlineChar/></tspan><tspan x="68.4" dy="1.2em" class="st4">dokumentieren</tspan></text>		</g>
+		<g id="group29-82" transform="translate(484.724,-346.677)" v:mID="29" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.29</title>
+			<desc>VA-08-03-02 Fehlerhafte Produkte</desc>
+			<g id="shape30-83" v:mID="30" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.30</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape31-85" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.31</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape29-88" v:mID="29" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="96.84" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-03-02<v:newlineChar/><tspan
+							x="-17.77" dy="1.2em" class="st4">Fehlerhafte Produkte</tspan></text>			</g>
+		</g>
+		<g id="shape35-91" v:mID="35" v:groupContext="shape" v:layerMember="1" transform="translate(510.236,-417.553)">
+			<title>Dynamischer Verbinder.35</title>
+			<desc>08-03-02-6 Kundenbeanstandungen Gesonderte Behandlung wegen r...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-93.7405" cy="1097.87" width="97.57" height="56.0034"/>
+			<path d="M0 1154.55 L0 1126.21 L-155.91 1126.21 L-155.91 764.8 L-92.09 764.8" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-137.615" y="1073.87" width="87.7495" height="47.9995" class="st9"/>
+			<text x="-111.61" y="1081.07" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>08-03-02-6<v:newlineChar/><tspan
+						x="-133.53" dy="1.2em" class="st4">Kundenbeanstandungen<v:newlineChar/></tspan><tspan x="-133.14"
+						dy="1.2em" class="st4">Gesonderte Behandlung<v:newlineChar/></tspan><tspan x="-124.54" dy="1.2em"
+						class="st4">wegen rechtlicher</tspan>/<v:newlineChar/><tspan x="-137.62" dy="1.2em" class="st4">normativer Anforderungen</tspan></text>		</g>
+		<g id="group36-102" transform="translate(425.197,-559.276)" v:mID="36" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.36</title>
+			<desc>VA-08-05-02 Rückrufaktionen im Feld (med.Bereich)</desc>
+			<g id="shape37-103" v:mID="37" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.37</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape38-105" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.38</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape36-108" v:mID="36" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="127.56" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-05-02<v:newlineChar/><tspan
+							x="-23.94" dy="1.2em" class="st4">Rückrufaktionen im Feld </tspan><tspan x="-3.22" dy="1.2em"
+							class="st4">(</tspan>med.Bereich)</text>			</g>
+		</g>
+		<g id="shape39-112" v:mID="39" v:groupContext="shape" v:layerMember="1" transform="translate(534.331,-403.37)">
+			<title>Dynamischer Verbinder.39</title>
+			<desc>Lösen aus (in VA-08-05-02 als Auslöser genannt, aber in VA-08...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="32.5984" cy="1083.69" width="86.8" height="56.0034"/>
+			<path d="M0 1154.55 L19.17 1154.55 L19.17 984.47 L-51.07 984.47" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="-5.89289" y="1059.69" width="76.9828" height="47.9995" class="st9"/>
+			<text x="16.67" y="1066.89" class="st13" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Lösen aus<v:newlineChar/><tspan
+						x="7.04" dy="1.2em" class="st4">(</tspan>in VA-08-05-02<v:newlineChar/><tspan x="-2" dy="1.2em" class="st4">als Auslöser genannt</tspan>,<v:newlineChar/><tspan
+						x="-0.05" dy="1.2em" class="st4">aber in VA</tspan>-08-03-02<v:newlineChar/><tspan x="-5.89" dy="1.2em"
+						class="st4">kein Hinweis enthalten</tspan>)</text>		</g>
+		<g id="group41-124" transform="translate(240.945,-771.874)" v:mID="41" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.41</title>
+			<desc>VA-08-05-01 Durchführung von Korrektur-und Vorbeugungsmaßnahm...</desc>
+			<g id="shape42-125" v:mID="42" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.42</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape43-127" v:mID="43" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.43</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape41-130" v:mID="41" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1188.55" width="127.56" height="68.0038"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-05-01<v:newlineChar/><tspan
+							x="-11.46" dy="1.2em" class="st4">Durchführung von <v:newlineChar/></tspan><tspan x="-3.43" dy="1.2em"
+							class="st4">Korrektur</tspan>-und <tspan x="-29.08" dy="1.2em" class="st4">Vorbeugungsmaßnahmen</tspan>/<v:newlineChar/><tspan
+							x="-34.07" dy="1.2em" class="st4">kontinuierliche Verbesserung</tspan></text>			</g>
+		</g>
+		<g id="shape44-136" v:mID="44" v:groupContext="shape" v:layerMember="1" transform="translate(425.188,-815.811)">
+			<title>Dynamischer Verbinder.44</title>
+			<path d="M0 1147.46 L-126.19 1147.46" class="st7"/>
+		</g>
+		<g id="shape49-141" v:mID="49" v:groupContext="shape" v:layerMember="1" transform="translate(450.709,-842.749)">
+			<title>Dynamischer Verbinder.49</title>
+			<desc>08-02-01-5-2 Erstellung und Ausfüllen wird beschrieben (Formb...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-70.8661" cy="1046.84" width="88.83" height="46.4035"/>
+			<path d="M0 1154.55 L0 1126.21 L-63.79 1126.21 L-63.79 1076.61 L-32.56 1076.61" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-110.373" y="1027.64" width="79.0145" height="38.3997" class="st9"/>
+			<text x="-91.98" y="1034.84" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>08-02-01-5-2<v:newlineChar/><tspan
+						x="-110.37" dy="1.2em" class="st4">Erstellung und Ausfüllen<v:newlineChar/></tspan><tspan x="-98.99"
+						dy="1.2em" class="st4">wird beschrieben <v:newlineChar/></tspan><tspan x="-97.03" dy="1.2em" class="st4">(</tspan>Formblatt EDV)</text>		</g>
+		<g id="shape52-151" v:mID="52" v:groupContext="shape" v:layerMember="1" transform="translate(476.22,-823.007)">
+			<title>Dynamischer Verbinder.52</title>
+			<desc>Wird erstellt (aber nicht explizit In VA-08-02-01 referenziert)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6142" cy="1113.56" width="69.96" height="46.4035"/>
+			<path d="M0 1154.55 L127.23 1076.25" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="36.5406" y="1094.36" width="60.1474" height="38.3997" class="st9"/>
+			<text x="46.28" y="1101.56" class="st13" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Wird erstellt<v:newlineChar/><tspan
+						x="36.54" dy="1.2em" class="st4">(</tspan>aber nicht explizit<v:newlineChar/><tspan x="42.18" dy="1.2em"
+						class="st4">In VA</tspan>-08-02-01<v:newlineChar/><tspan x="46.1" dy="1.2em" class="st4">referenziert</tspan>)</text>		</g>
+		<g id="group54-161" transform="translate(141.732,-488.409)" v:mID="54" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.54</title>
+			<desc>VA-07-03-02 Änderungsvorgang</desc>
+			<g id="shape55-162" v:mID="55" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.55</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape56-164" v:mID="56" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.56</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape54-167" v:mID="54" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="86.89" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-03-02<v:newlineChar/><tspan
+							x="-12.8" dy="1.2em" class="st4">Änderungsvorgang</tspan></text>			</g>
+		</g>
+		<g id="shape57-170" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(240.936,-807.307)">
+			<title>Dynamischer Verbinder</title>
+			<desc>08-05-01-3-2 Einleitung von Sofortmaßnahmen</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-158.731" cy="1430.93" width="71.09" height="36.8035"/>
+			<path d="M0 1154.55 L-127.55 1154.55 L-127.55 1438.02 L-106.25 1438.02" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-189.369" y="1416.53" width="61.2768" height="28.7996" class="st9"/>
+			<text x="-179.85" y="1423.73" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>08-05-01-3-2<v:newlineChar/><tspan
+						x="-181.88" dy="1.2em" class="st4">Einleitung von<v:newlineChar/></tspan><tspan x="-189.37" dy="1.2em"
+						class="st4">Sofortmaßnahmen</tspan></text>		</g>
+		<g id="group58-179" transform="translate(240.945,-885.26)" v:mID="58" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.58</title>
+			<desc>F-08-05-01 Korrektur- und Vorbeugemaßnahmen</desc>
+			<g id="shape59-180" v:mID="59" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.59</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape60-182" v:mID="60" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.60</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape58-185" v:mID="58" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1062.43" width="101.44" height="44.0037"/>
+				<text x="3.42" y="1053.43" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-08-05-01<v:newlineChar/><tspan
+							x="-4.56" dy="1.2em" class="st4">Korrektur</tspan>- und<v:newlineChar/><tspan x="-20.07" dy="1.2em"
+							class="st4">Vorbeugemaßnahmen</tspan></text>			</g>
+		</g>
+		<g id="group63-189" transform="translate(141.732,-885.26)" v:mID="63" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.63</title>
+			<desc>F-08-05-03 Kundenreklamation/ CAPA</desc>
+			<g id="shape64-190" v:mID="64" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.64</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape65-192" v:mID="65" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.65</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape63-195" v:mID="63" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1063.84" width="94.36" height="44.0037"/>
+				<text x="3.42" y="1054.84" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-08-05-03<v:newlineChar/><tspan
+							x="-16.53" dy="1.2em" class="st4">Kundenreklamation</tspan>/<v:newlineChar/><tspan x="14.48" dy="1.2em"
+							class="st4">CAPA</tspan></text>			</g>
+		</g>
+		<g id="shape66-199" v:mID="66" v:groupContext="shape" v:layerMember="1" transform="translate(248.027,-807.307)">
+			<title>Dynamischer Verbinder.66</title>
+			<path d="M-7.08 1154.55 L-35.43 1154.55 L-35.43 1041.17 L-14.13 1041.17" class="st7"/>
+		</g>
+		<g id="shape68-204" v:mID="68" v:groupContext="shape" v:layerMember="1" transform="translate(291.978,-807.307)">
+			<title>Dynamischer Verbinder.68</title>
+			<desc>08-05-01-4-3 Hygienemanagement</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.6994" cy="1544.31" width="79.44" height="27.2035"/>
+			<path d="M0 1154.55 L48.18 1154.55 L48.18 1558.49 L185.71 1558.49" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="55.8857" y="1534.72" width="69.6275" height="19.1997" class="st9"/>
+			<text x="69.58" y="1541.92" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>08-05-01-4-3 <v:newlineChar/><tspan
+						x="55.89" dy="1.2em" class="st4">Hygienemanagement</tspan></text>		</g>
+		<g id="group69-212" transform="translate(240.945,-615.969)" v:mID="69" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.69</title>
+			<desc>VA-08-02-03 Durchführung von Audits</desc>
+			<g id="shape70-213" v:mID="70" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.70</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape71-215" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.71</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape69-218" v:mID="69" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="66.91" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-03<v:newlineChar/><tspan
+							x="-2.81" dy="1.2em" class="st4">Durchführung<v:newlineChar/></tspan><tspan x="3.93" dy="1.2em"
+							class="st4">von Audits</tspan></text>			</g>
+		</g>
+		<g id="shape72-222" v:mID="72" v:groupContext="shape" v:layerMember="1" transform="translate(233.854,-807.307)">
+			<title>Dynamischer Verbinder.72</title>
+			<path d="M7.08 1154.55 L-21.26 1154.55 L-21.26 1310.46 L0.05 1310.46" class="st7"/>
+		</g>
+		<g id="shape73-227" v:mID="73" v:groupContext="shape" v:layerMember="1" transform="translate(291.959,-815.811)">
+			<title>Dynamischer Verbinder.73</title>
+			<path d="M0 1147.46 L126.19 1147.46" class="st7"/>
+		</g>
+		<g id="group75-232" transform="translate(141.732,-615.969)" v:mID="75" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.75</title>
+			<desc>VA-06-02 Schulung- Weiterbildung- Qualifikation</desc>
+			<g id="shape76-233" v:mID="76" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.76</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape77-235" v:mID="77" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.77</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape75-238" v:mID="75" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1182.55" width="71.62" height="56.0037"/>
+				<text x="6.58" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-06-02<v:newlineChar/><tspan
+							x="5.56" dy="1.2em" class="st4">Schulung</tspan>-<v:newlineChar/><tspan x="-5.16" dy="1.2em"
+							class="st4">Weiterbildung</tspan>-<v:newlineChar/><tspan x="-0.6" dy="1.2em" class="st4">Qualifikation</tspan></text>			</g>
+		</g>
+		<g id="shape78-243" v:mID="78" v:groupContext="shape" v:layerMember="1" transform="translate(240.936,-807.307)">
+			<title>Dynamischer Verbinder.78</title>
+			<path d="M0 1154.55 L-127.55 1154.55 L-127.55 1310.46 L-106.25 1310.46" class="st7"/>
+		</g>
+		<g id="group79-248" transform="translate(240.945,-488.409)" v:mID="79" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.79</title>
+			<desc>VA-08-04-01 Statistische Methoden</desc>
+			<g id="shape80-249" v:mID="80" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.80</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape81-251" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.81</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape79-254" v:mID="79" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="61.32" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-04-01<v:newlineChar/><tspan
+							x="2.36" dy="1.2em" class="st4">Statistische<v:newlineChar/></tspan><tspan x="4.07" dy="1.2em"
+							class="st4">Methoden</tspan></text>			</g>
+		</g>
+		<g id="shape82-258" v:mID="82" v:groupContext="shape" v:layerMember="1" transform="translate(233.854,-807.307)">
+			<title>Dynamischer Verbinder.82</title>
+			<path d="M7.08 1154.55 L-21.26 1154.55 L-21.26 1438.02 L0.05 1438.02" class="st7"/>
+		</g>
+		<g id="group83-263" transform="translate(240.945,-1012.82)" v:mID="83" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.83</title>
+			<desc>F-08-02-03 Audit Bericht</desc>
+			<g id="shape84-264" v:mID="84" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.84</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape85-266" v:mID="85" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.85</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape83-269" v:mID="83" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1063.84" width="63.5" height="32.0037"/>
+				<text x="3.42" y="1060.84" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-08-02-03<v:newlineChar/><tspan
+							x="-1.1" dy="1.2em" class="st4">Audit Bericht</tspan></text>			</g>
+		</g>
+		<g id="group86-272" transform="translate(141.732,-1012.82)" v:mID="86" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.86</title>
+			<desc>F-07-03-17 Änderungsvorschlag/Änderungsmitteilung</desc>
+			<g id="shape87-273" v:mID="87" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.87</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape88-275" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.88</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape86-278" v:mID="86" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1063.84" width="127.56" height="44.0037"/>
+				<text x="3.42" y="1054.84" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-07-03-17 <tspan
+							x="-17.59" dy="1.2em" class="st4">Änderungsvorschlag</tspan>/<tspan x="-17.31" dy="1.2em" class="st4">Änderungsmitteilung</tspan></text>			</g>
+		</g>
+		<g id="group89-282" transform="translate(42.5197,-771.874)" v:mID="89" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.89</title>
+			<desc>F-06-02-04 Mitarbeiter- unterweisung</desc>
+			<g id="shape90-283" v:mID="90" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.90</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape91-285" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.91</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape89-288" v:mID="89" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1063.84" width="66.13" height="44.0037"/>
+				<text x="3.42" y="1054.84" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-06-02-04<v:newlineChar/><tspan
+							x="0.58" dy="1.2em" class="st4">Mitarbeiter</tspan>-<v:newlineChar/><tspan x="-2.42" dy="1.2em"
+							class="st4">unterweisung</tspan></text>			</g>
+		</g>
+		<g id="shape92-292" v:mID="92" v:groupContext="shape" v:layerMember="1" transform="translate(248.027,-807.307)">
+			<title>Dynamischer Verbinder.92</title>
+			<path d="M-7.08 1154.55 L-35.43 1154.55 L-35.43 913.61 L-14.13 913.61" class="st7"/>
+		</g>
+		<g id="shape93-297" v:mID="93" v:groupContext="shape" v:layerMember="1" transform="translate(240.936,-807.307)">
+			<title>Dynamischer Verbinder.93</title>
+			<path d="M0 1154.55 L-127.59 1154.55 L-127.59 913.61 L-106.25 913.61" class="st7"/>
+		</g>
+		<g id="shape94-302" v:mID="94" v:groupContext="shape" v:layerMember="1" transform="translate(240.936,-800.22)">
+			<title>Dynamischer Verbinder.94</title>
+			<path d="M0 1147.46 L-140.34 1147.46" class="st7"/>
+		</g>
+		<g id="group100-307" transform="translate(226.772,-219.118)" v:mID="100" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.100</title>
+			<desc>F-08-03-02</desc>
+			<g id="shape101-308" v:mID="101" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.101</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape102-310" v:mID="102" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.102</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape100-313" v:mID="100" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1164.55" width="54.46" height="20.0036"/>
+				<text x="3.42" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>F-08-03-02</text>			</g>
+		</g>
+		<g id="shape103-315" v:mID="103" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.103</title>
+			<desc>Genehmigung Der Nacharbeit/ Versandfreigabe</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-229.597" cy="1204.16" width="63.32" height="36.8035"/>
+			<path d="M0 1154.55 L-232.43 1154.55 L-232.43 1239.63" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-256.349" y="1189.76" width="53.5034" height="28.7996" class="st9"/>
+			<text x="-252.39" y="1196.96" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Genehmigung<v:newlineChar/><tspan
+						x="-255.84" dy="1.2em" class="st4">Der Nacharbeit</tspan>/<v:newlineChar/><tspan x="-256.35" dy="1.2em"
+						class="st4">Versandfreigabe</tspan></text>		</g>
+		<g id="group104-324" transform="translate(439.37,-219.118)" v:mID="104" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.104</title>
+			<desc>VA-07-05-01 Medizinische Fertigung</desc>
+			<g id="shape105-325" v:mID="105" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.105</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape106-327" v:mID="106" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.106</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape104-330" v:mID="104" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="63.51" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-05-01<v:newlineChar/><tspan
+							x="-1.11" dy="1.2em" class="st4">Medizinische<v:newlineChar/></tspan><tspan x="6.2" dy="1.2em"
+							class="st4">Fertigung</tspan></text>			</g>
+		</g>
+		<g id="shape107-334" v:mID="107" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.107</title>
+			<path d="M0 1154.55 L-73.69 1154.55 L-73.69 1282.11 L-52.39 1282.11" class="st7"/>
+		</g>
+		<g id="group108-339" transform="translate(439.37,-91.5591)" v:mID="108" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.108</title>
+			<desc>VA-08-02-04 Qualitätsprüfungen (med. Bereich)</desc>
+			<g id="shape109-340" v:mID="109" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.109</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape110-342" v:mID="110" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.110</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape108-345" v:mID="108" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="89.52" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-04<v:newlineChar/><tspan
+							x="-14.11" dy="1.2em" class="st4">Qualitätsprüfungen<v:newlineChar/></tspan><tspan x="-4.35" dy="1.2em"
+							class="st4">(</tspan>med. Bereich)</text>			</g>
+		</g>
+		<g id="shape111-349" v:mID="111" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.111</title>
+			<path d="M0 1154.55 L-73.69 1154.55 L-73.69 1409.67 L-52.39 1409.67" class="st7"/>
+		</g>
+		<g id="group113-354" transform="translate(538.583,-219.118)" v:mID="113" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.113</title>
+			<desc>VA-07-05-04 Reinraumfertigung</desc>
+			<g id="shape114-355" v:mID="114" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.114</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape115-357" v:mID="115" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.115</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape113-360" v:mID="113" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="86.82" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-05-04<v:newlineChar/><tspan
+							x="-12.76" dy="1.2em" class="st4">Reinraumfertigung</tspan></text>			</g>
+		</g>
+		<g id="group122-363" transform="translate(538.583,-91.5591)" v:mID="122" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.122</title>
+			<desc>VA-08-02-07 Qualitätsprüfungen (Reinraumfertigung)</desc>
+			<g id="shape123-364" v:mID="123" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.123</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape124-366" v:mID="124" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.124</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape122-369" v:mID="122" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="127.56" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-07 <v:newlineChar/><tspan
+							x="-14.12" dy="1.2em" class="st4">Qualitätsprüfungen </tspan><tspan x="-15.8" dy="1.2em" class="st4">(</tspan>Reinraumfertigung)</text>			</g>
+		</g>
+		<g id="shape125-373" v:mID="125" v:groupContext="shape" v:layerMember="1" transform="translate(510.236,-346.668)">
+			<title>Dynamischer Verbinder.125</title>
+			<path d="M0 1154.55 L0 1246.67 L21.3 1246.67" class="st7"/>
+		</g>
+		<g id="shape126-378" v:mID="126" v:groupContext="shape" v:layerMember="1" transform="translate(510.236,-346.668)">
+			<title>Dynamischer Verbinder.126</title>
+			<path d="M0 1154.55 L0 1374.23 L21.3 1374.23" class="st7"/>
+		</g>
+		<g id="group128-383" transform="translate(629.291,-219.118)" v:mID="128" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.128</title>
+			<desc>VA-07-05-03 Spanende Fertigung</desc>
+			<g id="shape129-384" v:mID="129" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.129</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape130-386" v:mID="130" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.130</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape128-389" v:mID="128" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="91.51" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-05-03<v:newlineChar/><tspan
+							x="-15.11" dy="1.2em" class="st4">Spanende Fertigung</tspan></text>			</g>
+		</g>
+		<g id="group131-392" transform="translate(629.291,-91.5591)" v:mID="131" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.131</title>
+			<desc>VA-08-02-05 Qualitätsprüfungen (span. Bereich)</desc>
+			<g id="shape132-393" v:mID="132" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.132</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape133-395" v:mID="133" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.133</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape131-398" v:mID="131" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="89.52" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-05 <v:newlineChar/><tspan
+							x="-14.11" dy="1.2em" class="st4">Qualitätsprüfungen<v:newlineChar/></tspan><tspan x="-4.84" dy="1.2em"
+							class="st4">(</tspan>span. Bereich)</text>			</g>
+		</g>
+		<g id="shape134-402" v:mID="134" v:groupContext="shape" v:layerMember="1" transform="translate(535.757,-382.11)">
+			<title>Dynamischer Verbinder.134</title>
+			<path d="M0 1154.55 L172.9 1154.55 L172.9 1282.11 L151.61 1282.11" class="st7"/>
+		</g>
+		<g id="shape135-407" v:mID="135" v:groupContext="shape" v:layerMember="1" transform="translate(535.757,-382.11)">
+			<title>Dynamischer Verbinder.135</title>
+			<path d="M0 1154.55 L172.9 1154.55 L172.9 1409.67 L151.61 1409.67" class="st7"/>
+		</g>
+		<g id="group136-412" transform="translate(737.008,-219.118)" v:mID="136" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.136</title>
+			<desc>VA-07-05-07 „Fertigung Spritzguss“</desc>
+			<g id="shape137-413" v:mID="137" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.137</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape138-415" v:mID="138" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.138</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape136-418" v:mID="136" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="127.56" height="32.0037"/>
+				<text x="-22.55" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-05-07 „Fertigung <tspan
+							x="3.06" dy="1.2em" class="st4">Spritzguss“</tspan></text>			</g>
+		</g>
+		<g id="group139-421" transform="translate(737.008,-91.5591)" v:mID="139" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.139</title>
+			<desc>VA-08-02-08 „Qualitätsprüfungen (Spritzguss)“</desc>
+			<g id="shape140-422" v:mID="140" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.140</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape141-424" v:mID="141" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.141</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape139-427" v:mID="139" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="127.56" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-08 <v:newlineChar/><tspan
+							x="-16.21" dy="1.2em" class="st4">„Qualitätsprüfungen </tspan><tspan x="0.03" dy="1.2em" class="st4">(</tspan>Spritzguss)“</text>			</g>
+		</g>
+		<g id="shape142-431" v:mID="142" v:groupContext="shape" v:layerMember="1" transform="translate(535.757,-382.11)">
+			<title>Dynamischer Verbinder.142</title>
+			<path d="M0 1154.55 L172.9 1154.55 L172.9 1282.11 L194.2 1282.11" class="st7"/>
+		</g>
+		<g id="shape143-436" v:mID="143" v:groupContext="shape" v:layerMember="1" transform="translate(535.757,-382.11)">
+			<title>Dynamischer Verbinder.143</title>
+			<path d="M0 1154.55 L172.9 1154.55 L172.9 1409.67 L194.2 1409.67" class="st7"/>
+		</g>
+		<g id="group144-441" transform="translate(331.654,-219.118)" v:mID="144" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.144</title>
+			<desc>VA-07-04-04 Wareneingang</desc>
+			<g id="shape145-442" v:mID="145" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.145</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape146-444" v:mID="146" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.146</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape144-447" v:mID="144" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="69.65" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-07-04-04<v:newlineChar/><tspan
+							x="-4.18" dy="1.2em" class="st4">Wareneingang</tspan></text>			</g>
+		</g>
+		<g id="shape147-450" v:mID="147" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.147</title>
+			<path d="M0 1154.55 L-73.69 1154.55 L-73.69 1282.11 L-94.99 1282.11" class="st7"/>
+		</g>
+		<g id="group148-455" transform="translate(331.654,-91.5591)" v:mID="148" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.148</title>
+			<desc>VA-08-03-01 Prüfzustand</desc>
+			<g id="shape149-456" v:mID="149" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.149</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape150-458" v:mID="150" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.150</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape148-461" v:mID="148" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="61.32" height="32.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-03-01<v:newlineChar/><tspan
+							x="1.15" dy="1.2em" class="st4">Prüfzustand</tspan></text>			</g>
+		</g>
+		<g id="shape151-464" v:mID="151" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.151</title>
+			<path d="M0 1154.55 L-73.69 1154.55 L-73.69 1409.67 L-94.99 1409.67" class="st7"/>
+		</g>
+		<g id="group152-469" transform="translate(226.772,-91.5591)" v:mID="152" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.152</title>
+			<desc>Formblatt Wareneingang</desc>
+			<g id="shape153-470" v:mID="153" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.153</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape154-472" v:mID="154" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.154</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape152-475" v:mID="152" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="69.65" height="32.0037"/>
+				<text x="5.32" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Formblatt<v:newlineChar/><tspan
+							x="-4.18" dy="1.2em" class="st4">Wareneingang</tspan></text>			</g>
+		</g>
+		<g id="group155-478" transform="translate(119.055,-91.5591)" v:mID="155" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.155</title>
+			<desc>Formblatt Qualitäts- beanstandungen</desc>
+			<g id="shape156-479" v:mID="156" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.156</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape157-481" v:mID="157" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.157</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape155-484" v:mID="155" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="78.55" height="44.0037"/>
+				<text x="5.32" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Formblatt<v:newlineChar/><tspan
+							x="5.6" dy="1.2em" class="st4">Qualitäts</tspan>-<v:newlineChar/><tspan x="-8.63" dy="1.2em"
+							class="st4">beanstandungen</tspan></text>			</g>
+		</g>
+		<g id="group158-488" transform="translate(119.055,-219.118)" v:mID="158" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.158</title>
+			<desc>Formblatt Gesperrt</desc>
+			<g id="shape159-489" v:mID="159" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.159</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st5"/>
+			</g>
+			<g id="shape160-491" v:mID="160" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.160</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#ed7d31)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape158-494" v:mID="158" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1170.55" width="50.65" height="32.0037"/>
+				<text x="5.32" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Formblatt<v:newlineChar/><tspan
+							x="7.64" dy="1.2em" class="st4">Gesperrt</tspan></text>			</g>
+		</g>
+		<g id="group165-497" transform="translate(609.449,-644.315)" v:mID="165" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.165</title>
+			<desc>VA-08-02-02 Vertrag / Beobachtungs- Meldesystem (med. Bereich)</desc>
+			<g id="shape166-498" v:mID="166" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.166</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape167-500" v:mID="167" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.167</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape165-503" v:mID="165" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1188.55" width="71.02" height="68.0038"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-02-02<v:newlineChar/><tspan
+							x="7.22" dy="1.2em" class="st4">Vertrag </tspan>/<v:newlineChar/><tspan x="-4.86" dy="1.2em"
+							class="st4">Beobachtungs</tspan>-<v:newlineChar/><tspan x="-1.84" dy="1.2em" class="st4">Meldesystem <v:newlineChar/></tspan><tspan
+							x="-4.35" dy="1.2em" class="st4">(</tspan>med. Bereich)</text>			</g>
+		</g>
+		<g id="shape168-509" v:mID="168" v:groupContext="shape" v:layerMember="1" transform="translate(653.386,-786.047)">
+			<title>Dynamischer Verbinder.168</title>
+			<desc>wird indirekt angesprochen</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.9291" cy="1197.07" width="55.71" height="27.2035"/>
+			<path d="M7.09 1154.55 L26.93 1154.55 L26.93 1239.59 L14.13 1239.59" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="3.98416" y="1187.47" width="45.8902" height="19.1997" class="st9"/>
+			<text x="6.17" y="1194.67" class="st13" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>wird indirekt<v:newlineChar/><tspan
+						x="3.98" dy="1.2em" class="st4">angesprochen</tspan></text>		</g>
+		<g id="group169-517" transform="translate(737.008,-644.315)" v:mID="169" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.169</title>
+			<desc>VA-04-03 Qualitätsauf- zeichnungen</desc>
+			<g id="shape170-518" v:mID="170" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.170</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape171-520" v:mID="171" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.171</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape169-523" v:mID="169" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="63.19" height="44.0037"/>
+				<text x="6.58" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-04-03<v:newlineChar/><tspan
+							x="-0.95" dy="1.2em" class="st4">Qualitätsauf</tspan>-<v:newlineChar/><tspan x="-0.19" dy="1.2em"
+							class="st4">zeichnungen</tspan></text>			</g>
+		</g>
+		<g id="shape172-527" v:mID="172" v:groupContext="shape" v:layerMember="1" transform="translate(660.482,-672.661)">
+			<title>Dynamischer Verbinder.172</title>
+			<path d="M0 1147.46 L69.48 1147.46" class="st7"/>
+		</g>
+		<g id="shape173-532" v:mID="173" v:groupContext="shape" v:layerMember="1" transform="translate(609.44,-679.748)">
+			<title>Dynamischer Verbinder.173</title>
+			<path d="M0 1154.55 L-70.86 1154.55 L-70.86 1048.25 L-126.18 1048.25" class="st7"/>
+		</g>
+		<g id="shape174-537" v:mID="174" v:groupContext="shape" v:layerMember="1" transform="translate(602.362,-701.008)">
+			<title>Dynamischer Verbinder.174</title>
+			<path d="M7.09 1154.55 L-14.17 1154.55 L-14.17 1069.51 L0.05 1069.51" class="st7"/>
+		</g>
+		<g id="group176-542" transform="translate(737.008,-488.409)" v:mID="176" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ConnGap" v:prompt="" v:val="VT0(0.00012908222537757):24"/>
+			</v:userDefs>
+			<title>Dokument.176</title>
+			<desc>VA-08-04-01 Statistische Methoden/Statistische Techniken</desc>
+			<g id="shape177-543" v:mID="177" v:groupContext="shape" v:layerMember="0">
+				<title>Tabelle.177</title>
+				<path d="M51.02 1097.18 L38.34 1083.69 L0 1083.69 L0 1154.55 L51.02 1154.55 L51.02 1097.18 Z" class="st1"/>
+			</g>
+			<g id="shape178-545" v:mID="178" v:groupContext="shape" v:layerMember="0" transform="translate(9.30118,-14.2563)">
+				<title>Tabelle.178</title>
+				<v:userDefs>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="SurroundingRegionColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				</v:userDefs>
+				<path d="M19.13 1154.55 L32.16 1154.55 L32.16 1152.75 L19.13 1152.75 L19.13 1154.55 ZM0 1146.11 L32.16 1146.11 L32.16
+							 1144.31 L0 1144.31 L0 1146.11 ZM0 1137.67 L32.16 1137.67 L32.16 1135.87 L0 1135.87 L0 1137.67 ZM0 1129.22
+							 L32.16 1129.22 L32.16 1127.42 L0 1127.42 L0 1129.22 ZM0 1120.78 L13.02 1120.78 L13.02 1118.98 L0 1118.98
+							 L0 1120.78 ZM0 1112.34 L13.02 1112.34 L13.02 1110.54 L0 1110.54 L0 1112.34 ZM28.67 1098.41 L28.67 1111.48
+							 L40.95 1111.48 L28.67 1098.41 Z" class="st2"/>
+			</g>
+			<g id="shape176-548" v:mID="176" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="1176.55" width="127.56" height="44.0037"/>
+				<text x="-0.02" y="1167.55" class="st3" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>VA-08-04-01<v:newlineChar/><tspan
+							x="-22.15" dy="1.2em" class="st4">Statistische Methoden</tspan>/<tspan x="-19.6" dy="1.2em" class="st4">Statistische Techniken</tspan></text>			</g>
+		</g>
+		<g id="shape179-552" v:mID="179" v:groupContext="shape" v:layerMember="1" transform="translate(736.999,-523.843)">
+			<title>Dynamischer Verbinder.179</title>
+			<desc>Lösen aus (in VA-08-05-02 als Auslöser genannt, aber in VA-08...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-73.2459" cy="1154.55" width="86.8" height="56.0034"/>
+			<path d="M0 1154.55 L-155.9 1154.55 L-155.9 1083.69 L-253.73 1083.69" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="-111.737" y="1130.55" width="76.9828" height="47.9995" class="st9"/>
+			<text x="-89.18" y="1137.75" class="st13" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Lösen aus<v:newlineChar/><tspan
+						x="-98.8" dy="1.2em" class="st4">(</tspan>in VA-08-05-02<v:newlineChar/><tspan x="-107.84" dy="1.2em"
+						class="st4">als Auslöser genannt</tspan>,<v:newlineChar/><tspan x="-105.9" dy="1.2em" class="st4">aber in VA</tspan>-08-04-01<v:newlineChar/><tspan
+						x="-111.74" dy="1.2em" class="st4">kein Hinweis enthalten</tspan>)</text>		</g>
+		<g id="shape182-563" v:mID="182" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.182</title>
+			<path d="M0 1154.55 L-286.29 1154.55 L-286.29 1282.11 L-307.59 1282.11" class="st7"/>
+		</g>
+		<g id="shape183-568" v:mID="183" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.183</title>
+			<path d="M0 1154.55 L-286.29 1154.55 L-286.29 1409.67 L-264.99 1409.67" class="st7"/>
+		</g>
+		<g id="shape184-573" v:mID="184" v:groupContext="shape" v:layerMember="1" transform="translate(484.715,-382.11)">
+			<title>Dynamischer Verbinder.184</title>
+			<path d="M0 1154.55 L-286.29 1154.55 L-286.29 1409.67 L-307.59 1409.67" class="st7"/>
+		</g>
+		<g id="shape187-578" v:mID="187" v:groupContext="shape" v:layerMember="1" transform="translate(240.936,-807.307)">
+			<title>Dynamischer Verbinder.187</title>
+			<path d="M0 1154.55 L-127.59 1154.55 L-127.59 1041.17 L-106.25 1041.17" class="st7"/>
+		</g>
+		<g id="shape188-583" v:mID="188" v:groupContext="shape" v:layerMember="1" transform="translate(432.279,-786.047)">
+			<title>Dynamischer Verbinder.188</title>
+			<desc>Ggf. Einleitung von Rückrufaktion im Med. Bereich</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-36.1744" cy="1283.24" width="71.19" height="36.8035"/>
+			<path d="M-7.08 1154.55 L-36.17 1154.55 L-36.17 1345.89 L-14.13 1345.89" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-66.8614" y="1268.84" width="61.3743" height="28.7996" class="st9"/>
+			<text x="-66.86" y="1276.04" class="st10" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Ggf. Einleitung von<v:newlineChar/><tspan
+						x="-63.89" dy="1.2em" class="st4">Rückrufaktion im<v:newlineChar/></tspan><tspan x="-57.86" dy="1.2em"
+						class="st4">Med</tspan>. Bereich</text>		</g>
+		<g id="shape189-592" v:mID="189" v:groupContext="shape" transform="translate(389.764,-1004.31)">
+			<title>Tabelle.189</title>
+			<rect x="0" y="1032.66" width="389.764" height="121.89" class="st14"/>
+		</g>
+		<g id="shape190-594" v:mID="190" v:groupContext="shape" transform="translate(728.504,-984.472)">
+			<title>Tabelle.190</title>
+			<desc>Legende</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="1144.63" width="51.03" height="19.8425"/>
+			<rect x="0" y="1134.71" width="51.0236" height="19.8425" class="st15"/>
+			<text x="4.9" y="1148.23" class="st16" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Legende</text>		</g>
+	</g>
+</svg>
