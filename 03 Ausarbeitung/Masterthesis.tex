@@ -427,7 +427,7 @@ Um bei einer möglichen Fortführung der Arbeiten nicht von vorn beginnen zu mü
 
 Die Recherche in \citep[][]{Hesse} und in \citep[][]{Naef2012} liefert eine ausführliche Liste mit möglichen Programmen. Nach ausgiebiger Prüfung der einzelnen Vertreter fällt die Wahl auf den Bizagi BPM Modeler \citep[][]{Bizagi}, der alle Anforderungen erfüllt.
 
-\section{Durchführung}
+\section{Durchführung}\label{sec:durchfuehrung}
 Nachdem in der Planungsphase grundlegende Festlegungen getroffen wurden, kann die Analyse der derzeitigen Prozesse begonnen werden. Ein mögliches Vorgehen bei der Modellierung von Geschäftsprozessen wird in \citep[vgl.][S. 13-17]{Jacka2009} beschrieben und besteht aus den folgenden Schritten:
 \begin{enumerate}
 \item Prozessidentifizierung
@@ -458,15 +458,14 @@ Fehler im Produkt aufgetreten, weswegen Meldepflicht besteht & Meldesystem\\
 \label{tab:trigger_events}
 \end{center}
 \end{table}
-Demzufolge müssten im Zuge der Modellierung mindestens 5 einzelne Prozesse ermittelt werden können.
+Demzufolge müssten im Zuge der Modellierung mindestens fünf einzelne Prozesse ermittelt werden können.
 
-Die nächsten beiden Schritte Datenerfassung und Interview beschäftigen sich mit der Problemstellung, die notwendigen Daten zur Prozessmodellierung zu sammeln. Als Hersteller von Medizintechnik ist WOM verpflichtet nach einem Handbuch für das Qualitätsmanagement zu arbeiten (TODO: wo wird das gefordert?). In diesem Handbuch sind die Geschäftsprozesse verteilt über Richtlinien und Verfahrensanweisungen dokumentiert. Da die Auditierungen, die durch die benannte Stelle durchgeführt werden, auf dem QM-Handbuch erfolgen, wird dieses als vorrangige Quelle für die zu modellierenden Prozesse ausgewählt. Dies bedeutet auch, dass etwaige Abweichungen, die sich aus der Befragung der mit den Aufgaben betrauten Mitarbeiter ergeben, ignoriert werden. Mitarbeiterinterviews dienen lediglich als Abgleich und zur Sicherstellung des Verständnisses für die gewonnen Daten. 
+Die nächsten beiden Schritte Datenerfassung und Interview beschäftigen sich mit der Problemstellung, die notwendigen Daten zur Prozessmodellierung zu sammeln. Als Hersteller von Medizintechnik ist WOM verpflichtet nach einem Handbuch für das Qualitätsmanagement zu arbeiten (TODO: wo wird das gefordert?). In diesem Handbuch sind die Geschäftsprozesse verteilt über Richtlinien und Verfahrensanweisungen dokumentiert. Da die Auditierungen, die durch die benannte Stelle durchgeführt werden, auf dem QM-Handbuch erfolgen, wird dieses als vorrangige Quelle für die zu modellierenden Prozesse ausgewählt. Dies bedeutet auch, dass etwaige Abweichungen, die sich aus der Befragung der mit den Aufgaben betrauten Mitarbeiter ergeben, ignoriert werden. Mitarbeiterinterviews dienen lediglich als Abgleich und zur Sicherstellung des Verständnisses für die gewonnen Daten. Die Interviews finden mit dem Fachbereichsleiter des Qualitätsmanagement, der die Hauptverantwortung über die analysierten Teile des QM-Handbuches besitzt und mit seinem generellen Überblick die Interpretation der Dokumente bestätigen kann. Zudem wird die Konformität der modellierten Prozesse mit den Dokumenten bezogen auf die normativen Anforderungen der Meldepflicht durch Mitarbeiter der Abteilung Regulatory Affairs verifiziert, da diese in diesem speziellen Teilbereich die entscheidende Instanz bei WOM darstellen.
 
 Ziel ist es die Qualitätsprozesse nach dem Inverkehrbringen der Produkte zu untersuchen, was nur einen Teil des QM-Handbuches darstellt. Um den Aufwand bei der Analyse einzugrenzen, wird zusammen mit dem Fachbereichsleiter des Qualitätsmanagements eine Vorauswahl der relevanten Unterlagen getroffen.
 
 Die Erfassung der Prozesse durch die Analyse des QM-Handbuches stellt sich in der Praxis als schwierig heraus. Dies liegt vor allem an der Struktur des Handbuches, das aus vielen getrennten Verfahrensanweisungen und Richtlinien besteht. Diese scheinen zumindest auf den ersten Blick einen prozessorientierten Grundgedanken zu verfolgen, was sich bei der Analyse allerdings nur teilweise bestätigt. Zwischen den einzelnen Dokumenten, die sich aus Prosatext, Stichpunktanhäufungen und Schaubildern zusammensetzen, bestehen komplexe Zusammenhänge, die sich in zahlreichen Verweisen äußern. Dadurch verteilen sich die einen einzelnen Prozess betreffenden Informationen auf mehrere Dokumente. Ein Überblick über die zu analysierenden Dokumente ist in Abbildung \ref{struktur_dokumente} zu finden, wobei in der Übersicht die Richtlinie 05 für die klinische Validierung nicht vorhanden ist, da diese keine Beziehung zu den restlichen zu betrachtenden Dokumenten aufweist und demzufolge getrennt zu betrachten ist.
 
-Die angesprochene Komplexität bei der Erfassung der Prozesse untermauert den wesentlichen Mehrwert dieser Arbeit für das Unternehmen, da die Unterschiede zwischen dem dokumentierten und gelebten Prozess im Nachgang durch die visuelle Darstellung der Prozesse am effektivsten aufgedeckt werden können.
 \begin{figure}[ht]
 \centering
 \includegraphics[height=0.9\textheight]{Images/DokumentenstrukturWOM}
@@ -474,13 +473,26 @@ Die angesprochene Komplexität bei der Erfassung der Prozesse untermauert den we
 \label{struktur_dokumente}
 \end{figure}
 
+Die angesprochene Komplexität bei der Erfassung der Prozesse untermauert den wesentlichen Mehrwert dieser Arbeit für das Unternehmen, da die Unterschiede zwischen dem dokumentierten und dem gelebten Prozess im Nachgang durch die visuelle Darstellung der Prozesse am effektivsten aufgedeckt werden können.
 
+Eine wesentliche Frage, die generell bei der Modellbildung, im speziellen aber bei der Modellierung eines Teilausschnittes, beantwortet werden muss, besteht in der Definition der Modellierungstiefe. Unternehmensprozesse sind in der Regel eng miteinander verzahnt, weswegen enge Grenzen festgelegt werden müssen, um den Aufwand und die Komplexität zu begrenzen. Laut der allgemeinen Systemtheorie besteht ein direkter Zusammenhang zwischen der gewählten Detailtiefe und dem Anwendungshorizont eines Modells \citep[vgl.][S. 49f]{Morecroft2009}. In diesem konkreten Fall bedeutet dies, dass nur die Prozesse komplett modelliert werden, die sich mit den Pflichten des Herstellers nach der Markteinführung beschäftigen. Andere direkt angeschlossene Prozesse werden zur Unterstützung des Verständnisses nur oberflächlich modelliert. Dadurch wird das Zusammenspiel der einzelnen Prozesse und Rollen besser sichtbar, aber der Mehraufwand hält sich in Grenzen. Dieses Vorgehen soll an einem einfachen Beispiel verdeutlicht werden. In den Abbildungen \ref{modellierungstiefe_flach} und \ref{modellierungstiefe_tiefer} ist der gleiche Prozessablauf auf zwei verschiedene Varianten dargestellt. In der Abbildung \ref{modellierungstiefe_flach} wird lediglich der Prozess 1 beschrieben, wobei das Auslösen von Prozess 2 als normaler Schritt in der Abfolge dargestellt ist. In der darauffolgenden Abbildung \ref{modellierungstiefe_tiefer} wird Prozess 2 zwar auch nicht ausgiebig beschrieben, aber durch die grafische Entsprechung, die in der ersten Abbildung komplett fehlt, ist ein wesentlich besserer Überblick gegeben und auf den ersten Blick ersichtlich, dass es sich um zwei Prozesse handelt, die miteinander interagieren.
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Images/modellierungstiefe1}
+\caption[Beispiel ohne Darstellung der Interaktion mit anderem Prozess]{Beispiel ohne Darstellung der Interaktion mit anderem Prozess}
+\label{modellierungstiefe_flach}
+\end{figure}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\textwidth]{Images/modellierungstiefe2}
+\caption[Beispiel mit Betonung der Interaktion mit anderem Prozess]{Beispiel mit Betonung der Interaktion mit anderem Prozess}
+\label{modellierungstiefe_tiefer}
+\end{figure}
 
-- Beschreibung des Vorgehens, laut Anweisungen im Buch (--> OneNote Tabelle mit Identifikation der Prozessteile)
-- Beschreibung der Modellierungstiefe (die 
-- nach Abschluss der Modellierung nach den Unterlagen wird im Rahmen von Meetings die Konformität zwischen Prozessbeschreibungen und Modell sichergestellt (Treffen mit dem Fachbereichsleiter Qualitätsmanagement, der die Hauptverantwortung über die bestehenden Teile des Handbuchs besitzt, und Mitarbeitern aus Regulatory Affairs, die speziell bezogen auf die normativen Anforderungen und Meldepflichten die entscheidende Instanz bei WOM darstellen
+Der vorletzte Schritt besteht in der Datenanalyse, der jedoch nicht als klassischer Schritt in einer Reihenfolge zu verstehen ist. Vielmehr findet die Datenanalyse während des gesamten Erhebungsprozesses statt. Bei der Präsentation geht es um den Abschluss und wie das Ergebnis des Prozesmodellierungsprojektes präsentiert wird, beziehungsweise woraus das Ergebnis im Detail besteht. Für das hier zu bearbeitende Projekt wurde bereits im Vorfeld festgelegt, dass ein Modell nach BPMN 2.0 zu erstellen ist. Es wird kein gesonderter Bericht erstellt, der den Prozess genauer analysiert und Verbesserungspotentiale offenlegen soll. Stattdessen soll der Prozess im weiteren Verlauf dieser Arbeit auf die Konformität zur MDR untersucht werden und in diesem Zusammenhang sollen gegebenenfalls Vorschläge erarbeitet werden, wie die Prozesse angepasst werden könnten, um die Anforderungen mit möglichst wenig Aufwand zu erfüllen. Ein zusätzliches Ziel beschäftigt sich wiederum trotzdem mit der Optimierung der Prozesse, wobei allerdings nur die Schnittstelle zum F\&E-Bereich untersucht werden soll.
 
+\section{Vorstellung der Ergebnisse}\label{sec:ergebnisse_modellierung}
 %===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung}\label{chap:AnpassungAnMDR}
 
