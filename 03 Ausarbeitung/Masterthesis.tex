@@ -15,6 +15,8 @@
 \usepackage{acronym} % Paket für Abkürzungsverzeichnis
 \usepackage[numbers,square]{natbib} % numbers ist notwendig für alphadin, squar sorgt für eckige Klammern
 \usepackage{url}
+% um Bilder auf nächster Seite zu erzwingen
+\usepackage{afterpage}
 
 %\setlength{\textwidth}{14cm}
 %\setlength{\textheight}{25.5cm}
@@ -333,12 +335,15 @@ Generell beschäftigt sich das Requirements Engineering mit dem Erheben und Pfle
 "`Unter Traceability versteht man die Nachvollziehbarkeit von Entscheidungen und Abhängigkeiten vom Projektbeginn bis Projektende über alle Informationen und Repräsentationsformen der Darstellung"'\citep[][S. 407]{Rupp2002}. Zu jedem Zeitpunkt einer Entwicklung muss es somit möglich sein, die Quelle für eine entsprechende Anforderung zu ermitteln, was im Rahmen der durch die Autoritäten geforderten Entwicklungssystematik für den Hersteller verpflichtend ist \citep[vgl.][S. 117]{Johner2015}. Dabei wird zwischen horizontaler und vertikaler Traceability unterschieden. Vertikale Traceability betrachtet die Beziehungen zwischen Elementen (z.B. Anforderungen) auf verschiedenen Abstraktionsebenen, womit beispielsweise geklärt werden kann, welcher Test welche Anforderung abdeckt und woher die Anforderung stammt. Horizontale Traceability wiederum stellt die Nachverfolgbarkeit von Elementen vom gleichen Typ und auf gleicher Ebene her und stellt Abhängigkeiten zwischen Anforderungen auf dem gleichen Abstraktionslevel her \citep[vgl.][]{Ebert2014}. Solange ein Produkt noch nicht verkauft wird, sind Informationen wie die Versionshistorie zu jedem Item nur für das Unternehmen selbst interessant. Dies ändert sich jedoch mit der erfolgten Zulassung, denn für Änderungen, die nach der Zulassung erfolgen, muss eine lückenlose Dokumentation erstellt werden. Meist sind solche Änderungen das Ergebnis der "`post-market"' Prozesse, die in Kapitel \ref{sec:PMProzesse} genauer erläutert werden. In der Dokumentation muss beispielsweise erläutert werden, aufgrund welchen Fehlers eine Änderung durchgeführt wurde. Zudem muss die Genehmigung der Änderung anhand der Aufzeichnungen des Entscheidungsgremiums nachvollziehbar sein \citep[vgl.][S. 145f.]{Johner2015}. Dieser ist Prozess allgemein unter dem Namen Änderungswesen (Engineering Change Management) oder Änderungskontrolle bekannt.
 
 Das Änderungswesen ist eine koordinierte Verwaltungsdisziplin, die sich darauf versteht produktbezogene Änderungen zu überwachen. Ziel des Änderungsmanagements ist es demnach Ideen zu sammeln, daraus Lösungsansätze zu erstellen und diese auf ihre technischen und wirtschaftlichen Folgen hin zu untersuchen \citep[vgl.][S. VII]{Prostep2007}. Welch großen Einfluss das Änderungsmanagement für die Entwicklung und Produktion besitzt wird in Abbildung \ref{plm_process_map} deutlich.
-\begin{figure}[ht]
+\afterpage{
+\begin{figure}[p]
 \centering
 \includegraphics[height=0.9\textheight]{Images/plm_process_map}
 \caption[Prozesslandkarte PLM]{Prozesslandkarte PLM \citep[S. 36]{Scheer2006}}
 \label{plm_process_map}
 \end{figure}
+\clearpage
+}
 In der gesamten Prozesslandkarte besitzt das Änderungsmanagement neben der Produktentwicklung weitere Schnittstellen zur Arbeitsvorbereitung, dem Betriebsmittelmanagement, der Produktion und dem Service und der Instandhaltung. Prinzipiell resultiert die Wichtigkeit des Änderungswesens aus der günstigen Kosten-Nutzen-Konstellation, die sich aus der besseren Erfüllung der Kundenanforderungen durch den direkten Einfluss durch den Nutzer ergibt \citep[vgl.][]{Wu2014}.  Über die Ausprägung des Änderungsprozesses gibt es keinen klaren Konsens, so dass sich verschiedene Formen entwickelt haben, die sich schon allein in der Anzahl der Prozessschritte deutlich unterscheiden. Mindestens besteht der Prozess demnach aus 3 Schritten, aber auch Beispiele mit bis zu 19 Schritten sind bekannt \citep[vgl.][S. 155]{Stark2015}.
 
 Höchste Anforderungen stellt das Änderungsmanagement an die IT, denn die Auswirkungen von veränderten Anforderungen müssen einfach ersichtlich sein und Transparenz sollte möglichst über eine direkte Navigation gegeben sein. Die oberste Anforderung besteht darin auch nach einer Produktänderung konsistente Daten sicherzustellen, um alle historischen Änderungszustände reproduzierbar zu machen \citep[vgl.][S. 85]{Scheer2006}.
@@ -469,13 +474,15 @@ Ziel ist es die Qualitätsprozesse nach dem Inverkehrbringen der Produkte zu unt
 
 Die Erfassung der Prozesse durch die Analyse des QM-Handbuches stellt sich in der Praxis als schwierig heraus. Dies liegt vor allem an der Struktur des Handbuches, das aus vielen getrennten Verfahrensanweisungen und Richtlinien besteht. Diese scheinen zumindest auf den ersten Blick einen prozessorientierten Grundgedanken zu verfolgen, was sich bei der Analyse allerdings nur teilweise bestätigt. Zwischen den einzelnen Dokumenten, die sich aus Prosatext, Stichpunktanhäufungen und Schaubildern zusammensetzen, bestehen komplexe Zusammenhänge, die sich in zahlreichen Verweisen äußern. Dadurch verteilen sich die einen einzelnen Prozess betreffenden Informationen auf mehrere Dokumente. Ein Überblick über die zu analysierenden Dokumente ist in Abbildung \ref{struktur_dokumente} zu finden, wobei in der Übersicht die Richtlinie 05 für die klinische Validierung nicht vorhanden ist, da diese keine Beziehung zu den restlichen zu betrachtenden Dokumenten aufweist und demzufolge getrennt zu betrachten ist.
 
-\begin{figure}[ht]
+\afterpage{
+\begin{figure}[p]
 \centering
 \includegraphics[height=0.9\textheight]{Images/DokumentenstrukturWOM}
 \caption[Struktur der Prozessdokumentation (Qualitätsmanagement Handbuch) bei WOM]{Struktur der Prozessdokumentation (Qualitätsmanagement Handbuch) bei WOM}
 \label{struktur_dokumente}
 \end{figure}
-
+\clearpage
+}
 Die angesprochene Komplexität bei der Erfassung der Prozesse untermauert den wesentlichen Mehrwert dieser Arbeit für das Unternehmen, da die Unterschiede zwischen dem dokumentierten und dem gelebten Prozess im Nachgang durch die visuelle Darstellung der Prozesse am effektivsten aufgedeckt werden können.
 
 Eine wesentliche Frage, die generell bei der Modellbildung, im speziellen aber bei der Modellierung eines Teilausschnittes, beantwortet werden muss, besteht in der Definition der Modellierungstiefe. Unternehmensprozesse sind in der Regel eng miteinander verzahnt, weswegen enge Grenzen festgelegt werden müssen, um den Aufwand und die Komplexität zu begrenzen. Laut der allgemeinen Systemtheorie besteht ein direkter Zusammenhang zwischen der gewählten Detailtiefe und dem Anwendungshorizont eines Modells \citep[vgl.][S. 49f]{Morecroft2009}. In diesem konkreten Fall bedeutet dies, dass nur die Prozesse komplett modelliert werden, die sich mit den Pflichten des Herstellers nach der Markteinführung beschäftigen. Andere direkt angeschlossene Prozesse werden zur Unterstützung des Verständnisses nur oberflächlich modelliert. Dadurch wird das Zusammenspiel der einzelnen Prozesse und Rollen besser sichtbar, aber der Mehraufwand hält sich in Grenzen. Dieses Vorgehen soll an einem einfachen Beispiel verdeutlicht werden. In den Abbildungen \ref{modellierungstiefe_flach} und \ref{modellierungstiefe_tiefer} ist der gleiche Prozessablauf auf zwei verschiedene Varianten dargestellt. In der Abbildung \ref{modellierungstiefe_flach} wird lediglich der Prozess 1 beschrieben, wobei das Auslösen von Prozess 2 als normaler Schritt in der Abfolge dargestellt ist. In der darauffolgenden Abbildung \ref{modellierungstiefe_tiefer} wird Prozess 2 zwar auch nicht ausgiebig beschrieben, aber durch die grafische Entsprechung, die in der ersten Abbildung komplett fehlt, ist ein wesentlich besserer Überblick gegeben und auf den ersten Blick ersichtlich, dass es sich um zwei Prozesse handelt, die miteinander interagieren.
