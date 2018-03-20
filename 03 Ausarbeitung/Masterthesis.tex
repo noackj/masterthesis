@@ -96,6 +96,7 @@ Kurzfassung
  \acro{BPM}{Business Process Management}
  \acro{BPMI}{Business Process Management Initiative}
  \acro{BPMN}{Business Process Model and Notation}
+ \acro{DFV}{Durchführungsverantwortlicher}
  \acro{EPK}{Ereignisgesteuerte Prozesskette}
  \acro{FSCA}{Field Safety Corrective Action}
  \acro{GHTF}{Global Harmonizatino Task Force}
@@ -108,7 +109,9 @@ Kurzfassung
  \acro{PLM}{Product Lifecycle Management}
  \acro{PMCF}{Post Market Clinical Follow-Up}
  \acro{PMS}{Post Market Surveillance}
+ \acro{QMB}{Qualitätsmanagementbeauftragter}
  \acro{QMS}{Qualitätsmanagementsystem}
+ \acro{RA}{Regulatory Affairs}
  \acro{UML}{Unified Modeling Language}
  \acro{WOM}{W.O.M. WORLD OF MEDICINE GmbH}
  \acro{YAWL}{Yet Another Workflow Language}
@@ -479,13 +482,15 @@ Eine wesentliche Frage, die generell bei der Modellbildung, im speziellen aber b
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.9\textwidth]{Images/modellierungstiefe1}
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Images/modellierungstiefe1}
 \caption[Beispiel ohne Darstellung der Interaktion mit anderem Prozess]{Beispiel ohne Darstellung der Interaktion mit anderem Prozess}
 \label{modellierungstiefe_flach}
 \end{figure}
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.9\textwidth]{Images/modellierungstiefe2}
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Images/modellierungstiefe2}
 \caption[Beispiel mit Betonung der Interaktion mit anderem Prozess]{Beispiel mit Betonung der Interaktion mit anderem Prozess}
 \label{modellierungstiefe_tiefer}
 \end{figure}
@@ -493,6 +498,93 @@ Eine wesentliche Frage, die generell bei der Modellbildung, im speziellen aber b
 Der vorletzte Schritt besteht in der Datenanalyse, der jedoch nicht als klassischer Schritt in einer Reihenfolge zu verstehen ist. Vielmehr findet die Datenanalyse während des gesamten Erhebungsprozesses statt. Bei der Präsentation geht es um den Abschluss und wie das Ergebnis des Prozesmodellierungsprojektes präsentiert wird, beziehungsweise woraus das Ergebnis im Detail besteht. Für das hier zu bearbeitende Projekt wurde bereits im Vorfeld festgelegt, dass ein Modell nach BPMN 2.0 zu erstellen ist. Es wird kein gesonderter Bericht erstellt, der den Prozess genauer analysiert und Verbesserungspotentiale offenlegen soll. Stattdessen soll der Prozess im weiteren Verlauf dieser Arbeit auf die Konformität zur MDR untersucht werden und in diesem Zusammenhang sollen gegebenenfalls Vorschläge erarbeitet werden, wie die Prozesse angepasst werden könnten, um die Anforderungen mit möglichst wenig Aufwand zu erfüllen. Ein zusätzliches Ziel beschäftigt sich wiederum trotzdem mit der Optimierung der Prozesse, wobei allerdings nur die Schnittstelle zum F\&E-Bereich untersucht werden soll.
 
 \section{Vorstellung der Ergebnisse}\label{sec:ergebnisse_modellierung}
+In diesem Teilkapitel wird das Ergebnis der Modellbildung präsentiert. Dabei liegt der Fokus auf einem groben Überblick mit zusätzlichen Erklärungen und Hinweisen zu Besonderheiten der BPMN. Aufgrund der Übersichtlichkeit ist es an dieser Stelle leider nicht möglich, sämtliche Ergebnisse aufzuführen, da die entstandenen Modelle zu groß sind. Für einen kompletten Einblick in alle Ergebnisse sei auf den Inhalt der beigelegten Disk verwiesen. Die Modelle liegen dort im HTML-Format vor, so dass sie mit jedem herkömmlichen Browser dargestellt werden können.
+
+Insgesamt konnten die folgenden Prozesse durch die Analyse der Verfahrensanweisungen und Richtlinien bestimmt werden:
+
+\begin{itemize}
+\item Kundenrückmeldung bearbeiten
+\item Fehlerkategorie bestimmen
+\item Meldesystem
+\item Rückrufaktion/Korrekturmaßnahme im Feld
+\item Änderungsvorgang
+\item Statistische Auswertung zu Kundenrückmeldungen durchführen
+\item Statistische Analysen
+\item Korrektur- und Vorbeugungsmaßnahmen
+\item Aktualisierung der klinischen Bewertung (neue Erkenntnisse)
+\item Aktualisierung der klinischen Bewertung (regelmäßig)
+\item Fehlerursachenanalyse durchführen (Root Cause)
+\end{itemize}
+
+Im Modell werden einige Abkürzungen verwendet, die an dieser Stelle zur Absicherung des Verständnisses aufgelöst werden:
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|p{0.2\textwidth}|p{0.4\textwidth}|}
+\hline
+Abkürzung & Auflösung\\
+\hline\hline
+CEO & Chief Executive Officer\\
+\hline
+CFO & Chief Financial Officer\\
+\hline
+CS & Customer Service\\
+\hline
+DFV & Durchführungsverantwortlicher\\
+\hline
+F\&E & Forschung und Entwicklung\\
+\hline
+PJL & Projektleiter\\
+\hline
+PM & Produktmanagement\\
+\hline
+QM & Qualitätsmanagement\\
+\hline
+QMB & Qualitätsmanagementbeauftragter\\
+\hline
+RA & Regulatory Affairs\\
+\hline
+UM & Umweltmanagement\\
+\hline
+\end{tabular}
+\caption[Abkürzungen Abteilungen und Rollen]{Abkürzungen Abteilungen und Rollen}
+\label{tab:abkuerzungen_abt_rollen}
+\end{center}
+\end{table}
+
+Der zentralste Prozess im gewählten Themenkomplex wird bei WOM durch die Bearbeitung von Kundenrückmeldungen dargestellt. Dieser Stellenwert kann bereits bei der näheren Betrachtung von Abbildung \ref{struktur_dokumente} erahnt werden, in der sich die Verfahrensanweisung 08-05-01 im Mittelpunkt befindet. Kundenrückmeldungen in verschiedensten Formen sind demnach für das Unternehmen die wichtigste Datenquelle für "`Post-Market-Prozesse"'. Im weiteren Verlauf der Auswertung schließen sich verschiedene Prozesse zur Bearbeitung der Fehler aber auch zur Erfüllung der Meldepflichten an. Für eine bessere Übersicht über die bestehenden Prozesse wird der Prozess der Kundenrückmeldung als Ausgangspunkt für die Modellierung eines Kollaborationsdiagramms verwendet. In diesem wird der Zusammenhang zwischen den Prozessen Kundenrückmeldung bearbeiten, Meldesystem, Rückrufaktion/Korrekturmaßnahme im Feld, Änderungsvorgang und Statistische Auswertung veranschaulicht.
+
+Nachdem die Beanstandungen per Telefon, per Fax oder Brief, durch einen Kundenbesuch oder per Warenrücksendung beim Complaint Manager ankommt, führt dieser die initiale Bearbeitung durch, indem beispielsweise weitere Informationen von der Beanstandungsquelle eingeholt werden. Dieser Teilprozess ist in Abbildung \ref{modell_informationen_einholen} dargestellt.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1.0\textwidth]{Images/information_gathering}
+\caption[Prozessmodell Informationen zu Beanstandung einholen]{Prozessmodell Informationen zu Beanstandung einholen}
+\label{modell_informationen_einholen}
+\end{figure}
+Aus dem Modell ist zu erkennen, dass es drei Eskalationsebenen gibt, die über die Rollen des Complaint Managers, des \ac{QMB} und der Geschäftsleitung verteilt sind. Über die Aktivität "`Anfrage stellen"' wird die Interaktion mit dem Kunden durchgeführt. Diese Aktivität wird als Schleife modelliert (zu erkennen an dem kreisförmigen Pfeil), da die Anfrage bis zu drei mal gestellt werden kann. Zudem wird die maximale Dauer, in der eine Antwort eintreffen kann auf zwei Wochen begrenzt, was über das angeheftete Zwischenereignis modelliert wird. Ein zweites unterbrechendes angeheftetes Zwischenereignis wird ausgelöst, wenn eine Antwort erhalten wurde. In beiden Fällen wird die Ausführung der Aktivität unterbrochen. Gibt es innerhalb der Bedingungen keine Rückmeldung vom Kunden, wird die Nachfrage auf die nächste Ebene im Unternehmen gehoben, bis am Ende die Anfrage auf der Ebene der Geschäftsleitung durchgeführt wird.
+
+Aus der Aufgabe "`Anfrage stellen"' wird ein Nachrichtenereignis bis an die Poolgrenze der Quelle für die Beanstandung gesendet. Dies stellt eine Besonderheit der BPMN 2.0 dar, da Nachrichtenflüsse bei nicht vollständigen Modellierungen auch auf die Grenze der Pools gesetzt werden können. Normalerweise müsste ein Nachrichtenfluss mit einem anderen Element (z.B. Ereignis oder Aktivität) verbunden werden, um den tatsächlichen Informationsaustausch aufzuzeigen. Dies ist allerdings wie hier im Beispiel nicht immer möglich, da die internen Prozesse beim Kunden beispielsweise nicht bekannt sind. Über diese Freiheit lassen sich trotz fehlendem Wissen die Interaktionen zwischen den verschiedenen Prozessteilnehmern und Prozessen verdeutlichen.
+
+Nachdem durch den Complaint Manager ein \ac{DFV} benannt wurde, wird mit der Bearbeitung des Fehlers, genauer gesagt mit der Identifikation, fortgefahren. Bereits so früh im Prozess wird die Bedeutung der Meldepflicht offensichtlich, da hier die erste Interaktion mit dem Prozess "`Meldesystem"' stattfindet. Die Interaktion liegt in dem Sinne vor, dass im Rahmen der Bearbeitung der Beanstandung Informationen gewonnen werden, die abhängig von der ermittelten Fehlerkategorie für den Prozess der Meldepflicht sofort zur Verfügung gestellt werden müssen. Schnelles handeln ist besonders wichtig, da durch die normativen Institutionen teilweise sehr enge Zeitfenster für Meldungen eingeräumt werden. So muss beispielsweise der FDA-5-Day Report innerhalb von fünf Tagen ausgelöst werden. Um diese Anforderung durch die Prozesse bedienen zu können, gibt es mehrere Prozessschritte bei der Bearbeitung von Kundenrückmeldungen, wo die Informationen synchronisiert werden. 
+
+Durch die Mitarbeiter der Abteilung \ac{RA} werden die Meldepflichten ausgehend von der ermittelten Fehlerkategorie bedient. Das aktuelle Modell konzentriert sich gerade bei den Meldepflichten auf den europäischen Raum, da im folgenden Kapitel die Konformität zur neuen europäischen Verordnung MDR untersucht wird. Zusätzlich wird der Prozess für die FDA dargestellt, da die meisten Vorgaben bei WOM auf den FDA-Anforderungen beruhen. Im Detail wird Schritt für Schritt beschrieben, wie mit den Beanstandungen verfahren werden muss. Für den europäischen Raum geht es bis hin zur möglichen Koordination und Durchführung von Korrekturmaßnahmen. Für die FDA besteht wiederum auch nach dem Absenden des Berichtes die Pflicht, weitere Informationen zu sammeln und in einem jährlichen Bericht bei der Behörde den Informationsstand zu aktualisieren. Am Ende steht für beide Vorgehensweisen die Dokumentation der Beanstandung in einem dafür ausgewiesenen Formular.
+
+Parallel läuft die interne Bearbeitung der Beanstandung weiter, indem die Fehlerart bestimmt und im Formblatt EDV eingetragen wird. Anschließend findet eine genaue Ursachenanalyse statt. Dieser Prozess ist nicht trivial, da hierfür die Unterstützung mehrerer Fachbereich hinzugezogen werden kann. Da die Bedeutung dieses Teilprozesses für den Prozess der Bearbeitung einer Kundenrückmeldung vergleichsweise gering ist und die zusätzlichen Rollen im Kollaborationsdiagramm die Übersichtlichkeit verringern würden, wird er in einen eigenen Unterprozess ausgelagert. Hierfür bietet BPMN 2.0 im Wesentlichen zwei verschiedene Varianten an. Die einfachste Form ist der eingebettete Sub-Process. Dieser hat die Aufgabe die Übersichtlichkeit zu erhalten, indem mehrere Aktivitäten und Symbole in einem Symbol geclustert werden. Komplexe Abläufe über mehrere Rollen können dadurch allerdings nicht abgebildet werden. Dazu wird die Call-Activity verwendet, die für einen wiederverwendbaren Teilprozess steht. Dies ermöglicht den Einsatz von Pools und Lanes im Subprozess und lässt verschiedene Startevents zu. Die beiden Symbole sind sich sehr ähnlich, werden durch ein "`+"'-Zeichen signalisiert und unterscheiden sich lediglich in der Dicke des Rahmens des Prozesssymbols \citep[vgl.][S. 173-188]{OMG2011}. Beide Arten werden im hier beschriebenen Modell verwendet. Um den visuellen Unterschied deutlich zu machen, sind in Abbildung \ref{call_activity} die Verwendung einer Call-Actitivty und in Abbildung \ref{sub_process} ein Sub-Process gegenübergestellt.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{Images/sub_process_call}
+\caption[Anwendung einer Call Activity]{Anwendung einer Call-Activity}
+\label{call_activity}
+\end{figure}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{Images/sub_process}
+\caption[Anwendung eines Sub-Processes]{Anwendung eines Sub-Processes}
+\label{sub_process}
+\end{figure}
+
+
+Ad-Hoc Sub-Process \citep[vgl.][S. 180]{OMG2011}\citep[vgl.][S. 431]{OMG2011}
 %===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung}\label{chap:AnpassungAnMDR}
 
