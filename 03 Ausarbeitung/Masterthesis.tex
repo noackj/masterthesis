@@ -453,7 +453,7 @@ Trigger Event & Prozessname \\
 \hline\hline
 Kunde meldet Problem mit Produkt & Kundenrückmeldung \\
 \hline
-Normative Anforderung zum zyklischen Aktualisierung der klinischen Evaluation & Klinische Evaluation nach dem Inverkehrbringen \\
+Normative Anforderung zum zyklischen Aktualisierung der klinischen Evaluation & Aktualisierung der klinischen Bewertung\\
 \hline
 Normative Anforderung den Markt dauerhaft zu beobachten & Marktbeobachtung \\
 \hline
@@ -510,17 +510,18 @@ In diesem Teilkapitel wird das Ergebnis der Modellbildung präsentiert. Dabei li
 Insgesamt konnten die folgenden Prozesse durch die Analyse der Verfahrensanweisungen und Richtlinien bestimmt werden:
 
 \begin{itemize}
-\item Kundenrückmeldung bearbeiten
-\item Fehlerkategorie bestimmen
+\item Bearbeitung Kundenrückmeldung
+\item Bestimmung der Fehlerkategorie
 \item Meldesystem
 \item Rückrufaktion/Korrekturmaßnahme im Feld
 \item Änderungsvorgang
-\item Statistische Auswertung zu Kundenrückmeldungen durchführen
+\item Statistische Auswertung der Kundenrückmeldungen
 \item Statistische Analysen
 \item Korrektur- und Vorbeugungsmaßnahmen
 \item Aktualisierung der klinischen Bewertung (neue Erkenntnisse)
 \item Aktualisierung der klinischen Bewertung (regelmäßig)
-\item Fehlerursachenanalyse durchführen (Root Cause)
+\item Fehlerursachenanalyse (Root Cause)
+\item Informationen zu Beanstandung einholen
 \end{itemize}
 
 Im Modell werden einige Abkürzungen verwendet, die an dieser Stelle zur Absicherung des Verständnisses aufgelöst werden:
@@ -637,6 +638,15 @@ Für medizinische Produkte existiert mit der klinischen Bewertung eine spezielle
 Beim regelmäßigen Ansatz wird eine Literaturrecherche durchgeführt und die Informationen im Dokument der klinischen Bewertung aktualisiert. Der Wiederholungszeitraum ist abhängig von der Kategorisierung des Produktes, die sich nach dem Maß der vom Produkt ausgehenden Gefährdung bestimmt und beträgt entweder zwei (Klasse IIa oder IIb) oder drei Jahre (Klasse I). Die Verantwortung für diesen Prozess trägt der Medizinprodukteberater oder ein Mitarbeiter aus dem Bereich PM.
 
 Die Aktualisierung der klinischen Bewertung aufgrund neuer Erkenntnisse wird einmal jährlich durchgeführt. Zunächst werden dazu durch den Complaint Manager alle relevanten Kundenbeanstandungen zusammengestellt. Dazu gehören auch Erfahrungsberichte von Ärzten und vom Medizinprodukteberater eingeholte Produktinformationen. Diese werden durch den Medizinprodukteberater analysiert und auf Konformität zur aktuellen klinischen Bewertung untersucht. Neue Erkenntnisse sind demzufolge in die klinische Bewertung einzuarbeiten. Die Entscheidungsgewalt über die Konformität liegt bei der Abteilung RA. Bei fehlender Konformität wird zusammen mit dem Medizinprodukteberater über die folgenden Schritte beraten und die Durchführung einer Literaturrecherche oder einer klinischen Prüfung durch den Medizinprodukteberater angefordert. Ist die Konformität sichergestellt wird die Freigabe durch RA erteilt, womit das Ende dieses Prozesses erreicht ist.
+
+Für einen abschließenden Überblick dient die Übersicht in Abbildung \ref{process_overview}. In dieser Darstellung sind alle modellierten Prozesse und die Beziehungen zwischen Ihnen aufgeführt. Die Beziehungen zwischen den Prozessen sind mit der üblichen Pfeilcharakteristika der BPMN 2.0 dargestellt. Durchgezogene Pfeillinien signalisieren somit einen direkten Aufruf, gestrichelte Pfeile mit einem weißen Pfeilkörper stehen für Nachrichtenflüsse und gepunktete Pfeilverbindungen stehen für weitergereichte Artefakte. Auf den ersten Blick ist nochmals deutlich, dass die Bearbeitung von Kundenrückmeldungen eine zentrale Rolle besitzt und die Prozesse zur Aktualisierung der klinischen Bewertung und für Korrektur- und Vorbeugungsmaßnahmen ohne konkrete Referenzierung in anderen Prozessen existieren.
+\begin{figure}[ht]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Images/process_overview}
+\caption[Übersicht über die modellierten Prozesse]{Übersicht über die modellierten Prozesse}
+\label{process_overview}
+\end{figure}
 %===================================================================== Cahpter 4
 \chapter{Anpassung des Prozesses unter Berücksichtigung der Medizinprodukteverordnung}\label{chap:AnpassungAnMDR}
 
