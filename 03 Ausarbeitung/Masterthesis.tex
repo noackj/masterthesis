@@ -681,80 +681,40 @@ keepaspectratio]{Images/process_overview}
 \def\unchecked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_unchecked}}}
 \def\checked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_checked}}}
 
+\def\checkListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.87\textwidth}|p{0.07\textwidth}|} \hline Anforderung & Erfüllt\\ \hline\hline}
+\def\checkListTabBottom{\end{tabular}\end{table}}
+\def\plainTabularTextWOCheckbox#1{\vspace{0mm} #1 & \\}
+\def\plainTabularTextChecked#1{#1 & \checked\\}
+\def\plainTabularTextUnchecked#1{#1 & \unchecked\\}
+\def\tabularitemizeFirstLayerCheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeFirstLayerUncheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \unchecked\\}
+
 
 \section{Liste der ermittelten Anforderungen}
 
-\begin{table}[ht]
-\centering
-\begin{tabular}{|p{0.88\textwidth}|p{0.07\textwidth}|}
-\hline
-Anforderung & Erfüllt\\
-\hline\hline
+\checkListTabHead
 % =============================== row 1
-System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden
-&
-\unchecked\\
+\plainTabularTextUnchecked{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}
 \hline
 % =============================== row 2
-\vspace{0mm} % makes space to hline the same for all rows
-Plan zur Überwachung nach dem Inverkehrbringen: & \\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Doku ist \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird \\
-\end{tabular}
-&
-\unchecked\\
+\plainTabularTextWOCheckbox{Plan zur Überwachung nach dem Inverkehrbringen:}
+\tabularitemizeFirstLayerUncheck{Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Doku ist}
+\tabularitemizeFirstLayerUncheck{Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird}
 \hline
 % =============================== row 3
-\vspace{0mm} % makes space to hline the same for all rows
-Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für: & \\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Aktualisierung des Risikomanagements \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Aktualisierung der GA, Informationen zur Herstellung und Kennzeichnung \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Aktualisierung der klinischen Bewertung \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Aktualisierung Kurzbericht über Sicherheit und klinische Leistung (für Klasse III Geräte) \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Ermittlung des Bedarfs an Präventiv-, Korrektur- oder Sicherheitskorrekturmaßnahmen im Feld \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Ermittlung von Möglichkeiten zur Verbesserung der Gebrauchstauglichkeit, der Leistung und der Sicherheit des Produkts \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Beitrag zur Überwachung anderer Produkte nach dem Inverkehrbringen \\
-\end{tabular}
-&
-\unchecked\\
-\begin{tabular}{p{0,3cm}p{13,6cm}}
-\textbullet & Erkennung und Meldung von Trends \\
-\end{tabular}
-&
-\unchecked\\
+\plainTabularTextWOCheckbox{Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für:}
+\tabularitemizeFirstLayerUncheck{Aktualisierung des Risikomanagements}
+\tabularitemizeFirstLayerUncheck{Aktualisierung der GA, Informationen zur Herstellung und Kennzeichnung}
+\tabularitemizeFirstLayerUncheck{Aktualisierung der klinischen Bewertung}
+\tabularitemizeFirstLayerUncheck{Aktualisierung Kurzbericht über Sicherheit und klinische Leistung (für Klasse III Geräte)}
+\tabularitemizeFirstLayerUncheck{Ermittlung des Bedarfs an Präventiv-, Korrektur- oder Sicherheitskorrekturmaßnahmen im Feld}
+\tabularitemizeFirstLayerUncheck{Ermittlung von Möglichkeiten zur Verbesserung der Gebrauchstauglichkeit, der Leistung und der Sicherheit des Produkts}
+\tabularitemizeFirstLayerUncheck{Beitrag zur Überwachung anderer Produkte nach dem Inverkehrbringen}
+\tabularitemizeFirstLayerUncheck{Erkennung und Meldung von Trends}
+\plainTabularTextUnchecked{Die Technische Dokumentation ist immer aktuell zu halten}
 \hline
-\end{tabular}
-\end{table}
+\checkListTabBottom
+
 
 
 \begin{table}[ht]
