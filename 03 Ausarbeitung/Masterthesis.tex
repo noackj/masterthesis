@@ -89,6 +89,7 @@ Betreuer Firma: \> Dr. Jan Bischof
 
 Kurzfassung
 
+
 %===================================================================== Verzeichnisse
 \tableofcontents %Inhaltsverzeichnis
 \listoffigures %Abbildungsverzeichnis
@@ -675,7 +676,49 @@ keepaspectratio]{Images/process_overview}
 \appendix
 \chapter[Anhang]{}
 \newpage
-\section{Anhang 1}
+
+% macros for checkboxes
+\def\unchecked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_unchecked}}}
+\def\checked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_checked}}}
+
+\section{Liste der ermittelten Anforderungen}
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|p{0.88\textwidth}|p{0.07\textwidth}|}
+\hline
+Anforderung & Erfüllt\\
+\hline\hline
+System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden
+&
+\checked\\
+\hline
+Plan zur Überwachung nach dem Inverkehrbringen:
+\begin{itemize}
+\item Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Doku ist
+\item Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird
+\end{itemize}
+&
+\unchecked\\
+\hline
+Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für:
+\begin{itemize}
+\item Aktualisierung des Risikomanagements
+\item Aktualisierung der GA, Informationen zur Herstellung und Kennzeichnung
+\item Aktualisierung der klinischen Bewertung
+\item Aktualisierung Kurzbericht über Sicherheit und klinische Leistung (für Klasse III Geräte)
+\item Ermittlung des Bedarfs an Präventiv-, Korrektur- oder Sicherheitskorrekturmaßnahmen im Feld
+\item Ermittlung von Möglichkeiten zur Verbesserung der Gebrauchstauglichkeit, der Leistung und der Sicherheit des Produkts
+\item Beitrag zur Überwachung anderer Produkte nach dem Inverkehrbringen
+\item Erkennung und Meldung von Trends
+\end{itemize}
+&
+\unchecked\\
+\hline
+\end{tabular}
+%\caption[Abkürzungen Abteilungen und Rollen]{Abkürzungen Abteilungen und Rollen}
+%\label{tab:abkuerzungen_abt_rollen}
+\end{center}
+\end{table}
 
 %===================================================================== Eidessattl. Vers.
 \chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
