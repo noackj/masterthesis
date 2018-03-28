@@ -44,6 +44,11 @@
 % kleinere Bulletpoints
 \renewcommand\labelitemi{{\boldmath$\cdot$}}
 
+% Gleitobjekte top, nicht mitte (http://projekte.dante.de/DanteFAQ/FloatPlatzierung)
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
 \begin{document}
 
 %===================================================================== Titlepage
@@ -686,8 +691,11 @@ keepaspectratio]{Images/process_overview}
 \def\plainTabularTextWOCheckbox#1{\vspace{0mm} #1 & \\}
 \def\plainTabularTextChecked#1{#1 & \checked\\}
 \def\plainTabularTextUnchecked#1{#1 & \unchecked\\}
+\def\tabularitemizeFirstLayerWOCheckbox#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \\}
 \def\tabularitemizeFirstLayerCheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \checked\\}
 \def\tabularitemizeFirstLayerUncheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeSecondLayerCheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \unchecked\\}
 
 
 \section{Liste der ermittelten Anforderungen}
@@ -715,97 +723,75 @@ keepaspectratio]{Images/process_overview}
 \hline
 \checkListTabBottom
 
+\checkListTabHead
+\plainTabularTextUnchecked{Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und ggf. benannter Stelle durch den Hersteller}
+\hline
+\plainTabularTextWOCheckbox{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}
+\tabularitemizeFirstLayerUncheck{Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt sind, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in techn. Doku quantifiziert und durch Meldung von Trends erfasst}
+\tabularitemizeSecondLayerUncheck{Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht}
+\tabularitemizeSecondLayerUncheck{Meldung innerhalb 10 Tage nach Kenntnis des Vorkommnisses, wenn Tod oder unvorhergesehener Verschlechterung des Gesundheitszustandes einer Person und Kausalzusammenhang zum Produkt besteht oder vermutet wird}
+\tabularitemizeSecondLayerUncheck{Meldung innerhalb 15 Tage nach Kenntnis des Vorkommnisses, wenn Kausalzusammenhang zwischen Produkt und Vorkommniss festgestellt wurde oder möglich ist}
+\tabularitemizeFirstLayerUncheck{Sicherheitskorrekturmaßnahmen im Feld, auch wenn außerhalb EU, aber Grund für Maßnahme direkt vom Produkt ausgeht, werden den zuständigen Behörden über elektronisches System gemeldet}
+\tabularitemizeSecondLayerUncheck{Meldung über Sicherheitskorrekturmaßnahme im Feld in nicht dringenden Fällen ohne gebührliche Verzögerung vor der Durchführung}
+\tabularitemizeSecondLayerUncheck{Bei wiederholenden Meldungen (ähnliches Vorkommnis mit gleichem Produkt oder Produktart,  schon erfolgter Sicherheitskorrekturmaßnahme oder häufig auftretend aber gut dokumentiert) kann periodische Sammelmeldung über elektronisches System erfolgen}
+\tabularitemizeFirstLayerUncheck{Untersuchung  (u.A. Risikobewertung) folgt unverzüglich auf Meldung eines schwerwiegenden Vorkommnisses durch den Hersteller}
+\tabularitemizeSecondLayerUncheck{Zusammenarbeit ggf. mit Behörden und benannter Stelle}
+\tabularitemizeSecondLayerUncheck{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}
+\tabularitemizeFirstLayerUncheck{Notwendige Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden}
+\tabularitemizeFirstLayerUncheck{Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und ggf. zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System}
+\hline
+\checkListTabBottom
 
+\checkListTabHead
+\tabularitemizeFirstLayerUncheck{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}
+\tabularitemizeSecondLayerUncheck{Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann}
+\tabularitemizeSecondLayerUncheck{Identifikation über UDI und SRN}
+\tabularitemizeSecondLayerUncheck{Enthalten sind Gründe für Sicherheitskorrekturmaßnahme im Feld mit Verweis auf Fehlfunktion und Risiken für Patienten, Anwender oder Dritte sowie alle zu ergreifenden Maßnahmen}
+\tabularitemizeFirstLayerUncheck{Information über mögliche schwerwiegende Vorkommnisse können von zuständiger Behörde kommen, sofern diese zuerst informiert wurde}
+\tabularitemizeSecondLayerUncheck{Behörde kann vom Hersteller Schritte gemäß schwerwiegendem Vorkommniss einfordern, auch wenn dieser ermittelt hat, dass Vorfall nicht schwerwiegend ist oder es als erwartete, unerwünschte Nebenwirkung, die in der Meldung von Trends enthalten sein wird, klassifiziert}
+\hline
+\plainTabularTextWOCheckbox{Sicherheitsbericht:}
+\tabularitemizeFirstLayerWOCheckbox{Klasse I:}
+\tabularitemizeSecondLayerUncheck{Zur Zusammenfassung der Überwachung nach dem Inverkehrbringen und der ergriffenen Präventiv- und Korrekturmaßnahmen (Beschreibung und Begründung der Maßnahmen) muss ein Bericht erstellt werden}
+\tabularitemizeFirstLayerWOCheckbox{Klasse IIa, Iib, III:}
+\tabularitemizeSecondLayerUncheck{Ergebnisse und Schlussfolgerunge der PMS sowie Beschreibung und Begründung ergriffener Präventiv- und Korrekturmaßnahmen müssen enthalten sein (erstellt pro Produkt, ggf. Produktkategorie oder Produktgruppe)}
+\tabularitemizeSecondLayerUncheck{Aktualisierung über gesamte Lebensdauer}
+\tabularitemizeSecondLayerUncheck{Enthält:\newline a) die Schlussfolgerungen aus der Nutzen-Risiko-Abwägung\newline b) die wichtigsten Ergebnisse des Bewertungsberichts und\newline c) die Gesamtabsatzmenge des Produkts und eine Schätzung der Anzahl und anderer Merkmale der Personen, bei denen das betreffende Produkt zur Anwendung kommt, sowie, sofern dies praktikabel ist, die Häufigkeit der Produktverwendung}
+\hline
+\checkListTabBottom
 
-\begin{table}[ht]
-\begin{center}
-\begin{tabular}{|p{0.88\textwidth}|p{0.07\textwidth}|}
+\checkListTabHead
+\tabularitemizeFirstLayerWOCheckbox{Aktualisierungsintervalle des Sicherheitsberichtes:}
+\tabularitemizeSecondLayerUncheck{Klasse I: bei Bedarf und auf Anfrage der Behörden}
+\tabularitemizeSecondLayerUncheck{Klasse Iia: mindestens alle 2 Jahre (Teil der techn. Doku)}
+\tabularitemizeSecondLayerUncheck{Klasse Iib: mindestens 1x jährlich (Teil der techn. Doku)}
+\tabularitemizeSecondLayerUncheck{Klasse III: mindestens 1x jährlich (Teil der techn. Doku)}
+\tabularitemizeFirstLayerWOCheckbox{Vorlage des Berichtes:}
+\tabularitemizeSecondLayerUncheck{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}
+\tabularitemizeSecondLayerUncheck{Klasse I, Iia, Iib: bei benannter Stelle oder auf Anfrage durch Behörde}
+\tabularitemizeFirstLayerUncheck{Bei Sonderanfertigungen separate Struktur der Dokumentation}
 \hline
-Anforderung & Erfüllt\\
-\hline\hline
-System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden
-&
-\checked\\
+\plainTabularTextWOCheckbox{Trends:}
+\tabularitemizeFirstLayerUncheck{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in techn. Doku angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}
+\tabularitemizeFirstLayerUncheck{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen Maßnahmen zu ergreifen}
 \hline
-Plan zur Überwachung nach dem Inverkehrbringen:
-\begin{itemize}
-\item Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Doku ist
-\item Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird
-\end{itemize}
-&
-\unchecked\\
-\hline
-Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für:
-\begin{itemize}
-\item Aktualisierung des Risikomanagements
-\item Aktualisierung der GA, Informationen zur Herstellung und Kennzeichnung
-\item Aktualisierung der klinischen Bewertung
-\item Aktualisierung Kurzbericht über Sicherheit und klinische Leistung (für Klasse III Geräte)
-\item Ermittlung des Bedarfs an Präventiv-, Korrektur- oder Sicherheitskorrekturmaßnahmen im Feld
-\item Ermittlung von Möglichkeiten zur Verbesserung der Gebrauchstauglichkeit, der Leistung und der Sicherheit des Produkts
-\item Beitrag zur Überwachung anderer Produkte nach dem Inverkehrbringen
-\item Erkennung und Meldung von Trends
-\end{itemize}
-Die Technische Dokumentation ist immer aktuell zu halten
-&
-\unchecked\\
-\hline
-\end{tabular}
-%\caption[Abkürzungen Abteilungen und Rollen]{Abkürzungen Abteilungen und Rollen}
-%\label{tab:abkuerzungen_abt_rollen}
-\end{center}
-\end{table}
+\checkListTabBottom
 
-\begin{table}[ht]
-\begin{center}
-\begin{tabular}{|p{0.88\textwidth}|p{0.07\textwidth}|}
+\checkListTabHead
+\plainTabularTextWOCheckbox{Analyseaktivitäten der Behörden:}
+\tabularitemizeFirstLayerUncheck{Unterlagen und Informationen für Behörden zwecks Durchführung der Marktüberwachung zur Verfügung stellen}
+\tabularitemizeFirstLayerUncheck{Produktstichproben oder Zugang zu Produkten bei gerechfertigtem Anliegen den Behörden kostenfrei zur Verfügung stellen}
+\tabularitemizeFirstLayerUncheck{Hersteller ergreift erforderliche Korrekturmaßnahmen, wenn Behörden aus der Analyse der Vigilanz-Daten Risiken oder nachteilige Änderugen der Nutzen-Risiko-Abwägung ermitteln und dem Hersteller mitteilen}
+\tabularitemizeFirstLayerUncheck{Kooperation bei Bewertung eines Produktes aufgrund des Verdachtes}
+\tabularitemizeSecondLayerUncheck{Eines unvertretbaren Risikos für die Gesundheit oder Sicherheit oder für Aspekt des Schutzes der öffentlichen Gesundheit}
+\tabularitemizeSecondLayerUncheck{Anderweitig nicht erfüllte Anforderungen der Verordnung}
+\tabularitemizeFirstLayerUncheck{Prüfung des durch die Behörde erstellten Berichtes über eine durchgeführte Kontrolle und ggf. Verfassung einer Stellungnahme durch den Hersteller, die in elektronischem System erfasst wird}
+\tabularitemizeFirstLayerUncheck{Ergreifung von geeigneten und gebührend gerechtfertigten Korrekturmaßnahmen bei vertretbaren und unvertretbaren Risiken  für die Gesundheit oder Sicherheit der Patienten, Anwender oder anderer Personen oder in Bezug auf andere Aspekte des Schutzes der öffentlichen Gesundheit, um Konformität des Produkts herzustellen (Bereitstellung des Produktes, die der Art des Risikos angemessen ist, Beschränkung des Risikos, Bereitstellung des Produktes bestimmten Anforderungen unterwerfen, Produkt vom Markt nehmen, Produkt zurückrufen) nach Aufforderung durch zuständiger Behörde}
+\tabularitemizeFirstLayerUncheck{Notwendige Korrekturmaßnahme in gesamter europäischer Union durchführen, wo betroffenes Produkt auf dem Markt verfügbar ist}
+\tabularitemizeFirstLayerUncheck{Unterstützung der Kommission, bei Überprüfung der Rechtmäßigkeit bei Einwänden von Mitgliedsstaaten gegen Mitteilung eines anderen Mitgliedstaates oder Auffassung der Kommission, dasss Mitteilung nicht mit Unionsrecht vertretbar ist, durch Anhörung}
+\tabularitemizeFirstLayerUncheck{Unterstützung (wenn erforderlich) der Kommission bei der Bewertung einer getroffenen Maßnahme einer nationalen Behörde}
 \hline
-Anforderung & Erfüllt\\
-\hline\hline
-Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und ggf. benannter Stelle durch den Hersteller
-&
-\unchecked\\
-\hline
-Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:
-\begin{itemize}
-\item Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt sind, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in techn. Doku quantifiziert und durch Meldung von Trends erfasst
-\begin{itemize}
-\item Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht
-\item Meldung innerhalb 10 Tage nach Kenntnis des Vorkommnisses, wenn Tod oder unvorhergesehener Verschlechterung des Gesunheitszustandes einer Person und Kausalzusammenhang zum Produkt besteht oder vermutet wird
-\item Meldung innerhalb 15 Tage nach Kenntnis des Vorkommnisses, wenn Kausalzusammenhang zwischen Produkt und Vorkommniss festgestellt wurde oder möglich ist
-\end{itemize}
-\item Sicherheitskorrekturmaßnahmen im Feld, auch wenn außerhalb EU, aber Grund für Maßnahme direkt vom Produkt ausgeht, werden den zuständigen Behörden über elektronisches System gemeldet
-\begin{itemize}
-\item Meldung über Sicherheitskorrekturmaßnahme im Feld in nicht dringenden Fällen ohne gebührliche Verzögerung vor der Durchführung
-\item Bei wiederholenden Meldungen (ähnliches Vorkommniss mit gleichem Produkt oder Produktart,  schon erfolgter Sicherheitskorrekturmaßnahme oder häufig auftretend aber gut dokumentiert) kann periodische Sammelmeldung über elektronisches System erfolgen
-\end{itemize}
-\item Untersuchung  (u.A. Risikobewertung) folgt unverzüglich auf Meldung eines schwerwiegenden Vorkommnisses durch den Hersteller
-\begin{itemize}
-\item Zusammenarbeit ggf. mit Behörden und benannter Stelle
-\item Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden
-\end{itemize}
-\item Notwendige Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden
-\item Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und ggf. zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System
-\item Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden
-\begin{itemize}
-\item Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann
-\item Identifikation über UDI und SRN
-\item Enthalten sind Gründe für Sicherheitskorrekturmaßnahme im Feld mit Verweis auf Fehlfunktion und Risiken für Patienten, Anwender oder Dritte sowie alle zu ergreifenden Maßnahmen
-\end{itemize}
-\item Information über mögliche schwerwiegende Vorkommnisse können von zuständiger Behörde kommen, sofern diese zuerst informiert wurde
-\begin{itemize}
-\item Behörde kann vom Hersteller Schritte gemäß schwerwiegendem Vorkommniss einfordern, auch wenn dieser ermittelt hat, dass Vorfall nicht schwerwiegend ist oder es als erwartete, unerwünschte Nebenwirkung, die in der Meldung von Trends enthalten sein wird, klassifiziert
-\end{itemize}
-\end{itemize}
-&
-\unchecked\\
-\hline
-\end{tabular}
-%\caption[Abkürzungen Abteilungen und Rollen]{Abkürzungen Abteilungen und Rollen}
-%\label{tab:abkuerzungen_abt_rollen}
-\end{center}
-\end{table}
-
+\checkListTabBottom
 %===================================================================== Eidessattl. Vers.
 \chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
 Ich versichere, dass ich die vorliegende Arbeit selbstständig verfasst, keine anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie alle wörtlich oder sinngemäß übernommenen Stellen in der Arbeit gekennzeichnet habe.
