@@ -668,16 +668,14 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 \item Plan zur Überwachung nach dem Inverkehrbringen muss erstellt werden
 \item Plan ist Teil der technischen Dokumentation (außer bei Sonderanfertigungen)
 \end{itemize}
-Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle zu erkennen.
-- Das Ergebnis ist in Tabelle (Referenz einfügen) zu erkennen
-- über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt und somit den Nutzen für WOM maximiert
+Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt und somit den Nutzen für WOM maximiert.
 
-\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.87\textwidth}|p{0.07\textwidth}|} \hline\vspace{0mm} Anforderung & \vspace{0mm}Art.\\ \hline\hline}
+\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.84\textwidth}|p{0.1\textwidth}|} \hline\vspace{0mm} Anforderung & \vspace{0mm}Art.\\ \hline\hline}
 \def\ListTabBottom{\end{tabular}\end{table}}
 \def\ListTabBottomWithCaptionAndLabel#1#2#3{\end{tabular}\caption[#1]{#2}\label{#3}\end{table}}
-\def\plainTabularText#1#2{\begin{tabular}{p{14,1cm}}#1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayer#1#2{\begin{tabular}{p{0,3cm}p{13,4cm}}\textbullet & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayer#1#2{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
+\def\plainTabularText#1#2{\begin{tabular}{p{13,6cm}}#1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayer#1#2{\begin{tabular}{p{0,3cm}p{12,9cm}}\textbullet & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayer#1#2{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,1cm}}& - & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
 \def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \unchecked\\}
 
 \afterpage{
@@ -701,9 +699,16 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \hline
 \plainTabularText{Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und gegebenenfalls benannter Stelle durch den Hersteller, bei schwerwiegenden Vorkommnissen und notwendigen Sicherheitskorrekturmaßnahmen im Feld}{83/4}
 \hline
+\plainTabularText{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
+\tabularitemizeFirstLayer{Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt stehen, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in technischer Dokumentation quantifiziert und durch Meldung von Trends erfasst}{87/1 92/1}
+\tabularitemizeSecondLayer{Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht}{87/4}
+\tabularitemizeSecondLayer{Meldung innerhalb 10 Tage nach Kenntnis des Vorkommnisses, wenn Tod oder unvorhergesehener Verschlechterung des Gesundheitszustandes einer Person und Kausalzusammenhang zum Produkt besteht oder vermutet wird}{87/5}
+\hline
 \ListTabBottom
 
 \requestListTabHead
+\tabularitemizeSecondLayer{Meldung innerhalb 15 Tage nach Kenntnis des Vorkommnisses, wenn Kausalzusammenhang zwischen Produkt und Vorkommnis festgestellt wurde oder möglich ist}{87/3}
+\hline
 \plainTabularText{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
 \tabularitemizeFirstLayer{Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt stehen, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in technischer Dokumentation quantifiziert und durch Meldung von Trends erfasst}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht}{87/4}
@@ -717,11 +722,11 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \tabularitemizeSecondLayer{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}{89/1}
 \tabularitemizeFirstLayer{Notwendige Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden}{89/3}
 \tabularitemizeFirstLayer{Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und gegebenenfalls zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System}{89/5}
+\tabularitemizeFirstLayer{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}{89/8 92/1}
 \hline
 \ListTabBottom
 
 \requestListTabHead
-\tabularitemizeFirstLayer{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}{89/8 92/1}
 \tabularitemizeSecondLayer{Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann}{89/8}
 \tabularitemizeSecondLayer{Identifikation über UDI und SRN}{89/8}
 \tabularitemizeSecondLayer{Enthalten sind Gründe für Sicherheitskorrekturmaßnahme im Feld mit Verweis auf Fehlfunktion und Risiken für Patienten, Anwender oder Dritte sowie alle zu ergreifenden Maßnahmen}{89/8}
@@ -735,10 +740,6 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \tabularitemizeSecondLayer{Ergebnisse und Schlussfolgerunge der PMS sowie Beschreibung und Begründung ergriffener Präventiv- und Korrekturmaßnahmen müssen enthalten sein (erstellt pro Produkt, gegebenenfalls Produktkategorie oder Produktgruppe)}{86/1}
 \tabularitemizeSecondLayer{Aktualisierung über gesamte Lebensdauer}{86/1}
 \tabularitemizeSecondLayer{Enthält:\newline a) die Schlussfolgerungen aus der Nutzen-Risiko-Abwägung\newline b) die wichtigsten Ergebnisse des Bewertungsberichts\newline c) die Gesamtabsatzmenge des Produkts und eine Schätzung der Anzahl und anderer Merkmale der Personen, bei denen das betreffende Produkt zur Anwendung kommt, sowie, sofern dies praktikabel ist, die Häufigkeit der Produktverwendung}{86/1}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Aktualisierungsintervalle:}{}
 \tabularitemizeSecondLayer{Klasse I: bei Bedarf und auf Anfrage der Behörden}{85}
 \tabularitemizeSecondLayer{Klasse IIa: mindestens alle 2 Jahre (Teil der technischen Dokumentation)}{86/1}
@@ -747,6 +748,10 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \tabularitemizeFirstLayer{Vorlage des Berichtes:}{}
 \tabularitemizeSecondLayer{Klasse I: bei benannter Stelle oder auf Anfrage durch Behörde}{86/3}
 \tabularitemizeSecondLayer{Klasse IIa, IIb, Sonderanfertigungen: über elektronisches System bei benannter Stelle oder auf Anfrage durch Behörde}{86/3 92/1}
+\hline
+\ListTabBottom
+
+\requestListTabHead
 \tabularitemizeSecondLayer{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}{86/2 92/1}
 \tabularitemizeFirstLayer{Bei Sonderanfertigungen separate Struktur der Dokumentation}{86/1}
 \hline
@@ -754,9 +759,32 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \tabularitemizeFirstLayer{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in techn. Doku angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}{88/1 92/1}
 \tabularitemizeFirstLayer{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen, Maßnahmen zu ergreifen}{88/2}
 \hline
+\plainTabularText{Klinische Nachbeobachtung nach dem Inverkehrbringen
+(PMCF):}{}
+\tabularitemizeFirstLayer{Ist Teil des Qualitätsmanagementsystems und wird aufgestellt, angewendet, aufrechterhalten und auf dem neuesten Stand gehalten}{10/9}
+\tabularitemizeFirstLayer{Prozess der klinischen Nachbeobachtung nach dem Inverkehrbringen aktualisiert klinische Bewertung während gesamter Lebensdauer und ist Teil des Plans zur Überwachung nach dem Inverkehrbringen}{10/3 61/11 XIV/5}
+\tabularitemizeFirstLayer{Klinische Daten, die bei zweckgemäßer Verwendung erhoben werden, werden proaktiv gesammelt und ausgewertet, um:}{XIV/5}
+\tabularitemizeSecondLayer{Sicherheit und Leistung während der Lebensdauer zu bestätigen}{XIV/5}
+\tabularitemizeSecondLayer{Konformität der ermittelten Risiken sicherzustellen}{XIV/5}
+\tabularitemizeSecondLayer{Neu entstehende Risiken und Nebenwirkungen auf Grundlage empirischer Belege zu identifizieren}{XIV/5 XIV/6}
+\tabularitemizeSecondLayer{Vertretbarkeit Nutzen-Risiko-Verhältnis zu gewährleisten}{XIV/6}
+\tabularitemizeSecondLayer{Systematisch fehlerhafte oder zulassungsüberschreitende Verwendung festzustellen (Prüfung auf Angemessenheit der Zweckbestimmung)}{XIV/6}
+\tabularitemizeFirstLayer{Ein Plan wird erstellt, der folgendes enthält:}{XIV/6}
+\tabularitemizeSecondLayer{Allgemein anzuwendende Methoden und Verfahren zur Erhebung und Begründung der Eignung}{XIV/6}
+\tabularitemizeSecondLayer{Verweis auf relevante Teile des Berichts über klinische Bewertung und das Risikomanagement}{XIV/6}
+\tabularitemizeSecondLayer{Abzudeckende spezifische Ziele}{XIV/6}
+\tabularitemizeSecondLayer{Bewertung der klinischen Daten zu gleichartigen oder ähnlichen Produkten}{XIV/6}
+\tabularitemizeSecondLayer{Verweis auf GS (gemeinsame Spezifikation), harmonisierte Normen (wenn angewendet) und einschlägige Leitlinien zum Thema}{XIV/6}
+\tabularitemizeSecondLayer{Zeitplan für die geplanten Tätigkeiten}{XIV/6}
+\hline
 \ListTabBottom
 
 \requestListTabHead
+\tabularitemizeFirstLayer{Ergebnisse werden in Bewertungsbericht, der Teil der technischen Dokumentation ist, dokumentiert}{XIV/7}
+\tabularitemizeFirstLayer{Schlussfolgerungen werden bei klinischer Bewertung und Risikomanagement berücksichtigt}{XIV/8}
+\tabularitemizeFirstLayer{Notwendigkeit zur Durchführung von Präventiv-/ oder Korrekturmaßnahmen im Feld wird ermittelt und Prozesse entsprechend gestartet}{XIV/8}
+\tabularitemizeFirstLayer{Durchführung von Studien über klinische Nachbeobachtung nach dem Inverkehrbringen, die von benannten Stelle gefordert werden}{56/3}
+\hline
 \plainTabularText{Analyseaktivitäten der Behörden:}{}
 \tabularitemizeFirstLayer{Unterlagen und Informationen für Behörden zwecks Durchführung der Marktüberwachung zur Verfügung stellen}{93/3}
 \tabularitemizeFirstLayer{Produktstichproben oder Zugang zu Produkten bei gerechfertigtem Anliegen den Behörden kostenfrei zur Verfügung stellen}{93/3}
@@ -775,15 +803,9 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 }
 
 \section{Analyse der momentan verwendeten Prozesse}
-- nachdem ein Anforderungskatalog aus der MDR extrahiert wurde, können die aktuellen Prozesse analysiert werden, wobei die Erfüllung jeder einzelnen Anfrage geprüft wird
-- Ergebnis dieser Analyse ist im Anhang (Referenz) zu sehen
-- es zeigt sich, dass nicht alle Anforderungen erfüllt werden, was aufgrund komplett neuer Anforderungen logisch erscheint
-- das elektronische System, was von den Behörden als zentrale Informationsplatform zur Verfügung gestellt wird und die Verwendung dessen stellen eine der Hauptquellen für nicht erfüllte Anforderungen dar, da diese allesamt neu sind
-- des weiteren wurden die Fristen des Meldesystems der Hersteller deutlich nachgeschärft, wodurch neue striktere Fristen eingeführt werden, die auch noch nicht erfüllt werden
-- generell gilt, dass die Behörden eine wichtige Rolle in der MDR spielen, wodurch einige Anforderungen sich aus den möglichen Aktionen der Behörden ergeben. Diese können beispielsweise Korrektumaßnahmen oder Untersuchungen einfordern, was in den aktuellen Prozessen noch nicht berücksichtigt ist
-- speziell die passive Interaktion mit den Behörden (z.B. Reaktion auf Anfragen) ist in den momentanen Prozessen nicht erschlossen, was in der Praxis zu Abstimmungsschwierigkeiten führen könnte, da nicht genau geregelt ist, welche Stelle sich um die Bearbeitung einer Anfrage von außen kümmern soll
-- ebenfalls nicht umgesetzt sind die Meldung von Trends und die Erstellung eines Plans für die Aktivitäten zur Marktbeobachtung nach dem Inverkehrbringen
-- letzteres spielt zwar eine wichtige Rolle, da durch den Plan der Grundstein der Überwachung gelegt wird, wird aber in dieser Arbeit nicht betrachtet, da dieser Prozess noch vor dem Inverkehrbringen abläuft und somit nicht im Betrachtungshorizont dieser Arbeit liegt
+Nachdem der Anforderungskatalog aus der MDR extrahiert wurde, können die aktuellen Prozesse analysiert werden, wobei die Erfüllung jeder einzelnen Anfrage geprüft wird. Dazu wird die Anforderungstabelle aus Tabelle \ref{tab:MDRRequAndRef} in eine Checkliste überführt, indem die Spalte mit den Referenzen auf die Artikel der MDR durch eine Spalte mit Checkboxen, die den aktuellen Status der Erfüllung darstellen, ersetzt wird (siehe Anhang \ref{chap:ChecklistMDR}).
+
+Es zeigt sich, dass nicht alle Anforderungen erfüllt werden, was aufgrund komplett neuer Anforderungen logisch erscheint. Das elektronische System, was von den Behörden als zentrale Informationsplattform zur Verfügung gestellt wird und die Verwendung dessen stellen eine der Hauptquellen für nicht erfüllte Anforderungen dar, da diese allesamt neu sind. Des Weiteren wurden die Fristen des Meldesystems der Hersteller deutlich nachgeschärft, wodurch neue striktere Fristen eingeführt wurden, die auch noch nicht erfüllt werden. Zudem gilt generell, dass die Tätigkeiten und Aktivitäten der Behörden eine wichtige Rolle in der MDR spielen, wodurch sich einige Anforderungen für den Hersteller aus den möglichen Aktionen der Behörden ergeben. Diese können beispielsweise Korrekturmaßnahmen oder Untersuchungen einfordern, was in den aktuellen Prozessen noch nicht berücksichtigt ist. Speziell die passive Interaktion mit den Behörden (z.B. in Form von Reaktion auf Anfragen der Behörden) ist in den momentanen Prozessen nicht erschlossen, was in der Praxis zu Abstimmungsschwierigkeiten führen könnte, da nicht genau geregelt ist, welche Stelle sich um die Bearbeitung einer Anfrage von außen kümmern soll. Ebenfalls nicht umgesetzt sind die Meldung von Trends und die Erstellung eines Plans für die Aktivitäten zur Marktbeobachtung nach dem Inverkehrbringen. Letzteres spielt zwar eine wichtige Rolle für die Erfüllung der Forderungen der MDR, da durch den Plan der Grundstein der Überwachung gelegt wird. Trotzdem wird dieser Sachverhalt nicht im Rahmen dieser Arbeit betrachtet, da dieser Prozess noch vor dem Inverkehrbringen abläuft und somit den gewählten Betrachtungshorizont übersteigt.
 \section{Prozessanpassung aufgrund nicht erfüllter Anforderungen der MDR}
 - wie bereits angesprochen wurde, führen nicht alle offenen Anforderungen zu Anpassung der gemappten Prozesse, da andere als die betrachteten Prozesse betrachtet werden und dies den Umfang sonst sprengen würde
 - generell stellen die hier erarbeiteten Prozesse nur eine Möglichkeit vor, wie die Anforderungen mit möglichst wenig Aufwand angepasst werden können; die tatsächliche Lösung könnte im Nachhinein aufgrund von Firmenbelangen anders aussehen
@@ -856,6 +878,7 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 
 
 \section{Checkliste für die Anforderungen der MDR}
+\label{chap:ChecklistMDR}
 
 \checkListTabHead
 \plainTabularTextChecked{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}
@@ -864,7 +887,7 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \tabularitemizeFirstLayerUncheck{Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Dokumentation ist}
 \tabularitemizeFirstLayerUncheck{Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird}
 \hline
-\plainTabularTextWOCheckbox{Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für:}
+\plainTabularTextChecked{Es werden Daten über Qualität, Leistung und Sicherheit eines Produktes während gesamter Lebensdauer gesammelt, aufgezeichnet, analysiert und verwendet für:}
 \tabularitemizeFirstLayerCheck{Aktualisierung des Risikomanagements}
 \tabularitemizeFirstLayerCheck{Aktualisierung der GA, Informationen zur Herstellung und Kennzeichnung}
 \tabularitemizeFirstLayerCheck{Aktualisierung der klinischen Bewertung}
@@ -929,6 +952,32 @@ Um die Nachvollziehbarkeit zu erhöhen einen Überblick zu ermöglichen, werden 
 \plainTabularTextWOCheckbox{Trends:}
 \tabularitemizeFirstLayerUncheck{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in techn. Doku angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}
 \tabularitemizeFirstLayerUncheck{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen, Maßnahmen zu ergreifen}
+\hline
+\plainTabularTextWOCheckbox{Klinische Nachbeobachtung nach dem Inverkehrbringen
+(PMCF):}
+\tabularitemizeFirstLayerUncheck{Ist Teil des Qualitätsmanagementsystems und wird aufgestellt, angewendet, aufrechterhalten und auf dem neuesten Stand gehalten}
+\tabularitemizeFirstLayerUncheck{Prozess der klinischen Nachbeobachtung nach dem Inverkehrbringen aktualisiert klinische Bewertung während gesamter Lebensdauer und ist Teil des Plans zur Überwachung nach dem Inverkehrbringen}
+\hline
+\ListTabBottom
+
+\checkListTabHead
+\tabularitemizeFirstLayerUncheck{Klinische Daten, die bei zweckgemäßer Verwendung erhoben werden, werden proaktiv gesammelt und ausgewertet, um:}
+\tabularitemizeSecondLayerUncheck{Sicherheit und Leistung während der Lebensdauer zu bestätigen}
+\tabularitemizeSecondLayerUncheck{Konformität der ermittelten Risiken sicherzustellen}
+\tabularitemizeSecondLayerUncheck{Neu entstehende Risiken und Nebenwirkungen auf Grundlage empirischer Belege zu identifizieren}
+\tabularitemizeSecondLayerUncheck{Vertretbarkeit Nutzen-Risiko-Verhältnis zu gewährleisten}
+\tabularitemizeSecondLayerUncheck{Systematisch fehlerhafte oder zulassungsüberschreitende Verwendung festzustellen (Prüfung auf Angemessenheit der Zweckbestimmung)}
+\tabularitemizeFirstLayerUncheck{Ein Plan wird erstellt, der folgendes enthält:}
+\tabularitemizeSecondLayerUncheck{Allgemein anzuwendende Methoden und Verfahren zur Erhebung und Begründung der Eignung}
+\tabularitemizeSecondLayerUncheck{Verweis auf relevante Teile des Berichts über klinische Bewertung und das  Risikomanagement}
+\tabularitemizeSecondLayerUncheck{Abzudeckende spezifische Ziele}
+\tabularitemizeSecondLayerUncheck{Bewertung der klinischen Daten zu gleichartigen oder ähnlichen Produkten}
+\tabularitemizeSecondLayerUncheck{Verweis auf GS (gemeinsame Spezifikation), harmonisierte Normen (wenn angewendet) und einschlägige Leitlinien zum Thema}
+\tabularitemizeSecondLayerUncheck{Zeitplan für die geplanten Tätigkeiten}
+\tabularitemizeFirstLayerUncheck{Ergebnisse werden in Bewertungsbericht, der Teil der technischen Dokumentation ist, dokumentiert}
+\tabularitemizeFirstLayerUncheck{Schlussfolgerungen werden bei klinischer Bewertung und Risikomanagement berücksichtigt}
+\tabularitemizeFirstLayerUncheck{Notwendigkeit zur Durchführung von Präventiv-/ oder Korrekturmaßnahmen im Feld wird ermittelt und Prozesse entsprechend gestartet}
+\tabularitemizeFirstLayerUncheck{Durchführung von Studien über klinische Nachbeobachtung nach dem Inverkehrbringen, die von benannten Stelle gefordert werden}
 \hline
 \ListTabBottom
 
