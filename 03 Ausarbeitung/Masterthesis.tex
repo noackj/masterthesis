@@ -125,9 +125,47 @@ Kurzfassung
 
 %===================================================================== Einleitung
 \chapter{Einleitung}\label{chap:Einleitung}
-Rückwirkung auf die Entwicklung der Geräte (Produktion bleibt außen vor) schwerpunktmäßig betrachten
+- globaler Wettbewerb
+  - schnelllebig, hohe Innovationskraft gefordert, Konzentration auf Kernkompetenzen
+- Bedeutung interner Prozesse rückte deshalb über die letzten Jahrzehnte immer mehr in den Fokus
+- leistungsfähige Prozesse im Bereich der Kernkompetenzen stellt somit einen wesentlichen Wettbewerbsfaktor dar
+- auch Medizintechniksektor bleibt von diesem Trend nicht verschont
+- besonders interessant wird es, wenn die Anforderungen an die Prozesse nicht vom Unternehmen selbst gestellt werden, sondern durch gesetzliche Vorgaben extern auferlegt werden.
+- schwierig dabei wird es vor allem, wenn sich die entsprechenden Normen in regelmäßigen zeitlichen Abständen verändern
+- dies erfordert von den Unternehmen eine hohe Wandlungsfähigkeit und bedeutet in der Konsequenz, dass weniger Zeit für die Phasen der Konsolidierung zur Verfügung stehen
+- die Leistungsfähigkeit eines Unternehmens im Medizinsektor steht somit permanent auf dem Prüfstand
+- mit der in 2017 eingeführten MDR kam es erneut zu einem so einschneidendem Ereignis, wodurch nahezu alle am Medizintechnikunternehmen vor neue Herausforderungen gestellt wurden
+- ein Themengebiet, das mit am stärksten von Neuerungen der MDR betroffen ist, sind die Prozesse nach der Markteinführung der Produkte
+- Zwar bestanden schon vorher Anforderungen, aber diese wurden durch die MDR geschärft
+- auch die Firma WOM muss sich dem Thema widmen, wenn man auch in Zukunft normkonform sein will
+- aber wie schaffen es Unternehmen möglichst effektive Prozesse, die in der Theorie aus Iterationsschleifen und Demingzyklen entstehen, in einem härter werdenden Wettbewerb immer schneller zu adaptieren?
+- eine mögliche und weit verbreitete Chance liefern visuelle Prozessbeschreibungen, da im Vergleich zu Beschreibungstexten grafische Darstellungen wesentlich schneller zu verstehen sind und eine viel bessere Diskussionsgrundlage darstellen
+- Die Leistungsfähigkeit grafischer Modellierungen als Grundlage für Prozessanpassungen soll Gegenstand dieser Arbeit sein
+- zum einen wird dabei versucht die Konformität zu den Anforderungen der MDR zu erzielen sowie die Schnittstelle zwischen zwei Funktionsbereichen im Unternehmen auf einem entscheidenden Prozesssektor zu verbessern
+- in dieser Arbeit geht es somit um keine geringere Frage als, ob grafisches Prozessmanagement auch für WOM zu einer markanten Verbesserung führen kann
+
 \section{Ziele dieser Arbeit}
+- Ziel dieser Arbeit ist im wesentlichen dreigeteilt
+  - primäres Ziel besteht im darin, die Abweichungen der aktuellen Prozesse zu den neuen Anforderungen der MDR zu ermitteln und einen Prozessentwurf zu erstellen, der mit möglichst wenig Aufwand zur Erfüllung der Forderungen Konformität zur MDR führt
+    - dies hilft WOM aktiv dabei, Konformität zur MDR herzustellen, wenn aufgrund abgelaufener Übergangsfristen die Notwendigkeit abschließend gegeben ist
+  - sekundäres Ziel ist betrifft das für das primäre Ziel verwendete Werkzeuge der Geschäftsprozessmodellierung
+    - es soll die Leistungsfähigkeit beim Einsatz von visuellem Prozessmanagement bezogen auf Kernprozesse eines Unternehmens am praktischen Beispiel ermittelt werden
+    - in diesem Sinne ist die Arbeit ein Pilotprojekt/Fallbeispiel, in dem erstmalig im Firmenkontext geprüft wird, worin die Vorteile liegen und somit Entscheidungsgrundlage für weitere Verfolgung des Einsatzes von Geschäftsprozessmodellierung gelegt wird
+  - tertiäres Ziel besteht darin, mit Hilfe der modellierten Prozesse die Schnittstelle zur F und E zu analysieren und Möglichkeiten zu ermitteln, wie diese verbessert werden kann
+    - dabei sollen aktiv produktive Lösungen gefunden werden, die sofort eingeführt werden können und damit die Leistungsfähigkeit steigern
+    - besondere Rolle spielt hier das neu eingeführtes ALM Tool Polarion, da dies eine neue Infrastruktur zur Verfügung stellt
 \section{Gliederung der Arbeit}
+- wie es üblich ist, unterteilt sich auch diese Arbeit in einen Grundlagen-, einen Haupt- und einen Schlussteil
+- im Grundlagenteil wird wie gewohnt der thematische Hintergrund aufgezeigt, um das Verständnis für die folgenden Kapitel sicherzustellen
+- der Hauptteil untergliedert sich in drei Abschnitte
+- aus dem Ziel der Arbeit geht hervor, dass die Analyse des Ist-Prozesses eine zentrale Bedeutung einnimmt und zeitlich als erstes durchgeführt werden muss
+- das Vorgehen und die entstandenen Ergebnisse werden folglich in Kapitel \ref{chap:AufnahmeStatusQuo} vorgestellt und beschrieben
+- auf der Grundlage des Prozessmodells kann die Konformität zur MDR festgestellt werden
+- dazu werden im folgenden Kapitel \ref{chap:AnpassungAnMDR} die Anforderungen der MDR analysiert und eine Prüfung des Erfüllungsgrads durchgeführt
+- auf diesen gewonnenen Einschätzungen wird das Prozessmodell im Anschluss angepasst, um die Konformität zu erreichen
+- im Kapitel \ref{chap:Schnittstelle}, dem letzten Kapitel des Hauptteils, steht die aktuelle Schnittstelle zwischen den Prozessen nach dem Inverkehrbringen und den Prozessen im Bereich der Forschung und Entwicklung auf dem Prüfstand
+- unter Einbeziehung der neuen toolgestützten Infrastruktur für das Application Lifecycle Management wird eine Lösung erarbeitet, die zu einer deutlich besseren Interaktion der Prozesse führen soll und die allgemeine Leistungsfähigkeit der Prozesse steigern soll
+- den Abschluss der Arbeit liefert die abschließende Zusammenfassung und Diskussion der Arbeitsergebnisse und der Ausblick 
 
 %===================================================================== Chapter 2
 \chapter{Grundlagen}\label{chap:Grundlagen}
@@ -845,13 +883,97 @@ Eine weitere Neuerung ist die konsequente Einforderung von Trendanalysen durch d
 \label{statistic_trend_analysis}
 \end{figure}
 %===================================================================== Chapter 5
-\chapter{Integration und Umsetzung der Prozessanpassungen}\label{chap:Integration}
+\chapter{Analyse und Verbesserung der Schnittstelle zwischen den Prozessen nach Markteinführung und dem Bereich F\&E}\label{chap:Schnittstelle}
 
 %===================================================================== Zusammenfassung
 \chapter{Zusammenfassung}\label{chap:Zusammenfassung}
+- die gestellte Arbeitsaufgabe bestand darin, sowohl die Konformität der Prozesse nach dem Inverkehrbringen mit der MDR zu erzielen, da diese 2017 eingeführt wurde und aktuell aufgrund der Übergangsfristen noch nicht verpflichtend für alle Hersteller ist
+- als auch eine allgemeine Verbesserung der Prozesse zu erwirken, da die Schnittstelle zwischen dem Complaint Management und dem F\&E-Bereich aktuell nicht auf Leistungsfähigkeit und Effizienz getrimmt ist
+- Zur Unterstützung wurde Geschäftsprozessmodellierung mit BMPN 2.0 verwendet, da die visuelle Darstellung von Prozessen klare Vorteile bei Änderungs- und Adaptionsvorgängen der Prozesse aufweist
+- die Grundlage bildete somit die visuelle Beschreibung der Prozesse nach BPMN 2.0, die zunächst erstellt wurde
+- bevor jedoch mit der Anpassung der Prozesse begonnen werden konnte, musste geklärt werden, welche Anpassungen tatsächlich notwendig sind
+- dazu war es notwendig, die Anforderungen der MDR zu erfassen, was eine ausgiebige Analyse erfordert hat
+- Am Ende der Analyse stand eine Liste von Anforderungen respektive eine Checkliste, mit der am Prozessmodell geprüft werden konnte, welche Anforderungen noch nicht erfüllt sind
+- anschließend wurde für die ermittelten umzusetzenden Anforderungen Möglichkeiten der implementierung ermittelt und diese danach durchgeführt
+- dazu wurde das Prozessmodell angepasst
+- zur Verbesserung der F\&E-Interaktion wurde ebenfalls das erstellte Prozessmodell analysiert
+- auf dieser Grundlage wurden die Folgen für die Entwicklung betrachtet und mögliche Verbesserungen in Absprache mit den Projektleitern im Unternehmen besprochen
+- größtes Problem dabei war die rückwärts gerichtete Traceability (von den Requirement Items) zu den eventuell möglichen Kundenrückmeldungen bzw. gemeledeten Vorkommnissen
+- über die neu eingerichtete Infrastruktur durch das ALM-Tool Polarion wurde diese fehlende Traceability eingeführt
 
 %===================================================================== Diskussion
 \chapter{Diskussion}\label{chap:Diskussion}
+- bei der Analyse der Prozesse zeigte sich, dass der Einsatz von grafischer Modellierung einen sehr positiven Einfluss auf die folgenden Schritte bezüglich der Anpassung haben
+- durch die initiale Überführung der Prozesse in das Modell, konnten die ermittelten Anforderungen wesentlich leichter überprüft werden, da ein wesentlich besserer Überblick gegeben war
+- ohne das grafische Modell, hätte man sehr häufig in den verschiedenen Texten nach den Stellen suchen müssen, die man nach eingehender Analyse zwar im Gedächtnis verfügbar hat, aber den genauen Beleg im Text wieder erst suchen muss
+- selbst, wenn man in Prozessen denkt, diese sich aber aus mehreren Quellen zusammensetzten, ist eine nervige und Konzentrationsraubende Suche im Prosatext der Verfahrensanweisungen notwendig
+- durch die zeitlich relative Determination der grafischen Darstellung (also die Festlegung, welcher Prozessschritt vor welchem kommt) ist zudem viel leichter einschätzbar, an welcher Stelle im Prozess Ergänzungen oder Anpassungen durchgeführt werden müssen
+- Überführung der Verfahrensanweisungen in grafische Prozessmodelle bringt somit viele Vorteile, da zudem bei der Analyse und Modellierung die Ungereimtheiten/Unklarheiten und Interpretationsspielräume auffällig werden und am Ende eindeutigere Prozessbeschreibungen erreicht werden können
+
+- Generell ist darauf hinzuweisen, dass bei der aktuell gegebenen und der zu erwartenden steigenden Komplexität der reine Prozessgedanke für WOM unausweichlich ist
+- der momentane Zustand mit dem Handbuch, was aus Richtlinien und Verfahrensanweisungen weist zwar an vielen Stellen große Parallelitäten zu reinen Prozessbeschreibungen, aber dieser Gedanke ist nicht konsequent berücksichtigt
+- dies führt teilweise zu Aufzählungen von Tätigkeiten und Anforderungen im Prosatext, denen aber keine eindeutige zeitliche Basis zugrunde liegt und demzufolge viel Spielraum für Interpretationen zulässt
+
+- Was außerdem aufgefallen ist, ist dass manche Prozesse in ihrer Definition nicht ganz eindeutig sind
+- so kümmert sich beispielsweise das Meldesystem (Richtlinie 04) um die Durchführung von Korrekturmaßnahmen
+- dafür gibt es eigentlich den Prozess für den Rückruf und die Korrekturmaßnahmen im Feld
+- falls an dieser Stelle sichergestellt werden soll, dass die zeitliche Auslösung der Korrektur möglichst zeitnah erfolgt, sollte das komplette Prozessmodell in diesem Kontext überdacht werden
+- andernfalls besteht Redundanz im Prozess, da an verschiedenen Stellen Maßnahmen initiiert werden, was höchstens durch vorgeschaltete Überprüfungen, ob bspw. schon Maßnahmen ergriffen wurden, abgefangen werden kann
+- die Leistungsfähigkeit der Prozesse leidet darunter allerdings, und trägt somit nicht zur Schaffung eines Wettbewerbsvorteils aufgrund effektiver Prozesse bei
+
+- Im allgemeinen ist noch zu sagen, dass das erstellt Prozessmodell lediglich einen Entwurf auf der Grundlage der Prozessdokumentation darstellt
+- es ist damit zu rechnen, dass dies nicht an allen Stellen dem tatsächlich gelebten Prozess entspricht
+- für die Aussagekraft dieser Arbeit bezogen auf die Evaluierung des Einsatzes von BPMN 2.0 besitzt dieser Fakt jedoch keine Relevanz
+- anders sieht es jedoch bei der Herstellung der Konformität zur MDR aus
+- hier müsste in einer weiteren Analyse mit den betroffenen Instanzen im Detail nochmals durchgesprochen werden, inwiefern noch Änderungen durchzuführen sind
+- danach muss zudem geprüft werden, ob sich aus den eventuell möglichen Abweichungen auch neue Einschätzungen bezogen auf die Erfüllung der Anforderungen der MDR ergeben
+
+- Eine weitere Problematik ergibt sich aus der gewünschten Konformität zu verschiedenen Normen bzw. Gesetzen
+- Momentan wird an vielen Stellen der Prozesse versucht, den besten Kompromiss zwischen den verschiedenen zu erfüllenden Normen zu finden
+- die wichtigsten Vertreter sind an dieser Stelle natürlich die FDA und die europäische Kommission, da dies die beiden größten Absatzmärkte für die Produkte von WOM darstellt
+- Prinzipiell kann hier aber nur versucht werden, die jeweils strikteste Regel zu identifizieren und diese für alle Geräte anzuwenden, sofern auf die Unterscheidungen zwischen den verschiedenen Märkten verzichtet wird
+- dies birgt allerdings das Problem, dass teilweise für Geräte zu aufwendige Prozesse durchlaufen werden, da Anforderungen von bestimmten Gesetzgebern erfüllt werden, die eventuell gar nicht notwendig sind, da das Produkt auf dem entsprechenden Markt gar nicht aktiv ist
+- auch unter diesem Aspekt leidet die Leistungsfähigkeit der Prozesse von WOM
+
+- die abschließende Aussage dieser Arbeit ist, dass die Einführung grafischer Modellierung der Geschäftsprozesse angesichts des aktuellen Zustandes der Prozessdokumentation äußerst notwendig ist
+- im Rahmen dieser Arbeit konnte die Leistungsfähigkeit sehr gut belegt werden und somit sollte der momentan bestehende Gedanke bzw. besser Gesagt die Überlegung weitergedacht werden
+- Ansonsten droht der Verlust der Kontrolle über die Prozesse, oder dass die Prozesse immer uneffizienter werden, was gerade in der momentanen Wachstumsphase, in der sich WOM aktuell befindet, äußerst negative Impulse verbreiten könnte und zu einem echten Problem für die Wettbewerbsfähigkeit führen kann
+
+- wissenschaftlicher Anspruch bei der Ermittlung des Anforderungskataloges? Review durch RA
+  - wie könnte ich denn die Validität durch wissenschaftliche Methoden (zweiter Ausarbeiter/Analytiker) prüfen, wenn aktuell die Prozesse aus dem Bauch heraus angepasst werden --> keine Ressourcen für zweite Einschätzung, zumal ich mit dem Thema Vorreiter bin
+  - maximal Review durch RA möglich
+
+- Ausblick:
+- Aufgrund der Erkenntnisse bei der Analyse und Anpassung der untersuchten Prozesse konnte der Mehrwert der Verwendung von grafischer Modellierung im Rahmen dieser ARbeit nachgewiesen werden
+- vor diesem Hintergrund macht es Sinn, die bestehenden Prozessbeschreibungen in grafische Darstellungen zu überführen, was ohne Zweifel eine anstrengende und aufwendige Aufgabe ist
+- setzt man jedoch die momentane und zukünftige Bedeutung der Prozesse ins Verhältnis mit der Wartbarkeit und der Möglichkeit die Prozesse optimieren oder auf neue Normen anpassen zu können, erscheint dies als logischer Schritt
+- BPMN wäre dabei eine gute Wahl, da durch eine Vielzahl von Tools der Fokus auf der Automatisierung von Prozessen liegt
+- dies kann sehr hilfreich bei der Interaktion von vielen verschiedenen Rollen sein, da fehleranfällige Kommunikationswege dadurch eliminiert werden können und durch eine genaue Beschreibung die Prozessabfolge sichergestellt werden kann
+
+  - Prozesse, bei dem F\&E über Einschätzungen vertreten ist, ist aktuell schlecht nachvollziehbar umgesetzt
+  - in der Regel werden die Absprachen und Einschätzungen zwar in Meetings, aber nicht immer in nachvollziehbaren Protokollen getroffen
+  - so kann im Nachhinein schwer ermittelt werden, welche Einschätzungen z.B. bei welchem Complaint getroffen wurde und was die Entscheidungsgrundlage war
+  - die Entscheidungsfindung sollte somit besser dokumentiert werden
+  - dies würde die Recherche bei möglichen Nachfragen der Behörden erleichtern und auch intern die Informationslage verbessern
+  - denkbar ist es, solche Einschätzungen auf Grundlage des ALM-Tools durchzuführen und die Durchführung entsprechender Einschätzungsrunden/Expertenrunden darin zu dokumentieren
+  - dies würde die Möglichkeit bieten, komplexe Zusammenhänge (Traces) zu späteren Aktionen, wie Risiko-Anpassungen oder Requirements-Anpassungen, aufzubauen
+  - das Ergebnis wäre eine nochmals verbesserte Nachvollziehbarkeit, die gerade bei einer Platform basierten Geräteentwicklung sehr wichtig ist
+  - über die Möglichkeit, entsprechende Reports durch das System generieren zu lassen, kann auch schneller auf Behörden reagiert werden
+  
+  - Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte digitale Unterstützung aufweisen und größtenteils per Hand gemacht werden
+  - dies hat mit dem eigentlichen Thema nur einen indirekten Zusammenhang darüber, dass die entsprechenden Prozesse im Rahmen der Arbeit modelliert wurden
+  - aber im Rahmen von Gesprächen mit den Projektleitern zur momentanen Leistungsfähigkeit der Schnittstelle vom momentanen Complaint Management, wurde dieses Problem identifiziert
+  - denkbar wäre es hier, diesen Prozess durch Anpassungen in der Gerätesoftware und einem einheitlichen Konzept zu unterstützen
+  - über ein webbasiertes zentrales Werkzeug für den Service, das schon seit Jahren im Unternehmen besteht und aktiv in den Prozessen genutzt wird, wäre zudem die Infrastruktur geboten, über die die Daten zum Unternehmen zurück kommen können
+  - es wären zudem keine zusätzlichen Aufgaben/Anpassungen der Prozesse im Kundenservice
+  - der Benefit wäre sehr wertvoll, da aktuell die Informationslage zu Komponentenabnutzung und -ausfallraten im Feld sehr schlecht ist
+  - es ist denkbar, dass einige kleinere technische Fehler momentan im Service Prozess nicht ermittelt werden, da die momentanen Analysen zu grob sind und die Kosten im Service möglichst gering gehalten werden sollen
+  - Grund, warum solche Fälle nicht ausreichend betrachtet werden ist vermutlich die Konzentration auf risikorelevante/patientenkritische Vorfälle, die durch den Gesetzgeber und die Behörden gefordert werden
+  - für Vorfälle, die bei anderen Branchen zu Betrachtungen aufgrund ernst genommener Qualitätprobleme führen würden, wird demzufolge nicht ausreichend recherchiert
+  - aus den Erfahrungen ergibt sich, dass solche Probleme erst ausreichend betrachtet werden, wenn eine kritische Masse erreicht wird, oder von den Kunden (Medizintechnikunternehmen, die die Geräte vermarkten) Reaktionen gefordert werden, 
+  - aus diesem Grund wird bei halbwegs bekannten Problemen mit dem eingesandten Gerät (spezifische Fehlerbilder, deren Ursache nie richtig geklärt wurde), die aber als unkritisch eingestuft werden und nur sporadisch auftreten, eher der Wechsel von Komponenten durchgeführt, als eine aufwendige Analyse durchgeführt
+  - die These, die es hier zu prüfen gilt ist, dass in solchen Fällen über beliebig komplexe Softwarealgorithmen Einschätzungen auf der neuen Datenlage getroffen werden können, die vor allem für die Weiterentwicklung und Pflege der Produkte nützlich sind
+
 
 %===================================================================== Vorlagen
 %\chapter{}\label{chap:}
