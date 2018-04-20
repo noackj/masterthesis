@@ -711,19 +711,22 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 \end{itemize}
 Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle \ref{tab:MDRRequAndRef} zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt und somit den Nutzen für WOM maximiert.
 
-\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.84\textwidth}|p{0.1\textwidth}|} \hline\scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
+\newcounter{RequirementNumber}
+\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.05\textwidth}|p{0.81\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & Anforderung & \scriptsize Art.\\ \hline\hline}
 \def\ListTabBottom{\end{tabular}\end{table}}
 \def\ListTabBottomWithCaptionAndLabel#1#2#3{\end{tabular}\caption[#1]{#2}\label{#3}\end{table}}
-\def\plainTabularText#1#2{\begin{tabular}{p{13,6cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayer#1#2{\begin{tabular}{p{0,3cm}p{12,9cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayer#1#2{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,1cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}\scriptsize&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayerWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12,35cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,7cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
 \afterpage{
 \requestListTabHead
 \plainTabularText{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}{83/1 83/2}
 \hline
-\plainTabularText{Plan zur Überwachung nach dem Inverkehrbringen:}{}
+\plainTabularTextWOCount{Plan zur Überwachung nach dem Inverkehrbringen:}{}
 \tabularitemizeFirstLayer{Für die Überwachung nach dem Inverkehrbringen muss ein Plan erstellt werden, der Teil der technischen Dokumentation ist (außer bei Sonderanfertigungen}{84}
 \tabularitemizeFirstLayer{Enthält u.A. Vorgehen, wie Trends erkannt werden (Methodik), zu behandeln sind und wie der Beobachtungszeitraum festgelegt wird}{88/1}
 \hline
@@ -740,17 +743,13 @@ Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, wer
 \hline
 \plainTabularText{Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und gegebenenfalls benannter Stelle durch den Hersteller, bei schwerwiegenden Vorkommnissen und notwendigen Sicherheitskorrekturmaßnahmen im Feld}{83/4}
 \hline
-\plainTabularText{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
+\plainTabularTextWOCount{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
 \tabularitemizeFirstLayer{Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt stehen, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in technischer Dokumentation quantifiziert und durch Meldung von Trends erfasst}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht}{87/4}
 \tabularitemizeSecondLayer{Meldung innerhalb 10 Tage nach Kenntnis des Vorkommnisses, wenn Tod oder unvorhergesehener Verschlechterung des Gesundheitszustandes einer Person und Kausalzusammenhang zum Produkt besteht oder vermutet wird}{87/5}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeSecondLayer{Meldung innerhalb 15 Tage nach Kenntnis des Vorkommnisses, wenn Kausalzusammenhang zwischen Produkt und Vorkommnis festgestellt wurde oder möglich ist}{87/3}
 \hline
-\plainTabularText{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
+\plainTabularTextWOCount{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}{}
 \tabularitemizeFirstLayer{Schwerwiegende Vorkommnisse, die im Zusammenhang zum Produkt stehen, werden den Behörden über elektronisches System gemeldet, außer es sind erwartete Nebenwirkungen laut Produktinformation, in technischer Dokumentation quantifiziert und durch Meldung von Trends erfasst}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung innerhalb 2 Tage nach Kenntnis der Gefahr, wenn schwerwiegende Gefahr für öffentliche Gesundheit besteht}{87/4}
 \tabularitemizeSecondLayer{Meldung innerhalb 10 Tage nach Kenntnis des Vorkommnisses, wenn Tod oder unvorhergesehener Verschlechterung des Gesundheitszustandes einer Person und Kausalzusammenhang zum Produkt besteht oder vermutet wird}{87/5}
@@ -758,49 +757,48 @@ Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, wer
 \tabularitemizeFirstLayer{Sicherheitskorrekturmaßnahmen im Feld, auch wenn Vorkommnis außerhalb der EU aufgetreten ist, aber Grund für Maßnahme direkt von einem Produkt, das auch in EU gehandelt wird, ausgeht, werden den zuständigen Behörden über elektronisches System gemeldet}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung über Sicherheitskorrekturmaßnahme im Feld in nicht dringenden Fällen ohne gebührliche Verzögerung vor der Durchführung}{87/8}
 \tabularitemizeSecondLayer{Bei wiederholenden Meldungen (ähnliches Vorkommnis mit gleichem Produkt oder Produktart,  schon erfolgter Sicherheitskorrekturmaßnahme oder häufig auftretend aber gut dokumentiert) kann periodische Sammelmeldung über elektronisches System erfolgen}{87/9 92/1}
+\hline
+\ListTabBottom
+
+\requestListTabHead
 \tabularitemizeFirstLayer{Untersuchung  (u.A. Risikobewertung) folgt unverzüglich auf Meldung eines schwerwiegenden Vorkommnisses durch den Hersteller}{89/1}
 \tabularitemizeSecondLayer{Zusammenarbeit gegebenenfalls mit Behörden und benannter Stelle}{89/1}
 \tabularitemizeSecondLayer{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}{89/1}
 \tabularitemizeFirstLayer{Notwendige Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden}{89/3}
 \tabularitemizeFirstLayer{Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und gegebenenfalls zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System}{89/5}
 \tabularitemizeFirstLayer{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}{89/8 92/1}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeSecondLayer{Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann}{89/8}
 \tabularitemizeSecondLayer{Identifikation über UDI und SRN}{89/8}
 \tabularitemizeSecondLayer{Enthalten sind Gründe für Sicherheitskorrekturmaßnahme im Feld mit Verweis auf Fehlfunktion und Risiken für Patienten, Anwender oder Dritte sowie alle zu ergreifenden Maßnahmen}{89/8}
 \tabularitemizeFirstLayer{Information über mögliche schwerwiegende Vorkommnisse können von zuständiger Behörde kommen, sofern diese zuerst informiert wurde}{87/11}
 \tabularitemizeSecondLayer{Behörde kann vom Hersteller Schritte gemäß schwerwiegendem Vorkommnis einfordern, auch wenn dieser ermittelt hat, dass Vorfall nicht schwerwiegend ist oder es als erwartete, unerwünschte Nebenwirkung, die in der Meldung von Trends enthalten sein wird, klassifiziert}{87/11}
 \hline
-\plainTabularText{Bericht zur Überwachung nach dem Inverkehrbringen/Sicherheitsbericht:}{}
-\tabularitemizeFirstLayer{Klasse I:}{}
+\plainTabularTextWOCount{Bericht zur Überwachung nach dem Inverkehrbringen/Sicherheitsbericht:}{}
+\tabularitemizeFirstLayerWOCount{Klasse I:}{}
 \tabularitemizeSecondLayer{Zur Zusammenfassung der Überwachung nach dem Inverkehrbringen und der ergriffenen Präventiv- und Korrekturmaßnahmen (Beschreibung und Begründung der Maßnahmen) muss ein Bericht erstellt werden}{85}
-\tabularitemizeFirstLayer{Klasse IIa, IIb, III:}{}
+\tabularitemizeFirstLayerWOCount{Klasse IIa, IIb, III:}{}
 \tabularitemizeSecondLayer{Ergebnisse und Schlussfolgerunge der PMS sowie Beschreibung und Begründung ergriffener Präventiv- und Korrekturmaßnahmen müssen enthalten sein (erstellt pro Produkt, gegebenenfalls Produktkategorie oder Produktgruppe)}{86/1}
 \tabularitemizeSecondLayer{Aktualisierung über gesamte Lebensdauer}{86/1}
 \tabularitemizeSecondLayer{Enthält:\newline a) die Schlussfolgerungen aus der Nutzen-Risiko-Abwägung\newline b) die wichtigsten Ergebnisse des Bewertungsberichts\newline c) die Gesamtabsatzmenge des Produkts und eine Schätzung der Anzahl und anderer Merkmale der Personen, bei denen das betreffende Produkt zur Anwendung kommt, sowie, sofern dies praktikabel ist, die Häufigkeit der Produktverwendung}{86/1}
-\tabularitemizeFirstLayer{Aktualisierungsintervalle:}{}
+\tabularitemizeFirstLayerWOCount{Aktualisierungsintervalle:}{}
 \tabularitemizeSecondLayer{Klasse I: bei Bedarf und auf Anfrage der Behörden}{85}
 \tabularitemizeSecondLayer{Klasse IIa: mindestens alle 2 Jahre (Teil der technischen Dokumentation)}{86/1}
 \tabularitemizeSecondLayer{Klasse IIb: mindestens 1x jährlich (Teil der technischen Dokumentation)}{86/1}
 \tabularitemizeSecondLayer{Klasse III: mindestens 1x jährlich (Teil der technischen Dokumentation)}{86/1}
-\tabularitemizeFirstLayer{Vorlage des Berichtes:}{}
+\tabularitemizeFirstLayerWOCount{Vorlage des Berichtes:}{}
 \tabularitemizeSecondLayer{Klasse I: bei benannter Stelle oder auf Anfrage durch Behörde}{86/3}
 \tabularitemizeSecondLayer{Klasse IIa, IIb, Sonderanfertigungen: über elektronisches System bei benannter Stelle oder auf Anfrage durch Behörde}{86/3 92/1}
+\tabularitemizeSecondLayer{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}{86/2 92/1}
+\tabularitemizeFirstLayer{Bei Sonderanfertigungen separate Struktur der Dokumentation}{86/1}
 \hline
 \ListTabBottom
 
 \requestListTabHead
-\tabularitemizeSecondLayer{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}{86/2 92/1}
-\tabularitemizeFirstLayer{Bei Sonderanfertigungen separate Struktur der Dokumentation}{86/1}
-\hline
-\plainTabularText{Trends:}{}
+\plainTabularTextWOCount{Trends:}{}
 \tabularitemizeFirstLayer{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in techn. Doku angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}{88/1 92/1}
 \tabularitemizeFirstLayer{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen, Maßnahmen zu ergreifen}{88/2}
 \hline
-\plainTabularText{Klinische Nachbeobachtung nach dem Inverkehrbringen
+\plainTabularTextWOCount{Klinische Nachbeobachtung nach dem Inverkehrbringen
 (PMCF):}{}
 \tabularitemizeFirstLayer{Ist Teil des Qualitätsmanagementsystems und wird aufgestellt, angewendet, aufrechterhalten und auf dem neuesten Stand gehalten}{10/9}
 \tabularitemizeFirstLayer{Prozess der klinischen Nachbeobachtung nach dem Inverkehrbringen aktualisiert klinische Bewertung während gesamter Lebensdauer und ist Teil des Plans zur Überwachung nach dem Inverkehrbringen}{10/3 61/11 XIV/5}
@@ -817,22 +815,22 @@ Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, wer
 \tabularitemizeSecondLayer{Bewertung der klinischen Daten zu gleichartigen oder ähnlichen Produkten}{XIV/6}
 \tabularitemizeSecondLayer{Verweis auf GS (gemeinsame Spezifikation), harmonisierte Normen (wenn angewendet) und einschlägige Leitlinien zum Thema}{XIV/6}
 \tabularitemizeSecondLayer{Zeitplan für die geplanten Tätigkeiten}{XIV/6}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Ergebnisse werden in Bewertungsbericht, der Teil der technischen Dokumentation ist, dokumentiert}{XIV/7}
 \tabularitemizeFirstLayer{Schlussfolgerungen werden bei klinischer Bewertung und Risikomanagement berücksichtigt}{XIV/8}
 \tabularitemizeFirstLayer{Notwendigkeit zur Durchführung von Präventiv-/ oder Korrekturmaßnahmen im Feld wird ermittelt und Prozesse entsprechend gestartet}{XIV/8}
 \tabularitemizeFirstLayer{Durchführung von Studien über klinische Nachbeobachtung nach dem Inverkehrbringen, die von benannten Stelle gefordert werden}{56/3}
 \hline
-\plainTabularText{Analyseaktivitäten der Behörden:}{}
+\plainTabularTextWOCount{Analyseaktivitäten der Behörden:}{}
 \tabularitemizeFirstLayer{Unterlagen und Informationen für Behörden zwecks Durchführung der Marktüberwachung zur Verfügung stellen}{93/3}
 \tabularitemizeFirstLayer{Produktstichproben oder Zugang zu Produkten bei gerechfertigtem Anliegen den Behörden kostenfrei zur Verfügung stellen}{93/3}
 \tabularitemizeFirstLayer{Hersteller ergreift erforderliche Korrekturmaßnahmen, wenn Behörden aus der Analyse der Vigilanz-Daten Risiken oder nachteilige Änderugen der Nutzen-Risiko-Abwägung ermitteln und dem Hersteller mitteilen}{90}
 \tabularitemizeFirstLayer{Kooperation bei Bewertung eines Produktes aufgrund des Verdachtes}{94}
 \tabularitemizeSecondLayer{Eines unvertretbaren Risikos für die Gesundheit oder Sicherheit oder für Aspekt des Schutzes der öffentlichen Gesundheit}{94}
 \tabularitemizeSecondLayer{Anderweitig nicht erfüllte Anforderungen der Verordnung}{94}
+\hline
+\ListTabBottom
+
+\requestListTabHead
 \tabularitemizeFirstLayer{Prüfung des durch die Behörde erstellten Berichtes über eine durchgeführte Kontrolle und gegebenenfalls Verfassung einer Stellungnahme durch den Hersteller, die in elektronischem System in Form einer Stellungnahme erfasst wird}{93/7}
 \tabularitemizeFirstLayer{Zuständige Behörde kann zu Ergreifung von geeigneten und gebührend gerechtfertigten Korrekturmaßnahmen bei vertretbaren und unvertretbaren Risiken  für die Gesundheit oder Sicherheit der Patienten, Anwenders oder anderer Personen oder in Bezug auf andere Aspekte des Schutzes der öffentlichen Gesundheit auffordern, um Konformität des Produkts herzustellen (Bereitstellung des Produktes, die der Art des Risikos angemessen ist, Beschränkung des Risikos, Bereitstellung des Produktes bestimmten Anforderungen unterwerfen, Produkt vom Markt nehmen, Produkt zurückrufen)}{95/1 97/1}
 \tabularitemizeSecondLayer{Notwendige Korrekturmaßnahme in gesamter europäischer Union durchführen, wo betroffenes Produkt auf dem Markt verfügbar ist}{95/3}
