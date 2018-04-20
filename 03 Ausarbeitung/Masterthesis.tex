@@ -711,13 +711,13 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 \end{itemize}
 Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle \ref{tab:MDRRequAndRef} zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt und somit den Nutzen für WOM maximiert.
 
-\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.84\textwidth}|p{0.1\textwidth}|} \hline\vspace{0mm} Anforderung & \vspace{0mm}Art.\\ \hline\hline}
+\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.84\textwidth}|p{0.1\textwidth}|} \hline\scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
 \def\ListTabBottom{\end{tabular}\end{table}}
 \def\ListTabBottomWithCaptionAndLabel#1#2#3{\end{tabular}\caption[#1]{#2}\label{#3}\end{table}}
-\def\plainTabularText#1#2{\begin{tabular}{p{13,6cm}}#1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayer#1#2{\begin{tabular}{p{0,3cm}p{12,9cm}}\textbullet & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayer#1#2{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,1cm}}& - & #1 \\\end{tabular} & \begin{tabular}{p{1cm}}#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \unchecked\\}
+\def\plainTabularText#1#2{\begin{tabular}{p{13,6cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayer#1#2{\begin{tabular}{p{0,3cm}p{12,9cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayer#1#2{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,1cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}\scriptsize&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
 \afterpage{
 \requestListTabHead
