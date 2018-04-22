@@ -17,6 +17,7 @@
 \usepackage{url}
 % um Bilder auf nächster Seite zu erzwingen
 \usepackage{afterpage}
+\usepackage{longtable}
 
 %\setlength{\textwidth}{14cm}
 %\setlength{\textheight}{25.5cm}
@@ -853,6 +854,98 @@ Ebenfalls nicht umgesetzt sind die Meldung von Trends und die Erstellung eines P
 Mit der Schärfung der Anforderungen für die Aktualisierung der klinischen Bewertung nach dem Inverkehrbringen durch die klinische Nachbeobachtung nach dem Inverkehrbringen (PMCF) sind ebenfalls neue Aufgaben für die Hersteller festgelegt worden. Auch in diesem Falle wurden die Anforderungen für den europäischen Raum durch die MDR klarer formuliert, wodurch sich für die Hersteller neue Erfüllungskriterien ergeben. Zu den nicht erfüllten Aufgaben zählt die Erstellung eines Planes zur Überwachung, der Teil des Plans zur Überwachung nach dem Inverkehrbringen ist. Da dieser, wie bereits erwähnt wurde, nicht in den Fokus dieser Arbeit fällt, bleibt auch die Forderung für den PMCF-Plan unbeachtet. Des Weiteren werden einige Forderungen in der Praxis zwar schon gelebt, aber in den Unterlagen des QM-Handbuches nicht aufgeführt. Dazu gehört die Einbeziehung der Erkenntnisse der klinischen Bewertung in der Risikobeurteilung sowie die Ableitung von Korrekturmaßnahmen oder Rückrufen aus den neuen Erkenntnissen. Auch die Rolle der benannten Stelle wird in der MDR gestärkt, da diese nun auch klinische Studien von den Herstellern einfordern kann, worauf in den Verfahrensanweisungen und den Richtlinien aktuell nicht verwiesen wird.
 \section{Prozessanpassung aufgrund nicht erfüllter Anforderungen der MDR}
 Wie bereits angesprochen wurde, führen nicht alle offenen Anforderungen zu tatsächlichen Anpassungen an den ermittelten Prozessen. Dies liegt vor allem daran, dass die anzupassenden Prozesse nicht modelliert wurden und somit nicht Bestandteil der Prozesse nach dem Inverkehrbringen sind. Generell stellen die hier erarbeiteten Prozesse nur eine Möglichkeit vor, wie die Anforderungen mit möglichst wenig Aufwand umgesetzt werden können. Die tatsächliche Lösung könnte im Nachhinein aufgrund von Firmenbelangen anders aussehen. Grafische Vorher-Nachher-Vergleiche drängen sich an dieser Stelle nahezu auf, aber aufgrund der Zerstreuung der durchgeführten Änderungen in einer großen Prozesslandkarte macht es nur an wenigen Stellen Sinn, einen entsprechenden plakativen Vergleich aufzuzeigen.
+\newcounter{NrCounter}
+\def\Nr{\stepcounter{NrCounter}\theNrCounter}
+\def\LineInTraceTable#1{\Nr & #1\\ \hline}
+\def\LineInTraceTableChecked{\Nr & Anforderung bereits erfüllt\\ \hline}
+\def\LineInTraceTableNotInFocus{\Nr & Außerhalb Fokus der Arbeit\\ \hline}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{center}
+\begin{longtable}{|l|p{0.83\textwidth}|}
+\hline
+Nummer & Status, angepasster Prozess\\
+\hline\hline
+\LineInTraceTableChecked %1
+\LineInTraceTableNotInFocus %2
+\LineInTraceTableNotInFocus %3
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTableChecked
+\LineInTraceTableChecked %10
+\LineInTraceTable{Startereignis in PMS-Prozess}
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTable{Einreichung über elektronisches System in Meldesystem-Prozess}
+\LineInTraceTable{Neue Fristen in Meldesystem-Prozess}
+\LineInTraceTable{Neue Fristen in Meldesystem-Prozess}
+\LineInTraceTable{Neue Fristen in Meldesystem-Prozess}
+\LineInTraceTable{Einreichung über elektronisches System in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTableChecked %20
+\LineInTraceTable{Hinweis, dass periodische Sammelmeldung verwendet werden sollte, wenn möglich in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTableChecked
+\LineInTraceTable{Zusätzliche Interaktion mit Behörden in PMS-Prozess}
+\LineInTraceTable{Hinweis, dass Untersuchungen mit Behörden gegebenenfalls abzustimmen sind in PMS-Prozess}
+\LineInTraceTable{Interaktion zu angeforderten Unterlagen mit Behörden in PMS-Prozess}
+\LineInTraceTable{Einreichung Abschlussbericht über elektronisches System in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTable{Neue Prozessschritte in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTable{Neue Prozessschritte in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTable{Neue Prozessschritte in Rückrufaktion/Korrekturmaßnahme im Feld}
+\LineInTraceTable{Neue Prozessschritte in Rückrufaktion/Korrekturmaßnahme im Feld} %30
+\LineInTraceTable{Startereignis in PMS-Prozess}
+\LineInTraceTable{Neuer Prozess Meldung zu schwerwiegendem Vorkommnis von Behörde erhalten}
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio} %40
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTable{Neuer Prozess für zyklischen PMS Bericht}
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTable{Keine entsprechenden Produkte im Portfolio}
+\LineInTraceTable{Anpassung Statistische Auswertung}
+\LineInTraceTable{Startereignis PMS-Prozess}
+\LineInTraceTableChecked
+\LineInTraceTableNotInFocus
+\LineInTraceTableChecked
+\LineInTraceTableChecked %50
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableChecked
+\LineInTraceTableNotInFocus
+\LineInTraceTableNotInFocus
+\LineInTraceTableNotInFocus
+\LineInTraceTableNotInFocus
+\LineInTraceTableNotInFocus
+\LineInTraceTableNotInFocus %60
+\LineInTraceTableNotInFocus
+\LineInTraceTableChecked
+\LineInTraceTable{Hinweis in Klinische Bewertung Prozess}
+\LineInTraceTable{Anpassung Klinische Bewertung Prozess}
+\LineInTraceTable{Startereignis für Klinische Bewertung Prozess}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Startereignis in PMS-Prozess}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden} %70
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Startereignis in PMS-Prozess}
+\LineInTraceTable{Durch PMS-Prozess erfüllt}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\LineInTraceTable{Neuer Prozess Interaktion mit den Behörden}
+\caption[Zusammenfassung der durchgeführten Aktionen zur Erfüllung der Anforderungen der MDR]{Zusammenfassung der durchgeführten Aktionen zur Erfüllung der Anforderungen der MDR}
+\label{tab:taken_actions}
+\end{longtable}
+\end{center}
+Nach diesem Überblick werden die wichtigsten Änderungen detaillierter dargestellt. 
 
 Die größte Anpassung betrifft den Prozess der Kundenrückmeldung, der im bisherigen Modell den umfangreichsten und zentralsten Prozess im Kontext der Marktbeobachtung nach dem Inverkehrbringen darstellt. Kundenrückmeldungen dienten somit als einzige richtige Quelle für PMS, was nach den Anforderungen der MDR zu wenig ist. Die in dem Prozess enthaltenen Aktivitäten zur Untersuchung und Bearbeitung von Vorkommnissen und Fehlern soll erhalten bleiben und für weitere Vorkommnisse, die nicht über Kundenrückmeldungen eingesteuert wurden, verwendet werden. Mit anderen Worten wird der Prozess allgemeingültiger. Dafür wird er zunächst in "`PMS"' umbenannt, was den thematischen Rahmen für den Prozess festlegt. In der Folge werden alle Tätigkeiten, die sich mit der eigentlichen Bearbeitung der Kundenrückmeldung beschäftigen, abstrahiert, um weitere Quellen für den Untersuchungs- und Bearbeitungsprozess zu ermöglichen. Der aktuelle Prozess wird folglich aufgespalten und es entsteht ein separater Prozess, der sich mit der Aufnahme und Bearbeitung einer Kundenrückmeldung beschäftigt. In diesem separaten Prozess wird der PMS-Prozess bei Bedarf ausgelöst, was sich auch an den Startbedingungen des PMS-Prozess erkennen lässt. 
 
