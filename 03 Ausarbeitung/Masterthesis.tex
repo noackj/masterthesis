@@ -995,8 +995,32 @@ Um eine möglichst gebräuchliche Lösung für die Praxis zu finden, werden an d
 Im Wesentlichen gibt es somit nur drei relevante Szenarien. Im ersten Szenario werden die Requirements ohne vorherige Anpassung der Risikoeinschätzung durch einen Änderungsvorgang angepasst. Das zweite Szenario beschreibt die Möglichkeit, dass die Risikoeinschätzung angepasst wird, aber kein für das System relevanter Änderungsvorgang daraus abgeleitet wird. Dies kann beispielsweise der Fall sein, wenn keine neuen Maßnahmen aus der Risikoeinschätzung resultieren, oder die Maßnahmen Teile der technischen Dokumentation betreffen, die derzeit nicht in Polarion abgebildet werden. Die letzte Variante besteht darin, dass eine durchgeführte Risikoeinschätzung einen Änderungsvorgang auslöst, weswegen die Requirements in der Folge angepasst werden.
 
 Aus den ermittelten Konstellationen ergeben sich keine nennenswerten Besonderheiten, die eine komplizierte Lösung auf Seiten von Polarion erfordern. Demzufolge kann über das Anlegen der zwei neuen Items und der Definition der möglichen zu erstellenden Links die neue Funktionalität implementiert werden.
-
 \section{Umsetzung in Polarion}
+Die konkrete Umsetzung unterteilt sich in zwei Aufgaben. Zuerst werden die beiden neuen Itemkategorien für Kundenrückmeldungen und Änderungsvorgänge in der Konfiguration hinzugefügt. Anschließend muss die Konfiguration erneut angepasst werden, um die gewünschten Links zwischen den verschiedenen Itemkategorien hinzufügen zu können.
+
+Die für den ersten Aufgabenteil notwendigen durchgeführten Änderungen können in Abbildung \ref{new_config_items} eingesehen werden. Über die rote Markierung wird verdeutlicht, welche Einträge hinzugekommen sind.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Images/new_config_items}
+\caption[Konfigurationsänderung für die zwei neuen Items]{Konfigurationsänderung für die zwei neuen Items}
+\label{new_config_items}
+\end{figure}
+
+Um die gewünschten Verbindungen zwischen den Items zu ermöglichen, müssen diese definiert werden. Dies geschieht ebenfalls über die Konfiguration in Polarion. Wie in Abbildung \ref{new_config_links} zu erkennen ist, werden Verbindungen jeweils zwischen zwei verschiedenen Itemkategorien definiert. Die durchgeführten Änderungen sind in der Abbildung rot umrahmt. Eine Verbindung ist immer bidirektional und wird über Umschreibungstexte genauer charakterisiert. Über diese ist die Bedeutung für den Nutzer festgelegt und signalisiert, welche Form der Abhängigkeit besteht. 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Images/new_config_links}
+\caption[Konfigurationsänderung für die Verlinkungen zu den zwei neuen Items]{Konfigurationsänderung für die Verlinkungen zu den zwei neuen Items}
+\label{new_config_links}
+\end{figure}
+
+Über die Änderungen ist es ab jetzt möglich, die zwei neu erstellten Items mit den anderen Items der Produktanforderungen und Produktdokumentation zu verknüpfen. Wie eine solche Verbindung am Ende aussieht, ist in Abbildung \ref{example_for_new_items} ersichtlich.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Images/example_for_new_items}
+\caption[Beispiel für die Verbindung zu den neuen Itemkategorien]{Beispiel für die Verbindung zu den neuen Itemkategorien}
+\label{example_for_new_items}
+\end{figure}
 %===================================================================== Zusammenfassung
 \chapter{Schluss}
 \section{Zusammenfassung}\label{sec:Zusammenfassung}
