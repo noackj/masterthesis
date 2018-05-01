@@ -686,12 +686,10 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 \end{itemize}
 Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle \ref{tab:MDRRequAndRef} zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt.
 
-Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abteilungen Regulatory Affairs und dem Qualitätmanagement ein Review durchgeführt, da diese beiden Abteilungen sich mit dem betroffenen Themengebiet befassen und eine solche Aufgabe normalerweise in ihren Arbeitsbereich fallen würde.
-
 \newcounter{RequirementNumber}
-\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.05\textwidth}|p{0.81\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
-\def\ListTabBottom{\end{tabular}\end{table}}
-\def\ListTabBottomWithCaptionAndLabel#1#2#3{\end{tabular}\caption[#1]{#2}\label{#3}\end{table}}
+\def\requestListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.81\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
+\def\ListTabBottom{\end{longtable}\end{center}}
+\def\ListTabBottomWithCaptionAndLabel#1#2#3{\caption[#1]{#2}\label{#3}\end{longtable}\end{center}}
 \def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
 \def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
 \def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
@@ -699,7 +697,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12,35cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
 \def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,7cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
-\afterpage{
 \requestListTabHead
 \plainTabularText{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}{83/1 83/2}
 \hline
@@ -728,10 +725,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Sicherheitskorrekturmaßnahmen im Feld, auch wenn Vorkommnis außerhalb der EU aufgetreten ist, aber Grund für Maßnahme direkt von einem Produkt, das auch in EU gehandelt wird, ausgeht, werden den zuständigen Behörden über elektronisches System gemeldet}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung über Sicherheitskorrekturmaßnahme im Feld in nicht dringenden Fällen ohne gebührliche Verzögerung vor der Durchführung}{87/8}
 \tabularitemizeSecondLayer{Bei wiederholenden Meldungen (ähnliches Vorkommnis mit gleichem Produkt oder Produktart,  schon erfolgter Sicherheitskorrekturmaßnahme oder häufig auftretend aber gut dokumentiert) kann periodische Sammelmeldung über elektronisches System erfolgen}{87/9 92/1}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Untersuchung  (u.a. Risikobewertung) folgt unverzüglich auf Meldung eines schwerwiegenden Vorkommnisses durch den Hersteller}{89/1}
 \tabularitemizeSecondLayer{Zusammenarbeit gegebenenfalls mit Behörden und benannter Stelle}{89/1}
 \tabularitemizeSecondLayer{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}{89/1}
@@ -762,9 +755,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeSecondLayer{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}{86/2 92/1}
 \tabularitemizeFirstLayer{Bei Sonderanfertigungen separate Struktur der Dokumentation}{86/1}
 \hline
-\ListTabBottom
-
-\requestListTabHead
 \plainTabularTextWOCount{Trends:}{}
 \tabularitemizeFirstLayer{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in technischer Dokumentation angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}{88/1 92/1}
 \tabularitemizeFirstLayer{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen, Maßnahmen zu ergreifen}{88/2}
@@ -798,10 +788,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Kooperation bei Bewertung eines Produktes aufgrund des Verdachtes}{94}
 \tabularitemizeSecondLayer{Eines unvertretbaren Risikos für die Gesundheit oder Sicherheit oder für Aspekt des Schutzes der öffentlichen Gesundheit}{94}
 \tabularitemizeSecondLayer{Anderweitig nicht erfüllte Anforderungen der Verordnung}{94}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Prüfung des durch die Behörde erstellten Berichtes über eine durchgeführte Kontrolle und gegebenenfalls Verfassung einer Stellungnahme durch den Hersteller, die in elektronischem System in Form einer Stellungnahme erfasst wird}{93/7}
 \tabularitemizeFirstLayer{Zuständige Behörde kann zu Ergreifung von geeigneten und gebührend gerechtfertigten Korrekturmaßnahmen bei vertretbaren und unvertretbaren Risiken  für die Gesundheit oder Sicherheit der Patienten, Anwenders oder anderer Personen oder in Bezug auf andere Aspekte des Schutzes der öffentlichen Gesundheit auffordern, um Konformität des Produkts herzustellen (Bereitstellung des Produktes, die der Art des Risikos angemessen ist, Beschränkung des Risikos, Bereitstellung des Produktes bestimmten Anforderungen unterwerfen, Produkt vom Markt nehmen, Produkt zurückrufen)}{95/1 97/1}
 \tabularitemizeSecondLayer{Notwendige Korrekturmaßnahme in gesamter europäischer Union durchführen, wo betroffenes Produkt auf dem Markt verfügbar ist}{95/3}
@@ -809,8 +795,7 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Unterstützung der Kommission in Form von Absprache zur Prüfung getroffener Maßnahmen nationaler Behörden, wenn erforderlich}{98/3}
 \hline
 \ListTabBottomWithCaptionAndLabel{Anforderungsliste aus MDR mit Referenzen}{Anforderungsliste aus MDR mit Referenzen}{tab:MDRRequAndRef}
-%\clearpage %ohne Clearpage landet die Tabelle am Ende des Kapitels
-}
+Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abteilungen Regulatory Affairs und dem Qualitätmanagement ein Review durchgeführt, da diese beiden Abteilungen sich mit dem betroffenen Themengebiet befassen und eine solche Aufgabe normalerweise in ihren Arbeitsbereich fallen würde.
 
 \section{Analyse der momentan verwendeten Prozesse}
 Nachdem der Anforderungskatalog aus der MDR extrahiert wurde, können die aktuellen Prozesse analysiert werden, wobei die Erfüllung jeder einzelnen Anforderung geprüft wird. Dazu wird die Anforderungstabelle aus Tabelle \ref{tab:MDRRequAndRef} in eine Checkliste überführt, indem die Spalte mit den Referenzen auf die Artikel der MDR durch eine Spalte mit Checkboxen, die den aktuellen Status der Erfüllung darstellen, ersetzt wird (siehe Anhang \ref{chap:ChecklistMDR}).
