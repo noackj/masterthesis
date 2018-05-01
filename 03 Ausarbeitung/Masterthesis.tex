@@ -462,21 +462,22 @@ Nachdem in der Planungsphase grundlegende Festlegungen getroffen wurden, kann di
 \item Präsentation
 \end{enumerate}
 Demzufolge ist die Prozessidentifizierung der Einstieg und besteht daraus, auf abstrakter Ebene die zu modellierenden Prozesse zu benennen. Da dies den Grundstein für die folgende Modellierung legt, ist hierbei besondere Sorgfalt angebracht. Methodisch hilf es in diesem Zusammenhang zunächst die möglichen auslösenden Ereignisse (engl. "`Trigger Events"') zu ermitteln und aus diesen jeweils einen Prozess abzuleiten. Das Ergebnis der Überlegungen ist in Tabelle \ref{tab:trigger_events} abgebildet, was die mindestens zu erwartenden zu modellierenden Hauptprozesse darstellt.
+\def\SimpleTableEntry#1#2{\scriptsize #1 & \scriptsize #2 \\}
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{|p{0.6\textwidth}|p{0.3\textwidth}|}
 \hline
-Trigger Event & Prozessname \\
+\SimpleTableEntry{Trigger Event}{Prozessname}
 \hline\hline
-Kunde meldet Problem mit Produkt & Kundenrückmeldung \\
+\SimpleTableEntry{Kunde meldet Problem mit Produkt}{Kundenrückmeldung}
 \hline
-Normative Anforderung zum zyklischen Aktualisierung der klinischen Evaluation & Aktualisierung der klinischen Bewertung\\
+\SimpleTableEntry{Normative Anforderung zum zyklischen Aktualisierung der klinischen Evaluation}{Aktualisierung der klinischen Bewertung}
 \hline
-Normative Anforderung den Markt dauerhaft zu beobachten & Marktbeobachtung \\
+\SimpleTableEntry{Normative Anforderung den Markt dauerhaft zu beobachten}{Marktbeobachtung}
 \hline
-Produkt muss zurückgerufen werden & Rückrufaktion, Korrekturmaßnahme im Feld\\
+\SimpleTableEntry{Produkt muss zurückgerufen werden}{Rückrufaktion, Korrekturmaßnahme im Feld}
 \hline
-Fehler im Produkt aufgetreten, weswegen Meldepflicht besteht & Meldesystem\\
+\SimpleTableEntry{Fehler im Produkt aufgetreten, weswegen Meldepflicht besteht}{Meldesystem}
 \hline
 \end{tabular}
 \caption[Prozessidentifikation anhand der Trigger Events]{Prozessidentifikation anhand der Trigger Events}
@@ -549,29 +550,29 @@ Im Modell werden außerdem einige Abkürzungen verwendet, die an dieser Stelle z
 \begin{center}
 \begin{tabular}{|p{0.2\textwidth}|p{0.4\textwidth}|}
 \hline
-Abkürzung & Auflösung\\
+\SimpleTableEntry{Abkürzung}{Auflösung}
 \hline\hline
-CEO & Chief Executive Officer\\
+\SimpleTableEntry{CEO}{Chief Executive Officer}
 \hline
-CFO & Chief Financial Officer\\
+\SimpleTableEntry{CFO}{Chief Financial Officer}
 \hline
-CS & Customer Service\\
+\SimpleTableEntry{CS}{Customer Service}
 \hline
-DFV & Durchführungsverantwortlicher\\
+\SimpleTableEntry{DFV}{Durchführungsverantwortlicher}
 \hline
-F\&E & Forschung und Entwicklung\\
+\SimpleTableEntry{F\&E}{Forschung und Entwicklung}
 \hline
-PJL & Projektleiter\\
+\SimpleTableEntry{PJL}{Projektleiter}
 \hline
-PM & Produktmanagement\\
+\SimpleTableEntry{PM}{Produktmanagement}
 \hline
-QM & Qualitätsmanagement\\
+\SimpleTableEntry{QM}{Qualitätsmanagement}
 \hline
-QMB & Qualitätsmanagementbeauftragter\\
+\SimpleTableEntry{QMB}{Qualitätsmanagementbeauftragter}
 \hline
-RA & Regulatory Affairs\\
+\SimpleTableEntry{RA}{Regulatory Affairs}
 \hline
-UM & Umweltmanagement\\
+\SimpleTableEntry{UM}{Umweltmanagement}
 \hline
 \end{tabular}
 \caption[Abkürzungen Abteilungen und Rollen]{Abkürzungen Abteilungen und Rollen}
@@ -687,19 +688,17 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle \ref{tab:MDRRequAndRef} zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt.
 
 Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abteilungen Regulatory Affairs und dem Qualitätmanagement ein Review durchgeführt, da diese beiden Abteilungen sich mit dem betroffenen Themengebiet befassen und eine solche Aufgabe normalerweise in ihren Arbeitsbereich fallen würde.
-
 \newcounter{RequirementNumber}
-\def\requestListTabHead{\begin{table}[ht] \centering \begin{tabular}{|p{0.05\textwidth}|p{0.81\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
-\def\ListTabBottom{\end{tabular}\end{table}}
-\def\ListTabBottomWithCaptionAndLabel#1#2#3{\end{tabular}\caption[#1]{#2}\label{#3}\end{table}}
-\def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayerWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12,35cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,7cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\requestListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.79\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
+\def\ListTabBottom{\end{longtable}\end{center}}
+\def\ListTabBottomWithCaptionAndLabel#1#2#3{\caption[#1]{#2}\label{#3}\end{longtable}\end{center}}
+\def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{12,85cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{12,85cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayerWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,35cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
-\afterpage{
 \requestListTabHead
 \plainTabularText{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}{83/1 83/2}
 \hline
@@ -728,10 +727,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Sicherheitskorrekturmaßnahmen im Feld, auch wenn Vorkommnis außerhalb der EU aufgetreten ist, aber Grund für Maßnahme direkt von einem Produkt, das auch in EU gehandelt wird, ausgeht, werden den zuständigen Behörden über elektronisches System gemeldet}{87/1 92/1}
 \tabularitemizeSecondLayer{Meldung über Sicherheitskorrekturmaßnahme im Feld in nicht dringenden Fällen ohne gebührliche Verzögerung vor der Durchführung}{87/8}
 \tabularitemizeSecondLayer{Bei wiederholenden Meldungen (ähnliches Vorkommnis mit gleichem Produkt oder Produktart,  schon erfolgter Sicherheitskorrekturmaßnahme oder häufig auftretend aber gut dokumentiert) kann periodische Sammelmeldung über elektronisches System erfolgen}{87/9 92/1}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Untersuchung  (u.a. Risikobewertung) folgt unverzüglich auf Meldung eines schwerwiegenden Vorkommnisses durch den Hersteller}{89/1}
 \tabularitemizeSecondLayer{Zusammenarbeit gegebenenfalls mit Behörden und benannter Stelle}{89/1}
 \tabularitemizeSecondLayer{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}{89/1}
@@ -762,9 +757,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeSecondLayer{Klasse III und implantierbare Produkte: über elektronisches System an benannte Stelle}{86/2 92/1}
 \tabularitemizeFirstLayer{Bei Sonderanfertigungen separate Struktur der Dokumentation}{86/1}
 \hline
-\ListTabBottom
-
-\requestListTabHead
 \plainTabularTextWOCount{Trends:}{}
 \tabularitemizeFirstLayer{Meldung von statistisch signifikanten (entscheidend ist Vergleich mit erwartetem und in technischer Dokumentation angegebener Häufung) Anstiegen der Häufigkeit oder des Schweregrades nicht schwerwiegender Vorkommnisse oder erwarteter unerwünschter Nebenwirkungen über elektronisches System, wenn Nutzen-Risiko-Analyse erheblich beeinflusst wird und Risiken für die Gesundheit entstehen}{88/1 92/1}
 \tabularitemizeFirstLayer{Behörden können bei abweichender Einschätzung  der Meldung vom Hersteller verlangen, Maßnahmen zu ergreifen}{88/2}
@@ -798,10 +790,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Kooperation bei Bewertung eines Produktes aufgrund des Verdachtes}{94}
 \tabularitemizeSecondLayer{Eines unvertretbaren Risikos für die Gesundheit oder Sicherheit oder für Aspekt des Schutzes der öffentlichen Gesundheit}{94}
 \tabularitemizeSecondLayer{Anderweitig nicht erfüllte Anforderungen der Verordnung}{94}
-\hline
-\ListTabBottom
-
-\requestListTabHead
 \tabularitemizeFirstLayer{Prüfung des durch die Behörde erstellten Berichtes über eine durchgeführte Kontrolle und gegebenenfalls Verfassung einer Stellungnahme durch den Hersteller, die in elektronischem System in Form einer Stellungnahme erfasst wird}{93/7}
 \tabularitemizeFirstLayer{Zuständige Behörde kann zu Ergreifung von geeigneten und gebührend gerechtfertigten Korrekturmaßnahmen bei vertretbaren und unvertretbaren Risiken  für die Gesundheit oder Sicherheit der Patienten, Anwenders oder anderer Personen oder in Bezug auf andere Aspekte des Schutzes der öffentlichen Gesundheit auffordern, um Konformität des Produkts herzustellen (Bereitstellung des Produktes, die der Art des Risikos angemessen ist, Beschränkung des Risikos, Bereitstellung des Produktes bestimmten Anforderungen unterwerfen, Produkt vom Markt nehmen, Produkt zurückrufen)}{95/1 97/1}
 \tabularitemizeSecondLayer{Notwendige Korrekturmaßnahme in gesamter europäischer Union durchführen, wo betroffenes Produkt auf dem Markt verfügbar ist}{95/3}
@@ -809,8 +797,6 @@ Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abt
 \tabularitemizeFirstLayer{Unterstützung der Kommission in Form von Absprache zur Prüfung getroffener Maßnahmen nationaler Behörden, wenn erforderlich}{98/3}
 \hline
 \ListTabBottomWithCaptionAndLabel{Anforderungsliste aus MDR mit Referenzen}{Anforderungsliste aus MDR mit Referenzen}{tab:MDRRequAndRef}
-%\clearpage %ohne Clearpage landet die Tabelle am Ende des Kapitels
-}
 
 \section{Analyse der momentan verwendeten Prozesse}
 Nachdem der Anforderungskatalog aus der MDR extrahiert wurde, können die aktuellen Prozesse analysiert werden, wobei die Erfüllung jeder einzelnen Anforderung geprüft wird. Dazu wird die Anforderungstabelle aus Tabelle \ref{tab:MDRRequAndRef} in eine Checkliste überführt, indem die Spalte mit den Referenzen auf die Artikel der MDR durch eine Spalte mit Checkboxen, die den aktuellen Status der Erfüllung darstellen, ersetzt wird (siehe Anhang \ref{chap:ChecklistMDR}).
@@ -1067,18 +1053,20 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \newpage
 
 % macros for checkboxes
-\def\unchecked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_unchecked}}}
-\def\checked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_checked}}}
+\def\unchecked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_unchecked}}}
+\def\checked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_checked}}}
 
-\def\checkListTabHead{\begin{table}[!ht] \centering \begin{tabular}{|p{0.87\textwidth}|p{0.07\textwidth}|} \hline\vspace{0mm} Anforderung & \vspace{0mm}Erfüllt\\ \hline\hline}
-\def\plainTabularTextWOCheckbox#1{\begin{tabular}{p{14,1cm}} \vspace{0mm}#1 \\\end{tabular} & \\}%{\vspace{0mm} #1 & \\}
-\def\plainTabularTextChecked#1{\begin{tabular}{p{14,1cm}} \vspace{0mm}#1 \\\end{tabular} & \checked \\}
-\def\plainTabularTextUnchecked#1{\vspace{0mm}#1 & \unchecked\\}
-\def\tabularitemizeFirstLayerWOCheckbox#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \\}
-\def\tabularitemizeFirstLayerCheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeFirstLayerUncheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \unchecked\\}
-\def\tabularitemizeSecondLayerCheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \unchecked\\}
+\newcounter{ChecklistNumber}
+\def\checkListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.82\textwidth}|p{0.05\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
+\def\plainTabularTextWOCheckbox#1{& \begin{tabular}{p{13,75cm}} \scriptsize#1 \\\end{tabular} & \\}%{ #1 & \\}
+\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{13,35cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
+\def\plainTabularTextUnchecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \scriptsize#1 & \unchecked\\}
+\def\tabularitemizeFirstLayerWOCheckbox#1{ & \begin{tabular}{p{0,3cm}p{13,05cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \\}
+\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.6cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.6cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,9cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,9cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\CheckListTabBottom{\end{longtable}\end{center}}
 
 
 \section{Checkliste für die Anforderungen der MDR}
@@ -1102,9 +1090,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerCheck{Erkennung und Meldung von Trends}
 \plainTabularTextChecked{Die Technische Dokumentation ist immer aktuell zu halten}
 \hline
-\ListTabBottom
 
-\checkListTabHead
 \plainTabularTextChecked{Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und gegebenenfalls benannter Stelle durch den Hersteller, bei schwerwiegenden Vorkommnissen und notwendigen Sicherheitskorrekturmaßnahmen im Feld}
 \hline
 \plainTabularTextWOCheckbox{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}
@@ -1119,10 +1105,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeSecondLayerUncheck{Zusammenarbeit gegebenenfalls mit Behörden und benannter Stelle}
 \tabularitemizeSecondLayerUncheck{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}
 \tabularitemizeFirstLayerCheck{Angeforderte Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerUncheck{Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und gegebenenfalls zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System}
 \tabularitemizeFirstLayerUncheck{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}
 \tabularitemizeSecondLayerUncheck{Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann}
@@ -1138,10 +1120,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeSecondLayerUncheck{Ergebnisse und Schlussfolgerungen der PMS sowie Beschreibung und Begründung ergriffener Präventiv- und Korrekturmaßnahmen müssen enthalten sein (erstellt pro Produkt, gegebenenfalls Produktkategorie oder Produktgruppe)}
 \tabularitemizeSecondLayerUncheck{Aktualisierung des Berichtes über gesamte Lebensdauer}
 \tabularitemizeSecondLayerUncheck{Enthält:\newline a) die Schlussfolgerungen aus der Nutzen-Risiko-Abwägung\newline b) die wichtigsten Ergebnisse des Bewertungsberichts\newline c) die Gesamtabsatzmenge des Produkts und eine Schätzung der Anzahl und anderer Merkmale der Personen, bei denen das betreffende Produkt zur Anwendung kommt, sowie, sofern dies praktikabel ist, die Häufigkeit der Produktverwendung}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerWOCheckbox{Aktualisierungsintervalle des Berichtes:}
 \tabularitemizeSecondLayerUncheck{Klasse I: bei Bedarf und auf Anfrage der Behörden}
 \tabularitemizeSecondLayerUncheck{Klasse IIa: mindestens alle 2 Jahre (Teil der technischen Dokumentation)}
@@ -1161,10 +1139,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 (PMCF):}
 \tabularitemizeFirstLayerCheck{Ist Teil des Qualitätsmanagementsystems und wird aufgestellt, angewendet, aufrechterhalten und auf dem neuesten Stand gehalten}
 \tabularitemizeFirstLayerUncheck{Prozess der klinischen Nachbeobachtung nach dem Inverkehrbringen aktualisiert klinische Bewertung während gesamter Lebensdauer und ist Teil des Plans zur Überwachung nach dem Inverkehrbringen}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerCheck{Klinische Daten, die bei zweckgemäßer Verwendung erhoben werden, werden proaktiv gesammelt und ausgewertet, um:}
 \tabularitemizeSecondLayerCheck{Sicherheit und Leistung während der Lebensdauer zu bestätigen}
 \tabularitemizeSecondLayerCheck{Konformität der ermittelten Risiken sicherzustellen}
@@ -1183,9 +1157,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerUncheck{Notwendigkeit zur Durchführung von Präventiv-/ oder Korrekturmaßnahmen im Feld wird ermittelt und Prozesse entsprechend gestartet}
 \tabularitemizeFirstLayerUncheck{Durchführung von Studien über klinische Nachbeobachtung nach dem Inverkehrbringen, die von benannten Stelle gefordert werden}
 \hline
-\ListTabBottom
 
-\checkListTabHead
 \plainTabularTextWOCheckbox{Analyseaktivitäten der Behörden:}
 \tabularitemizeFirstLayerUncheck{Unterlagen und Informationen für Behörden zwecks Durchführung der Marktüberwachung zur Verfügung stellen}
 \tabularitemizeFirstLayerUncheck{Produktstichproben oder Zugang zu Produkten bei gerechtfertigtem Anliegen den Behörden kostenfrei zur Verfügung stellen}
@@ -1199,7 +1171,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerUncheck{Unterstützung der Kommission, bei der Überprüfung der Rechtmäßigkeit von getroffenen Maßnahmen eines Mitgliedsstaates, wenn Einwände eines anderen Mitgliedsstaates dagegen bestehen oder Kommission die Maßnahme für nicht mit dem Unionsrecht vertretbar einschätzt, in Form von Anhörungen}
 \tabularitemizeFirstLayerUncheck{Unterstützung der Kommission in Form von Absprache zur Prüfung getroffener Maßnahmen nationaler Behörden, wenn erforderlich}
 \hline
-\ListTabBottom
+\CheckListTabBottom
 %===================================================================== Eidessattl. Vers.
 \chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
 Ich versichere, dass ich die vorliegende Arbeit selbstständig verfasst, keine anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie alle wörtlich oder sinngemäß übernommenen Stellen in der Arbeit gekennzeichnet habe.
