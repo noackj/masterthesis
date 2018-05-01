@@ -686,16 +686,17 @@ Nach eingehender Analyse können die folgenden Anforderungen extrahiert werden:
 \end{itemize}
 Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, werden diese ermittelten Anforderungen in einer zusammenfassenden Liste vereint. Dabei wird über Gruppierung und Clusterung von Anforderungen und Auslöschung von Redundanzen (z.B. in Form von Verweisen und Wiederholungen) eine zusammenfassende Anforderungsliste generiert, die die Analyse der Unternehmensprozesse erleichtern sollte. Das Ergebnis ist eine Checkliste, mit der der Erfüllungsgrad transparent festgestellt werden kann. Dieses Ergebnis ist in Tabelle \ref{tab:MDRRequAndRef} zu erkennen. Über die zweite Spalte ist es weiterhin möglich nachzuvollziehen, aus welchen Artikeln und Absätzen die einzelnen Anforderungen abgeleitet wurden, was die Transparenz und Nachvollziehbarkeit sicherstellt.
 
+Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abteilungen Regulatory Affairs und dem Qualitätmanagement ein Review durchgeführt, da diese beiden Abteilungen sich mit dem betroffenen Themengebiet befassen und eine solche Aufgabe normalerweise in ihren Arbeitsbereich fallen würde.
 \newcounter{RequirementNumber}
-\def\requestListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.81\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
+\def\requestListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.79\textwidth}|p{0.08\textwidth}|} \hline\scriptsize Nr. & \scriptsize Anforderung & \scriptsize Art.\\ \hline\hline}
 \def\ListTabBottom{\end{longtable}\end{center}}
 \def\ListTabBottomWithCaptionAndLabel#1#2#3{\caption[#1]{#2}\label{#3}\end{longtable}\end{center}}
-\def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{13,2cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeFirstLayerWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,7cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12,35cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
-\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,7cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\plainTabularTextWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{12,85cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\plainTabularText#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{12,85cm}}\scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeFirstLayerWOCount#1#2{\begin{tabular}{p{1cm}}\scriptsize \\\end{tabular} & \begin{tabular}{p{0,01cm}p{12,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayer#1#2{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,01cm}p{0,01cm}p{12cm}}&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \begin{tabular}{p{1cm}}\scriptsize#2 \\\end{tabular}\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{RequirementNumber}\begin{tabular}{p{1cm}}\scriptsize \theRequirementNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,35cm}}\scriptsize&\scriptsize\textendash & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
 \requestListTabHead
 \plainTabularText{System zur Überwachung nach dem Inverkehrbringen (als integraler Bestandteil des QMS) muss eingerichtet sein, angewendet, instandgehalten und dauernd aktualisiert werden}{83/1 83/2}
@@ -795,7 +796,6 @@ Um die Nachvollziehbarkeit zu erhöhen und einen Überblick zu ermöglichen, wer
 \tabularitemizeFirstLayer{Unterstützung der Kommission in Form von Absprache zur Prüfung getroffener Maßnahmen nationaler Behörden, wenn erforderlich}{98/3}
 \hline
 \ListTabBottomWithCaptionAndLabel{Anforderungsliste aus MDR mit Referenzen}{Anforderungsliste aus MDR mit Referenzen}{tab:MDRRequAndRef}
-Um das Ergebnis der Analyse zu verifizieren, wurde durch Verantwortliche der Abteilungen Regulatory Affairs und dem Qualitätmanagement ein Review durchgeführt, da diese beiden Abteilungen sich mit dem betroffenen Themengebiet befassen und eine solche Aufgabe normalerweise in ihren Arbeitsbereich fallen würde.
 
 \section{Analyse der momentan verwendeten Prozesse}
 Nachdem der Anforderungskatalog aus der MDR extrahiert wurde, können die aktuellen Prozesse analysiert werden, wobei die Erfüllung jeder einzelnen Anforderung geprüft wird. Dazu wird die Anforderungstabelle aus Tabelle \ref{tab:MDRRequAndRef} in eine Checkliste überführt, indem die Spalte mit den Referenzen auf die Artikel der MDR durch eine Spalte mit Checkboxen, die den aktuellen Status der Erfüllung darstellen, ersetzt wird (siehe Anhang \ref{chap:ChecklistMDR}).
@@ -1056,15 +1056,15 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \def\checked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_checked}}}
 
 \newcounter{ChecklistNumber}
-\def\checkListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.84\textwidth}|p{0.05\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
-\def\plainTabularTextWOCheckbox#1{& \begin{tabular}{p{14,1cm}} \scriptsize#1 \\\end{tabular} & \\}%{ #1 & \\}
-\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{13,7cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
+\def\checkListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.82\textwidth}|p{0.05\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
+\def\plainTabularTextWOCheckbox#1{& \begin{tabular}{p{13,75cm}} \scriptsize#1 \\\end{tabular} & \\}%{ #1 & \\}
+\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{13,35cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
 \def\plainTabularTextUnchecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \scriptsize#1 & \unchecked\\}
-\def\tabularitemizeFirstLayerWOCheckbox#1{ & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \\}
-\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.95cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.95cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
-\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,25cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,25cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeFirstLayerWOCheckbox#1{ & \begin{tabular}{p{0,3cm}p{13,05cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \\}
+\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.6cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.6cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,9cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{11,9cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 \def\CheckListTabBottom{\end{longtable}\end{center}}
 
 
