@@ -1067,18 +1067,19 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \newpage
 
 % macros for checkboxes
-\def\unchecked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_unchecked}}}
-\def\checked{\parbox[c]{1em}{\includegraphics[width=1.15cm]{Images/checkbox_checked}}}
+\def\unchecked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_unchecked}}}
+\def\checked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_checked}}}
 
-\def\checkListTabHead{\begin{table}[!ht] \centering \begin{tabular}{|p{0.87\textwidth}|p{0.07\textwidth}|} \hline\vspace{0mm} Anforderung & \vspace{0mm}Erfüllt\\ \hline\hline}
-\def\plainTabularTextWOCheckbox#1{\begin{tabular}{p{14,1cm}} \vspace{0mm}#1 \\\end{tabular} & \\}%{\vspace{0mm} #1 & \\}
-\def\plainTabularTextChecked#1{\begin{tabular}{p{14,1cm}} \vspace{0mm}#1 \\\end{tabular} & \checked \\}
-\def\plainTabularTextUnchecked#1{\vspace{0mm}#1 & \unchecked\\}
-\def\tabularitemizeFirstLayerWOCheckbox#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \\}
-\def\tabularitemizeFirstLayerCheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeFirstLayerUncheck#1{\begin{tabular}{p{0,3cm}p{13,4cm}}\vspace{0mm}\textbullet & \vspace{0mm}#1 \\\end{tabular} & \unchecked\\}
-\def\tabularitemizeSecondLayerCheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeSecondLayerUncheck#1{\begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}& - & #1 \\\end{tabular} & \unchecked\\}
+\newcounter{ChecklistNumber}
+\def\checkListTabHead{\begin{table}[!ht] \centering \begin{tabular}{|p{0.05\textwidth}|p{0.82\textwidth}|p{0.07\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
+\def\plainTabularTextWOCheckbox#1{& \begin{tabular}{p{14,1cm}} \scriptsize#1 \\\end{tabular} & \\}%{ #1 & \\}
+\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{14,1cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
+\def\plainTabularTextUnchecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \scriptsize#1 & \unchecked\\}
+\def\tabularitemizeFirstLayerWOCheckbox#1{ & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \\}
+\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
 
 
 \section{Checkliste für die Anforderungen der MDR}
