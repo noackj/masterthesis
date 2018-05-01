@@ -1071,15 +1071,16 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \def\checked{\parbox[c]{1em}{\includegraphics[width=0.75cm]{Images/checkbox_checked}}}
 
 \newcounter{ChecklistNumber}
-\def\checkListTabHead{\begin{table}[!ht] \centering \begin{tabular}{|p{0.05\textwidth}|p{0.82\textwidth}|p{0.07\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
+\def\checkListTabHead{\begin{center}\begin{longtable}{|p{0.05\textwidth}|p{0.84\textwidth}|p{0.05\textwidth}|} \hline\scriptsize Nr. &\scriptsize Anforderung &\scriptsize Erfüllt\\ \hline\hline}
 \def\plainTabularTextWOCheckbox#1{& \begin{tabular}{p{14,1cm}} \scriptsize#1 \\\end{tabular} & \\}%{ #1 & \\}
-\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{14,1cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
+\def\plainTabularTextChecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{13,7cm}} \scriptsize#1 \\\end{tabular} & \checked \\}
 \def\plainTabularTextUnchecked#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \scriptsize#1 & \unchecked\\}
 \def\tabularitemizeFirstLayerWOCheckbox#1{ & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \\}
-\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{13,4cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
-\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
-\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,7cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeFirstLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.95cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeFirstLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{12.95cm}}\scriptsize\textbullet & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\tabularitemizeSecondLayerCheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,25cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \checked\\}
+\def\tabularitemizeSecondLayerUncheck#1{\stepcounter{ChecklistNumber}\begin{tabular}{p{1cm}}\scriptsize \theChecklistNumber \\\end{tabular} & \begin{tabular}{p{0,3cm}p{0,3cm}p{12,25cm}}&\scriptsize - & \scriptsize#1 \\\end{tabular} & \unchecked\\}
+\def\CheckListTabBottom{\end{longtable}\end{center}}
 
 
 \section{Checkliste für die Anforderungen der MDR}
@@ -1103,9 +1104,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerCheck{Erkennung und Meldung von Trends}
 \plainTabularTextChecked{Die Technische Dokumentation ist immer aktuell zu halten}
 \hline
-\ListTabBottom
 
-\checkListTabHead
 \plainTabularTextChecked{Durchführung und Überwachung von Präventiv- und Korrekturmaßnahmen aufgrund von gesammelten Daten inklusive Unterrichtung der zuständigen Behörden und gegebenenfalls benannter Stelle durch den Hersteller, bei schwerwiegenden Vorkommnissen und notwendigen Sicherheitskorrekturmaßnahmen im Feld}
 \hline
 \plainTabularTextWOCheckbox{Schwerwiegende Vorkommnisse oder Sicherheitskorrekturmaßnahmen im Feld:}
@@ -1120,10 +1119,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeSecondLayerUncheck{Zusammenarbeit gegebenenfalls mit Behörden und benannter Stelle}
 \tabularitemizeSecondLayerUncheck{Untersuchung muss sicherstellen, dass spätere Bewertung der Ursache des Vorkommnisses noch möglich ist oder Maßnahmen, die dagegen verstoßen würden, müssen vorher mit Behörde abgesprochen werden}
 \tabularitemizeFirstLayerCheck{Angeforderte Unterlagen müssen bei entsprechenden Anfragen an die Behörden ausgehändigt werden}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerUncheck{Erstellung eines Abschlussberichtes (enthält Schlussfolgerungen und gegebenenfalls zu ergreifende Korrekturmaßnahmen) und Einreichung über elektronisches System}
 \tabularitemizeFirstLayerUncheck{Bei ergriffenen Sicherheitskorrekturmaßnahmen im Feld müssen die Anwender mittels Sicherheitsanweisung im Feld über elektronisches System informiert werden}
 \tabularitemizeSecondLayerUncheck{Entwurf der Anweisung wird koordinierender zuständiger Behörde vorgelegt (außer in dringenden Fällen), damit diese Anmerkungen abgeben kann}
@@ -1139,10 +1134,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeSecondLayerUncheck{Ergebnisse und Schlussfolgerungen der PMS sowie Beschreibung und Begründung ergriffener Präventiv- und Korrekturmaßnahmen müssen enthalten sein (erstellt pro Produkt, gegebenenfalls Produktkategorie oder Produktgruppe)}
 \tabularitemizeSecondLayerUncheck{Aktualisierung des Berichtes über gesamte Lebensdauer}
 \tabularitemizeSecondLayerUncheck{Enthält:\newline a) die Schlussfolgerungen aus der Nutzen-Risiko-Abwägung\newline b) die wichtigsten Ergebnisse des Bewertungsberichts\newline c) die Gesamtabsatzmenge des Produkts und eine Schätzung der Anzahl und anderer Merkmale der Personen, bei denen das betreffende Produkt zur Anwendung kommt, sowie, sofern dies praktikabel ist, die Häufigkeit der Produktverwendung}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerWOCheckbox{Aktualisierungsintervalle des Berichtes:}
 \tabularitemizeSecondLayerUncheck{Klasse I: bei Bedarf und auf Anfrage der Behörden}
 \tabularitemizeSecondLayerUncheck{Klasse IIa: mindestens alle 2 Jahre (Teil der technischen Dokumentation)}
@@ -1162,10 +1153,6 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 (PMCF):}
 \tabularitemizeFirstLayerCheck{Ist Teil des Qualitätsmanagementsystems und wird aufgestellt, angewendet, aufrechterhalten und auf dem neuesten Stand gehalten}
 \tabularitemizeFirstLayerUncheck{Prozess der klinischen Nachbeobachtung nach dem Inverkehrbringen aktualisiert klinische Bewertung während gesamter Lebensdauer und ist Teil des Plans zur Überwachung nach dem Inverkehrbringen}
-\hline
-\ListTabBottom
-
-\checkListTabHead
 \tabularitemizeFirstLayerCheck{Klinische Daten, die bei zweckgemäßer Verwendung erhoben werden, werden proaktiv gesammelt und ausgewertet, um:}
 \tabularitemizeSecondLayerCheck{Sicherheit und Leistung während der Lebensdauer zu bestätigen}
 \tabularitemizeSecondLayerCheck{Konformität der ermittelten Risiken sicherzustellen}
@@ -1184,9 +1171,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerUncheck{Notwendigkeit zur Durchführung von Präventiv-/ oder Korrekturmaßnahmen im Feld wird ermittelt und Prozesse entsprechend gestartet}
 \tabularitemizeFirstLayerUncheck{Durchführung von Studien über klinische Nachbeobachtung nach dem Inverkehrbringen, die von benannten Stelle gefordert werden}
 \hline
-\ListTabBottom
 
-\checkListTabHead
 \plainTabularTextWOCheckbox{Analyseaktivitäten der Behörden:}
 \tabularitemizeFirstLayerUncheck{Unterlagen und Informationen für Behörden zwecks Durchführung der Marktüberwachung zur Verfügung stellen}
 \tabularitemizeFirstLayerUncheck{Produktstichproben oder Zugang zu Produkten bei gerechtfertigtem Anliegen den Behörden kostenfrei zur Verfügung stellen}
@@ -1200,7 +1185,7 @@ Zudem zeigte sich, dass speziell die statistischen Prozesse momentan schlechte d
 \tabularitemizeFirstLayerUncheck{Unterstützung der Kommission, bei der Überprüfung der Rechtmäßigkeit von getroffenen Maßnahmen eines Mitgliedsstaates, wenn Einwände eines anderen Mitgliedsstaates dagegen bestehen oder Kommission die Maßnahme für nicht mit dem Unionsrecht vertretbar einschätzt, in Form von Anhörungen}
 \tabularitemizeFirstLayerUncheck{Unterstützung der Kommission in Form von Absprache zur Prüfung getroffener Maßnahmen nationaler Behörden, wenn erforderlich}
 \hline
-\ListTabBottom
+\CheckListTabBottom
 %===================================================================== Eidessattl. Vers.
 \chapter*{Eidesstattliche Versicherung} %  *-> erstellt unnummeriertes chapter
 Ich versichere, dass ich die vorliegende Arbeit selbstständig verfasst, keine anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie alle wörtlich oder sinngemäß übernommenen Stellen in der Arbeit gekennzeichnet habe.
